@@ -1,0 +1,12 @@
+LOCATION から ITEM を運んで   くれる？ .
+LOCATION から ITEM を運んで   ね .
+えっと   ITEM を 取ってきて .
+人を探して .
+CLASS_ITEM   ください .
+えっと   CLASS_ITEM をください .
+えっと   LOCATION に CLASS_ITEM があるから取ってきて .
+ITEM   ください .
+LOCATION から ITEM を運んで   ほしいんだけど .
+CLASS_ITEM   くれる？ .
+LOCATION から ITEM を運んで   ください .
+ITEM   くれる？ .

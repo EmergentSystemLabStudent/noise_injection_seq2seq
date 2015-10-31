@@ -1,0 +1,25 @@
+#
+# Template for making a sequence of verb phrases(VPs)
+#
+
+# Verb phrases(VPs) are separated by '|' (OR)
+# The index of a VP starts from '$'
+
+$fetch = LOCATION に CLASS_ITEM があるから取ってきて | ITEM を 取ってきて | CLASS_ITEM をください
+$find_item = ITEM | CLASS_ITEM
+$grasp_item = ITEM を取って | ITEM を持ち上げて | ITEM を持って
+$bring = LOCATION から ITEM を運んで
+
+$find_person = 人を探して
+
+$firstly = えっと 
+$postfix = ください | ね | くれる？ | ほしいんだけど
+$please = ください | くれる？
+
+
+# To define a sentence template, use '[]'.
+# The script rewrites defined VPs 
+[$firstly $fetch]
+[$find_item $please]
+[$find_person]
+[$bring $postfix]
