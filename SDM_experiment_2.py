@@ -270,8 +270,7 @@ if __name__ == '__main__':
 
             #元の現状
 
-
-
+            """
             with open("./Result"+str(sys.argv[1]).replace(".csv","")+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"PS_S"+str(PS_S)+sys.argv[1],
                       mode="w") as f:
                 f.writelines("Input,phonemelabel,Noisylabel,Labeldata\n")
@@ -280,7 +279,7 @@ if __name__ == '__main__':
                     #print("PhonemeSentence:"," ".join(phenomeSentence),"NoisyData:"," ".join(NoisySentence))
                     f.write(train_data+","+" ".join(phenomeSentence)+","+" ".join(NoisySentence)+","+labelSentence)
                     f.write("\n")
-
+            """
             with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"PS_S"+str(PS_S)+sys.argv[1],
                       mode="w") as f:
                 f.writelines("Input,phonemelabel,Noisylabel,Labeldata\n")

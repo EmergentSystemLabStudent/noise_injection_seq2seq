@@ -261,7 +261,7 @@ if __name__ == '__main__':
             #traindata,phonemelabel.labldata
             now = datetime.now()
             nowtime = str(now.day)+'_'+str(now.hour)+'_'+str(now.minute)
-
+            """
             with open("./Result"+str(sys.argv[1]).replace(".csv","")+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+sys.argv[1],
                       mode="w") as f:
                 f.writelines("Input,phonemelabel,Noisylabel,Labeldata\n")
@@ -270,7 +270,7 @@ if __name__ == '__main__':
                     #print("PhonemeSentence:"," ".join(phenomeSentence),"NoisyData:"," ".join(NoisySentence))
                     f.write(train_data+","+" ".join(phenomeSentence)+","+" ".join(NoisySentence)+","+labelSentence)
                     f.write("\n")
-
+            """
             with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+sys.argv[1],
                       mode="w") as f:
                 f.writelines("Input,phonemelabel,Noisylabel,Labeldata\n")
