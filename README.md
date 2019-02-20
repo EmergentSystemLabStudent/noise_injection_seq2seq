@@ -1,1 +1,8 @@
-# SDMで編集距離を変更したデータを作成する
+Stochastic deformation models(SDM)
+====
+
+Overview
+
+## Usage
+cd GPSRDATA
+./DataMake.sh GPSR
