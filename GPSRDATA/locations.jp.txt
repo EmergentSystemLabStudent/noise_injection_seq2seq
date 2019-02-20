@@ -1,0 +1,46 @@
+# this is the locations definition file.
+#put 1 item per line (can be several words, such as 'kitchen table' or a single word such as 'couch').
+# A line starting with '#' (as in '#kithen') is not used but regarded as a comment.
+# do not use tabs in this file
+ダイニングテーブル
+ダイニングソファ
+ソファ
+リビングソファ
+サイドテーブル
+リビングテーブル
+キッチンテーブル
+バー
+テーブル
+#Kitchen Board
+#Fridge
+#Kitchen shelf
+# couch table
+# sideboard
+# dining table
+# #kitchen table
+# #stove
+# sofa
+# toilet
+# armchair
+# bed
+# bookshelf
+# drawer
+# closet
+# #cupboard
+# front door
+# back door
+# TV
+# washing machine
+# #fridge
+# キッチンボード
+# キッチンシェルフ
+# ダイニングテーブル
+# ブックシェルフ
+# テレビボード
+# リビングテーブル
+# ベッド
+# サイドテーブル
+# デスク
+# ウォッシュボール
+# ランドリーマシーン
+# シューロッカー

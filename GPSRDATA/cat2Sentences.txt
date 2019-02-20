@@ -1,0 +1,15 @@
+Would you   bring a CLASS_ITEM .
+Well   get ITEM for me .
+ITEM   please .
+Well   bring a CLASS_ITEM .
+Well   bring ITEM to LOCATION .
+Would you   get a CLASS_ITEM at LOCATION .
+Well   get a CLASS_ITEM at LOCATION .
+Find a person .
+Can you   get ITEM for me .
+Can you   get a CLASS_ITEM at LOCATION .
+A CLASS_ITEM   please .
+Can you   bring ITEM to LOCATION .
+Can you   bring a CLASS_ITEM .
+Would you   get ITEM for me .
+Would you   bring ITEM to LOCATION .
