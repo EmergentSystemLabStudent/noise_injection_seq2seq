@@ -37,9 +37,8 @@ cat2Sentences   = []
 cat3Situations  = []
 names           = []
 # get rid of empty lines and do not use anything that starts with a '#'
-# '#'はコメントアウトの飛ばす.
 for room in [line.strip('\n') for line in open('rooms.txt', 'r').readlines()]:
-    if room != '': #データないなら飛ばす
+    if room != '':
         if room[0] != '#':
             room = room.replace(' ', '_')
             rooms.append(room)
@@ -63,14 +62,7 @@ for ci  in [class_item.strip('\n')     for class_item     in open('class_items.t
             ci = ci.replace(' ', '_')
             class_items.append(ci)
 
-#====================0906=============================================#
-"""
-for sentence in [str(sent).strip('\n') for sent in open('cat1Sentences.txt' , 'r').readlines()]:
-    if sentence != '':
-        if sentence[0] != '#':
-            cat1Sentences.append(sentence)
-"""
-filename = "cat1Sentences0126.en.xlsx"
+filename = "cat1Sentences.en.xlsx"
 df = pd.read_excel(filename, sheet_name='Sheet1')
 for sentence in df['Sentence']:
     if sentence != '':
@@ -111,14 +103,13 @@ for name in [nam.strip('\n')     for nam     in open('names.txt',   'r').readlin
             names.append(name)
 
 # are there at least two locations?
-if len(locations) < 2: #ロケーションが２つ以上ないとダメ
+if len(locations) < 2:
     print ('Not enough locations. Exiting program')
     sys.exit(1)
 # are there at least two items?
-if len(items) < 2: #アイテムが２つ以上ないとダメ
+if len(items) < 2:
     print ('Not enough items. Exiting program')
     sys.exit(1)
-#-----------------------------------ここまでデータ宣言している．----------------------------------#
 
 # the function 'fillIn' takes a sentence and replaces
 # the word 'location' for an actual location
@@ -126,19 +117,19 @@ if len(items) < 2: #アイテムが２つ以上ないとダメ
 # as defined in the files:
 # locations.txt
 # and items.txt
-#random.shuffle(
+# random.shuffle(
 
 def fillIn(labelSetdatas):
     sentences = labelSetdatas[0]
 
     labels = labelSetdatas[1]
-    #shuffle the items and the locations
-    random.shuffle(rooms)#リストをランダムソート
+    # shuffle the items and the locations
+    random.shuffle(rooms)
     random.shuffle(items)
     random.shuffle(class_items)
     random.shuffle(locations)
     random.shuffle(names)
-    #fill in the locations and items in the sentence
+    # fill in the locations and items in the sentence
     # the counters are used so an item or location is not used twice
     # hence the shuffeling for randomization
     roomCounter         = 0
@@ -155,12 +146,8 @@ def fillIn(labelSetdatas):
     nameLabel = []
     finalLabel =[]
 
-    #センテンスとラベる;;
-    #wordとsentenceどっちも長さが違うループをからカテゴリ保管
-#２個前がFindなら
-
-    for word in sentences.split(' '):#センテンスを
-#	print word
+    for word in sentences.split(' '):
+        # print word
         # fill in a room
         if word == 'ROOM':
             finalSentence.append( rooms[roomCounter] )
@@ -211,21 +198,17 @@ def fillIn(labelSetdatas):
     class_itemCounter > 3 or
     locationCounter  > 3 or
     nameCounter    > 3):
-        print("--------------------おわり------------------------")
+        print("--------------------end------------------------")
 
-#Find と Place
-#それぞれ二回の場合を考える．数が違うからそこが問題です
-#A.その組み合わせを探す．
     roomLabelCounter    = 0
     itemLabelCounter    = 0
     class_itemCounter   = 0
     locationLabelCounter     = 0
     nameCounter         = 0
-    #placeとFindがきたら　一つへらすその前のROOM ,location の値を一つどっちか減らす
 
     if(str(labels) !="nan"):
         #print (labels)
-        for label in labels.split(' '):#センテンスを
+        for label in labels.split(' '):
                 if label.find(u',') > -1:
                     continue
                 #print(label)
@@ -301,15 +284,15 @@ def testOne():
 def mainLoop():
 
     #answer = raw_input('Which category do you want to do?\nPossible answers are: 1,or q(uit)')
-    answer = '1'
-    if answer == 'q':
-        print ('Exiting program.')
-        sys.exit(1)
-    elif answer == '1':
+    #answer = '1'
+    #if answer == 'q':
+        #print ('Exiting program.')
+        #sys.exit(1)
+    #elif answer == '1':
         print ('Category 1:\n',
         testOne())
-    else:
-        print ('\nNot a valid input, please try 1, 2, 3 or q(uit)\n')
+    #else:
+        #print ('\nNot a valid input, please try 1, 2, 3 or q(uit)\n')
 
 if __name__ == "__main__":
     mainLoop()
