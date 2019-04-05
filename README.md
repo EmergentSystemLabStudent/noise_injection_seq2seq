@@ -3,6 +3,8 @@ Stochastic deformation models(SDM)
 
 Overview
 
-## Usage
-cd GPSRDATA
-./DataMake.sh GPSR
+# Usage
+## 1. make original dataset
+`./MakeOriginalDataset.sh GPSR`
+## 2. inject noise
+`./SDMMake.sh`
