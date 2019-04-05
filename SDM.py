@@ -1,26 +1,14 @@
-# coding=utf-8
-
-# write code...
-
-import transitions
-from transitions import Machine
 import numpy as np
 import  pronouncing
 import pandas as pd
 from datetime import datetime
 import sys
 
-#ファイル読み込み
-#データ作成木曜日
-
-#状態の定義
 states=['Ti', 'Si']
 
 #遷移の定義
 # trigger：遷移の引き金になるイベント、source：トリガーイベントを受ける状態、dest：トリガーイベントを受けた後の状態
 # before：遷移前に実施されるコールバック、after：遷移後に実施されるコールバック
-#線の定義
-#.add_transitionで定義できる
 
 transitions = [
     {'trigger': 'Delete', 'source': 'Ti', 'dest': 'Si','before': 'action_Delete'},
@@ -29,17 +17,14 @@ transitions = [
     {'trigger': 'SubStop', 'source': 'Si', 'dest': 'Ti', 'before': 'action_Stop'}
 ]
 
-#遷移「前」の状態(transitionsに定義したsource)で実施されます。一方で'after'にコールバックを指定した場合は遷移「後」の状態
+# 遷移「前」の状態(transitionsに定義したsource)で実施されます。一方で'after'にコールバックを指定した場合は遷移「後」の状態
 
 
-#状態を管理したいオブジェクトの元となるクラス
+# 状態を管理したいオブジェクトの元となるクラス
 # 遷移時やイベント発生時のアクションがある場合は、当クラスのmethodに記載する
 
-
-
-
 prods = [[1/20,9/10,1/20],[2/20,16/20,2/20],[4/20,12/20,4/20],[6/20,8/20,6/20],[8/20,4/20,8/20],[10/20,6/20,4/20],[4/20,6/20,10/20],[14/20,4/20,2/20],[2/20,4/20,14/20]]
-#prods = [[1/20,9/10,1/20]] 先行研究
+#prods = [[1/20,9/10,1/20]] 
 
 #音素辞書作成
 #https://en.wikipedia.org/wiki/ARPABEThttps://en.wikipedia.org/wiki/ARPABET
@@ -84,7 +69,10 @@ phenome = ["AA",
 "EY0",
 "EY1",
 "EY2",
-"F","G","HH","IH",
+"F",
+"G",
+"HH",
+"IH",
 "IH0",
 "IH1",
 "IH2",
@@ -126,15 +114,11 @@ phenome = ["AA",
 "Z",
 "ZH"]
 
-
-
 def ReadFile(filename):
-    df = pd.read_csv(filename,encoding="cp932")#データ読み込み
+    df = pd.read_csv(filename,encoding="cp932")
     TrainDatas = df["data"]
     LabelDatas = df["labeldata"]
     return TrainDatas,LabelDatas
-
-
 
 d = {s: v for s,v in enumerate(phenome) }
 
@@ -155,8 +139,6 @@ class Matter(object):
     def action_Stop(self):
         #print("*** action_Stop ***")
         pass
-
-
 
 lump = Matter()
 machine = Machine(model=lump, states=states, transitions=transitions, initial='Si')
@@ -214,7 +196,7 @@ if __name__ == '__main__':
                     splitWord = word.split("_")
                     for data in splitWord:
                         adj_sentence.append(data)
-                elif "neayby" in word:
+                elif "nearby" in word:
                     splitWord = ["near","by"]
                     for data in splitWord:
                         adj_sentence.append(data)
@@ -241,11 +223,11 @@ if __name__ == '__main__':
 
                     if (np.random.choice([True,False],p=[PI,1 - PI]) == True):
                         #print("Insert")
-                        y.append(Insert(phletter))#関数
+                        y.append(Insert(phletter))
                         while True:
                             if(np.random.choice([True, False], p=[PI, 1 - PI]) == True):
                                 #print("Insert")
-                                y.append(Insert(phletter))  # 関数
+                                y.append(Insert(phletter))
                             else:
                                 break
                     Stop()
