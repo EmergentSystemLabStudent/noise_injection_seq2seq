@@ -6,18 +6,18 @@ import pandas as pd
 from datetime import datetime
 import sys
 
-states=['Ti', 'Si']
+#states=['Ti', 'Si']
 
 #遷移の定義
 # trigger：遷移の引き金になるイベント、source：トリガーイベントを受ける状態、dest：トリガーイベントを受けた後の状態
 # before：遷移前に実施されるコールバック、after：遷移後に実施されるコールバック
 
-transitions = [
-    {'trigger': 'Delete', 'source': 'Ti', 'dest': 'Si','before': 'action_Delete'},
-    {'trigger': 'Insert', 'source': 'Si', 'dest': 'Si','before': 'action_Insert'},
-    {'trigger': 'Substitution', 'source': 'Ti', 'dest': 'Si','before': 'action_Substitution'},
-    {'trigger': 'SubStop', 'source': 'Si', 'dest': 'Ti', 'before': 'action_Stop'}
-]
+#transitions = [
+#    {'trigger': 'Delete', 'source': 'Ti', 'dest': 'Si','before': 'action_Delete'},
+#    {'trigger': 'Insert', 'source': 'Si', 'dest': 'Si','before': 'action_Insert'},
+#    {'trigger': 'Substitution', 'source': 'Ti', 'dest': 'Si','before': 'action_Substitution'},
+#    {'trigger': 'SubStop', 'source': 'Si', 'dest': 'Ti', 'before': 'action_Stop'}
+#]
 
 # 遷移「前」の状態(transitionsに定義したsource)で実施されます。一方で'after'にコールバックを指定した場合は遷移「後」の状態
 
@@ -126,38 +126,38 @@ d = {s: v for s,v in enumerate(phenome) }
 
 cmudict = {"Softner":"S AO F AX N AX"}
 
-class Matter(object):
-    def action_Delete(self):
+#class Matter(object):
+#    def action_Delete(self):
         #print("*** action_Delete ***")
         #文字
-        pass
-    def action_Insert(self):
+#        pass
+#    def action_Insert(self):
         #print("*** action_Insert ***")
         #同じ文字をInsertするかどうか
-        pass
-    def action_Substitution(self):
+#        pass
+#    def action_Substitution(self):
         #print("*** action_Substitution ***")
-        pass
-    def action_Stop(self):
+#        pass
+#    def action_Stop(self):
         #print("*** action_Stop ***")
-        pass
+#        pass
 
-lump = Matter()
-machine = Machine(model=lump, states=states, transitions=transitions, initial='Si')
+#lump = Matter()
+#machine = Machine(model=lump, states=states, transitions=transitions, initial='Si')
 #http://www.speech.cs.cmu.edu/cgi-bin/cmudict
 #https://pronouncing.readthedocs.io/en/latest/tutorial.html
 #補助シンボルなし
 
 
 def Insert(word):
-    lump.Insert()
+    #lump.Insert()
     #print("Insert")
     index = int(np.random.randint(0, len(phenome), 1))
     Nosiyword = d[index]
     return Nosiyword
 
 def Substitution(word):
-    lump.Substitution()
+    #lump.Substitution()
     B = 30
     L = len(phenome)
     Same_PI = (B - 1)/ B + 1/(B*L)
@@ -171,11 +171,11 @@ def Substitution(word):
     return Nosiyword
 
 def Delete(word):
-    lump.Delete()
+    #lump.Delete()
     #print("Delete")
 
 def Stop():
-    lump.SubStop()
+    #lump.SubStop()
 
 if __name__ == '__main__':
     if not sys.argv[1]:
