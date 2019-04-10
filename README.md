@@ -6,12 +6,8 @@ Overview
 # Usage
 ## 1. Prepare GPSRDATA
 - cat1Sentences.en.xlsx
-- cat2Sentences.txt
-- cat3Situations.txt
-- class_items.txt
 - items.txt
 - locations.txt
-- names.txt
 - rooms.txt
 
 ## 2. Make original dataset
