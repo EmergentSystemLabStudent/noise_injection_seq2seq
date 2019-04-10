@@ -15,13 +15,13 @@ Overview
  - Input
    - GPSRDATA
  - Output
-   - OriginDataset
+   - OriginalDataset
      - devdata.csv
      - testdata.csv
      - traindata.csv
 ## 3. Inject noise
 `./SDMMake.sh`
  - Input
-   - OriginDataset
+   - OriginalDataset
  - Output
    - Dataset
