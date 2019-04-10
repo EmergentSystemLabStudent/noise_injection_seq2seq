@@ -1,3 +1,5 @@
+import transitions	
+from transitions import Machine
 import numpy as np
 import  pronouncing
 import pandas as pd
