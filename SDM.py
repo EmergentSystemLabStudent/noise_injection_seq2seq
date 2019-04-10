@@ -180,7 +180,7 @@ def Stop():
 if __name__ == '__main__':
     if not sys.argv[1]:
         print("error")
-    traindata_filename = "./OriginDataset/"+sys.argv[1]
+    traindata_filename = "./OriginalDataset/"+sys.argv[1]
 
     trainingDatas,labelDatas = ReadFile(traindata_filename)
 
