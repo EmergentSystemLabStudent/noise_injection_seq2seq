@@ -4,8 +4,8 @@ import pandas as pd
 from datetime import datetime
 import sys
 
-prods = [[1/20,9/10,1/20],[2/20,16/20,2/20],[4/20,12/20,4/20],[6/20,8/20,6/20],[8/20,4/20,8/20],[10/20,6/20,4/20],[4/20,6/20,10/20],[14/20,4/20,2/20],[2/20,4/20,14/20]]
-#prods = [[1/20,9/10,1/20]] 
+#prods = [[1/20,9/10,1/20],[2/20,16/20,2/20],[4/20,12/20,4/20],[6/20,8/20,6/20],[8/20,4/20,8/20],[10/20,6/20,4/20],[4/20,6/20,10/20],[14/20,4/20,2/20],[2/20,4/20,14/20]]
+prods = [[1/20,9/10,1/20]] 
 
 #音素辞書作成
 #https://en.wikipedia.org/wiki/ARPABEThttps://en.wikipedia.org/wiki/ARPABET
@@ -127,9 +127,9 @@ def Substitution(word):
         Nosiyword = d[index]
     return Nosiyword
 
-def Delete(word):
+#def Delete(word):
 
-def Stop():
+#def Stop():
 
 
 if __name__ == '__main__':
@@ -153,7 +153,7 @@ if __name__ == '__main__':
                     splitWord = word.split("_")
                     for data in splitWord:
                         adj_sentence.append(data)
-                elif "nearby" in word:
+                elif "neayby" in word:
                     splitWord = ["near","by"]
                     for data in splitWord:
                         adj_sentence.append(data)
@@ -187,12 +187,12 @@ if __name__ == '__main__':
                                 y.append(Insert(phletter))
                             else:
                                 break
-                    Stop()
+                    #Stop()
                     state = np.random.choice(["Substitution", "Delete"], p=[PS/(PS+PD), PD/(PS+PD)])
                     if(state =="Substitution"):
                         y.append(Substitution(phletter))
-                    elif(state =="Delete"):
-                        Delete(phletter)
+                    #elif(state =="Delete"):
+                        #Delete(phletter)
 
             Noisydata.append(y)
             phenomeDatas.append(phenomeSentence)
