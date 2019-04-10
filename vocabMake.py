@@ -1,13 +1,5 @@
-# coding=utf-8
-
-"""
-LSTMの別で学習できるように作成するために作成するスクリプト作成する
-出力形式
-
-"""
-
 import matplotlib.pylab as plt
-import  numpy as np
+import numpy as np
 import datetime
 import pickle
 import os
@@ -17,14 +9,11 @@ import math
 import MeCab
 import pandas as pd
 
-#評価方法を調べる
-
-#kerasｎついてModel(a,b)でaを入力としてbを出力するためにのそうを含まれる．
+#kerasついてModel(a,b)でaを入力としてbを出力するためにのそうを含まれる．
 #https://keras.io/ja/models/about-keras-models/
 
-
 def Readdata(filename,Inputhead):
-    df = pd.read_csv(filename,encoding="utf-8")#データ読み込み
+    df = pd.read_csv(filename,encoding="utf-8")
     datas = df[Inputhead]
     label_datas = df["Labeldata"]
 
@@ -55,7 +44,6 @@ def Readdata(filename,Inputhead):
     label_datas = Append(label_datas)
 
     return datas, label_datas
-
 
 #target も作成できるようにする
 def OnehotMakedata(filedatalist,picklefilename,max_sentence_length = 0):
@@ -105,25 +93,14 @@ def OnehotMakedata(filedatalist,picklefilename,max_sentence_length = 0):
 
     return np.array(onehot_vector),np.array(Next_onehot_vector)
 
-
-
 def Makevocab(picklefilename,outputfilename):
     c_i = pickle.load(open(picklefilename, "rb"))
-
     print("label")
     print(c_i)
     print(len(c_i))
     with open(outputfilename,"w") as f:
         for word in c_i:
             f.write(word+"\n")
-
-
-
-
-
-
-
-
 
 if __name__ == '__main__':
     traindata_filename = "/Users/pro11/Desktop/yota/Master_thesis/source/NoiseMakeData/Dataset/"+sys.argv[1]
@@ -138,13 +115,3 @@ if __name__ == '__main__':
     print("Onehot Vector")
     train_oh_datas, Next_oh_target = OnehotMakedata(train_data, train_V_picklename)
     Makevocab(train_V_picklename,"./Dataset/Vocab"+sys.argv[2]+".in")
-
-
-
-
-
-    # 未学習のデータでテスト
-    #x_test = np.array([np.sin([[p] for p in np.arange(0, 0.8, 0.1)] + aa) for aa in np.arange(0, 1.0, 0.1)])
-    #print(model.evaluate(x_test, y_test, batch_size=32))
-    # 未学習のデータで生成
-    #predicted = model.predict(x_test, batch_size=32)
