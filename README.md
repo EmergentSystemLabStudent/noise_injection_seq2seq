@@ -11,7 +11,7 @@ Overview
 - rooms.txt
 
 ## 2. Make original dataset
-`./MakeOriginalDataset.sh GPSR`
+`./MakeOriginalDataset.sh`
  - Input
    - GPSRDATA
  - Output
