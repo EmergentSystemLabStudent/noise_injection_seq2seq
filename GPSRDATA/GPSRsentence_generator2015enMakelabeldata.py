@@ -14,11 +14,7 @@ import math
 rooms           = []
 locations       = []
 items           = []
-#class_items     = []
 cat1Sentences   = []
-#cat2Sentences   = []
-#cat3Situations  = []
-#names           = []
 
 # get rid of empty lines and do not use anything that starts with a '#'
 for room in [line.strip('\n') for line in open('rooms.txt', 'r').readlines()]:
@@ -39,12 +35,6 @@ for item  in [line.strip('\n')     for line     in open('items.txt',   'r').read
             item = item.replace(' ', '_')
             items.append(item)
 
-#for ci  in [class_item.strip('\n')     for class_item     in open('class_items.txt',   'r').readlines()]:
-#    if ci  != '':
-#        if ci[0] != '#':
-#            ci = ci.replace(' ', '_')
-#            class_items.append(ci)
-
 filename = "cat1Sentences.en.xlsx"
 df = pd.read_excel(filename, sheet_name='Sheet1')
 for sentence in df['Sentence']:
@@ -62,28 +52,6 @@ for label in df['label']:
 
 for i in range(ndata):
     labelSetdatas.append([cat1Sentences[i],labeldatas[i]])
-
-
-#for sentence in [str(sent).strip('\n') for sent in open('cat2Sentences.txt' , 'r').readlines()]:
-#    if sentence != '':
-#        if sentence[0] != '#':
-#            cat2Sentences.append(sentence)
-
-#situations  = []
-#questions   = []
-#for sit in [str(sent).strip('\n') for sent in open('cat3Situations.txt' , 'r').readlines()]:
-#    if sit != '':
-#        if sit[0] != '#':
-#            if sit.split()[0] == 'situation:':
-#                situations.append( sit )
-#            if sit.split()[0] == 'question:':
-#                questions.append( sit )
-#cat3Situations = zip( situations, questions )
-
-#for name in [nam.strip('\n')     for nam     in open('names.txt',   'r').readlines()]:
-#    if name  != '':
-#        if name[0] != '#':
-#            names.append(name)
 
 # are there at least two locations?
 if len(locations) < 2:
@@ -117,16 +85,12 @@ def fillIn(labelSetdatas):
     # hence the shuffeling for randomization
     roomCounter         = 0
     itemCounter         = 0
-    #class_itemCounter   = 0
     locationCounter     = 0
-    #nameCounter         = 0
     finalSentence       = []
 
     roomLabel = []
     itemLabel = []
-    #classLabel = []
     locationLabel = []
-    #nameLabel = []
     finalLabel =[]
 
     for word in sentences.split(' '):
@@ -146,16 +110,6 @@ def fillIn(labelSetdatas):
             finalSentence.append( items[itemCounter] )
             itemLabel.append(items[itemCounter])
             itemCounter += 1
-        # or an item class
-        #elif word == 'CLASS_ITEM':
-        #    finalSentence.append( class_items[class_itemCounter] )
-        #    classLabel.append(class_items[class_itemCounter])
-        #    class_itemCounter += 1
-        # is it a name?
-        #elif word == 'NAME':
-        #    finalSentence.append(names[nameCounter])
-        #    nameLabel.append(names[nameCounter])
-        #    nameCounter += 1
         # perhaps a location with a comma or dot?
         elif word[:-1] == 'LOCATION':
             #print(word[:-1])
@@ -167,24 +121,16 @@ def fillIn(labelSetdatas):
             finalSentence.append( items[itemCounter] + word[-1])
             itemLabel.append(items[itemCounter] + word[-1])
             itemCounter += 1
-        # is it a namewith a comma, dot, whatever?
-        #elif word[:-1] == 'NAME':
-        #    finalSentence.append( names[nameCounter] + word[-1])
-        #    nameLabel.append(names[nameCounter] + word[-1])
-        #    nameCounter += 1
         # or else just the word
         else:
             finalSentence.append( word )
 
-    #if (roomCounter  > 3 or itemCounter  > 3 or class_itemCounter > 3 or locationCounter  > 3 or nameCounter    > 3):
     if (roomCounter  > 3 or itemCounter  > 3 or locationCounter  > 3):
         print("--------------------end------------------------")
 
     roomLabelCounter    = 0
     itemLabelCounter    = 0
-    #class_itemCounter   = 0
     locationLabelCounter     = 0
-    #nameCounter         = 0
 
     if(str(labels) !="nan"):
         #print (labels)
@@ -209,12 +155,6 @@ def fillIn(labelSetdatas):
                     label = label.replace('ITEM',itemLabel[itemLabelCounter])
                     if(itemCounter >= 2 and itemLabelCounter  < 1):
                         itemLabelCounter +=1
-                #elif label.find(u'CLASS_ITEM') > -1:
-                #    label = label.replace('CLASS_ITEM',classLabel[class_itemCounter])
-                #    class_itemCounter += 1
-                #elif label.find(u'NAME') > -1:
-                #    label = label.replace('NAME',nameLabel[nameCounter])
-                #    nameCounter +=1
                 finalLabel.append(label)
         outfinalLabel  = ' '.join(finalLabel)
         outfinalLabel = outfinalLabel.replace('\"[','')
@@ -227,11 +167,11 @@ def fillIn(labelSetdatas):
     #print(out)
     out = out.replace('    ', ' ')
     out = out.replace('   ', ' ')
-    out = out.replace('   ', ' ')
+    out = out.replace('  ', ' ')
     outfinalLabel =''.join(outfinalLabel)
     outfinalLabel = outfinalLabel.replace('    ', ' ')
     outfinalLabel = outfinalLabel.replace('   ', ' ')
-    outfinalLabel = outfinalLabel.replace('   ', ' ')
+    outfinalLabel = outfinalLabel.replace('  ', ' ')
 
     # return ' '.join(finalSentence)
     print(outfinalLabel)
@@ -246,8 +186,5 @@ def testOne():
     df.drop_duplicates(["data"])
     df.to_csv("GPSRSentence.csv",index=False,mode='a',header=True,encoding="cp932")
 
-def mainLoop():
-    print ('Category 1:\n',testOne())
-
 if __name__ == "__main__":
-    mainLoop()
+    testOne()
