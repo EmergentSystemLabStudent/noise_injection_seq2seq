@@ -244,7 +244,7 @@ def testOne():
         sentence = pd.DataFrame([fillIn(labelSetdatas[0])],columns=["data","labeldata"])
         df = df.append(sentence)
     df.drop_duplicates(["data"])
-    df.to_csv("GPSRSentenceJP.csv",index=False,mode='a',header=True,encoding="cp932")
+    df.to_csv("GPSRSentence.csv",index=False,mode='a',header=True,encoding="cp932")
 
 def mainLoop():
     print ('Category 1:\n',testOne())
