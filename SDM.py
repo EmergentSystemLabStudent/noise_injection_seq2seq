@@ -153,7 +153,7 @@ if __name__ == '__main__':
                     splitWord = word.split("_")
                     for data in splitWord:
                         adj_sentence.append(data)
-                elif "neayby" in word:
+                elif "nearby" in word:
                     splitWord = ["near","by"]
                     for data in splitWord:
                         adj_sentence.append(data)
