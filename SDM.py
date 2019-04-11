@@ -4,8 +4,8 @@ import pandas as pd
 from datetime import datetime
 import sys
 
-#prods = [[1/20,9/10,1/20],[2/20,16/20,2/20],[4/20,12/20,4/20],[6/20,8/20,6/20],[8/20,4/20,8/20],[10/20,6/20,4/20],[4/20,6/20,10/20],[14/20,4/20,2/20],[2/20,4/20,14/20]]
-prods = [[1/20,9/10,1/20]] 
+#probs = [[1/20,9/10,1/20],[2/20,16/20,2/20],[4/20,12/20,4/20],[6/20,8/20,6/20],[8/20,4/20,8/20],[10/20,6/20,4/20],[4/20,6/20,10/20],[14/20,4/20,2/20],[2/20,4/20,14/20]]
+probs = [[1/20,9/10,1/20]] 
 
 #音素辞書作成
 #https://en.wikipedia.org/wiki/ARPABEThttps://en.wikipedia.org/wiki/ARPABET
@@ -139,7 +139,7 @@ if __name__ == '__main__':
 
     trainingDatas,labelDatas = ReadFile(traindata_filename)
 
-    for PI,PS,PD in prods:
+    for PI,PS,PD in probs:
         print("PI,PS,PD",PI,PS,PD)
         phenomeDatas = []
         Noisydata = []
