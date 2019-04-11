@@ -177,14 +177,12 @@ def fillIn(labelSetdatas):
     print(outfinalLabel)
     return out,outfinalLabel
 
-def testOne():
+if __name__ == "__main__":
     df = pd.DataFrame([],columns=["data","labeldata"])
     for i in range(15000):
         random.shuffle(labelSetdatas)
         sentence = pd.DataFrame([fillIn(labelSetdatas[0])],columns=["data","labeldata"])
         df = df.append(sentence)
     df.drop_duplicates(["data"])
-    df.to_csv("GPSRSentence.csv",index=False,mode='a',header=True,encoding="cp932")
+    df.to_csv("tempGPSRSentence.csv",index=False,mode='w',header=False,encoding="cp932")
 
-if __name__ == "__main__":
-    testOne()
