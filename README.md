@@ -29,4 +29,4 @@ Overview
      - PI_*PS_*PD_*phoneme<dev/test/train>data.in
      - PI_*PS_*PD_*Noisy<dev/test/train>data.in
      - PI_*PS_*PD_*label<dev/test/train>data.out
-     - PI_*PS_*PD_*<dev/test/train>data.csv
+     - PI_*PS_*PD_* <dev/test/train>data.csv
