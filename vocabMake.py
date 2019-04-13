@@ -6,7 +6,6 @@ import os
 import glob
 import sys
 import math
-import MeCab
 import pandas as pd
 
 def Readdata(filename,Inputhead):
