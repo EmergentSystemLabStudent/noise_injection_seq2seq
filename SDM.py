@@ -138,8 +138,6 @@ if __name__ == '__main__':
 
         for j,sentence in enumerate(trainingDatas):
             adj_sentence = []
-            phenomeSentence = []
-            y = []
             for i, word in enumerate(sentence.split(" ")):
                 if "_" in word:
                     splitWord = word.split("_")
@@ -153,11 +151,10 @@ if __name__ == '__main__':
                     continue
                 else:
                     adj_sentence.append(word)
-            adj_sentence = [x for x in adj_sentence if x]
-            #print(adj_sentence)
 
+            phenomeSentence = []
+            y = []
             for j,word in enumerate(adj_sentence):
-                #まず挿入かどうか
                 ph = pronouncing.phones_for_word(word)
                 if not ph:
                     print("--------------------",word,"--------------------")
@@ -168,30 +165,22 @@ if __name__ == '__main__':
                 phenomeSentence.extend(ph)
 
                 for i, phletter in enumerate(ph):
-                    phletter = phletter
-
-                    if (np.random.choice([True,False],p=[PI,1 - PI]) == True):
-                        #print("Insert")
+                    if (np.random.choice(["Insert","Stop"],p=[PI,1 - PI]) == "Insert"):
                         y.append(Insert(phletter))
                         while True:
-                            if(np.random.choice([True, False], p=[PI, 1 - PI]) == True):
-                                #print("Insert")
+                            if(np.random.choice(["Insert", "Stop"], p=[PI, 1 - PI]) == "Insert"):
                                 y.append(Insert(phletter))
                             else:
                                 break
                     #Stop()
-                    state = np.random.choice(["Substitution", "Delete"], p=[PS/(PS+PD), PD/(PS+PD)])
-                    if(state =="Substitution"):
+                    operation = np.random.choice(["Substitution", "Delete"], p=[PS/(PS+PD), PD/(PS+PD)])
+                    if(operation =="Substitution"):
                         y.append(Substitution(phletter))
-                    #elif(state =="Delete"):
+                    #elif(operation =="Delete"):
                         #Delete(phletter)
 
             noisydata.append(y)
             phenomeDatas.append(phenomeSentence)
-
-            #traindata,phonemelabel.labldata
-            now = datetime.now()
-            nowtime = str(now.day)+'_'+str(now.hour)+'_'+str(now.minute)
 
             with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+sys.argv[1],
                       mode="w") as f:
@@ -202,8 +191,6 @@ if __name__ == '__main__':
                     f.write(train_data+","+" ".join(phenomeSentence)+","+" ".join(noisySentence)+","+labelSentence)
                     f.write("\n")
 
-
-            #in と out
             with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"Input"+str(sys.argv[1]).replace(".csv","")+".in",
                       mode="w") as f:
                 for i, train_data in enumerate(trainingDatas):
