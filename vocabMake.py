@@ -9,32 +9,22 @@ import math
 import MeCab
 import pandas as pd
 
-#kerasついてModel(a,b)でaを入力としてbを出力するためにのそうを含まれる．
-#https://keras.io/ja/models/about-keras-models/
-
 def Readdata(filename,Inputhead):
     df = pd.read_csv(filename,encoding="utf-8")
     datas = df[Inputhead]
     label_datas = df["Labeldata"]
 
     def Append(datas):
-
         textdatas = []
         for data in datas:
             text = np.array([])
-            """日本語用"""
-            #tagger= MeCab.Tagger("-Owakati")
-            #data=tagger.parse(data)
             data_list = (str(data).replace('\n','')).split()
-            #print(data_list)
             data_length = len(data_list)
             for i, word in enumerate(data_list):
                 if (i == 0):
-                    #text = np.append(text, "<BOS>")
                     text = np.append(text, word)
                 elif (i >= data_length - 1):
                     text = np.append(text, word)
-                    #text = np.append(text, "<EOS>")
                 else:
                     text = np.append(text, word)
             textdatas.append(text)
@@ -45,34 +35,25 @@ def Readdata(filename,Inputhead):
 
     return datas, label_datas
 
-#target も作成できるようにする
-def OnehotMakedata(filedatalist,picklefilename,max_sentence_length = 0):
 
+def OnehotMakedata(filedatalist,picklefilename,max_sentence_length = 0):
     for word in filedatalist:
         if max_sentence_length < len(word):
             max_sentence_length = len(word)
     sentence_length = max_sentence_length
 
     print(sentence_length)
-    c_f = {}  # {}で辞書オブジェクトを作成する c_fはindexの場所を指す
-    depth = 250  # Vocablaryによるが#depth位以下の単語を削る
-
-    "Vocaburary辞書を作成する"
+    c_f = {}  
+    depth = 250  
 
     for data in filedatalist:
         for word in data:
-            if c_f.get(word) is None:  # 要素がないなら作成する. c番目の値を0にする
-                # https: // note.nkmk.me / python - dict - list - values /
+            if c_f.get(word) is None:
                 c_f[word] = 0
-            c_f[word] += 1  # 文字列を多くする.
-    # sorted タプルをソートできる. 数が多い順に並び替えて表示
-    #for e, (c, f) in enumerate(sorted(c_f.items(), key=lambda x: x[1] * -1)):
-    #    print(e, c, f)
-    c_i = {c: e for e, (c, f) in enumerate(sorted(c_f.items(), key=lambda x: x[1] * -1)[:depth])}
+            c_f[word] += 1
+    c_i = {c : e for e, (c, f) in enumerate(sorted(c_f.items(), key=lambda x: x[1] * -1)[:depth])}
     open(picklefilename, "wb").write(pickle.dumps(c_i))
 
-
-    #辞書ロードし，それをOnehotに変更する.Readdata
     onehot_vector = []
     Next_onehot_vector = []
 
@@ -88,8 +69,6 @@ def OnehotMakedata(filedatalist,picklefilename,max_sentence_length = 0):
 
         onehot_vector.append(np.array(list(xd)))
         Next_onehot_vector.append(np.array(list(Next_target)))
-
-    #print("shapeのデータ",np.array(onehot_vector).shape)
 
     return np.array(onehot_vector),np.array(Next_onehot_vector)
 
