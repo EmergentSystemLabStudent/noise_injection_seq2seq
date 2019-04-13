@@ -4,8 +4,7 @@ import pandas as pd
 from datetime import datetime
 import sys
 
-#probs = [[1/20,9/10,1/20],[2/20,16/20,2/20],[4/20,12/20,4/20],[6/20,8/20,6/20],[8/20,4/20,8/20],[10/20,6/20,4/20],[4/20,6/20,10/20],[14/20,4/20,2/20],[2/20,4/20,14/20]]
-probs = [[1/20,9/10,1/20]] 
+probs = [[1/20,9/10,1/20]]
 
 phenome = ["AA",
 "AA0",
@@ -92,20 +91,19 @@ phenome = ["AA",
 "Z",
 "ZH"]
 
+d = {s: v for s,v in enumerate(phenome) }
+cmudict = {"Softner":"S AO F AX N AX"}
+
 def ReadFile(filename):
     df = pd.read_csv(filename,encoding="cp932")
-    Datas = df["data"]
-    Labels = df["labeldata"]
-    return Datas,Labels
-
-d = {s: v for s,v in enumerate(phenome) }
-
-cmudict = {"Softner":"S AO F AX N AX"}
+    datas = df["data"]
+    labels = df["labeldata"]
+    return datas,labels
 
 def Insert(word):
     index = int(np.random.randint(0, len(phenome), 1))
-    Nosiyword = d[index]
-    return Nosiyword
+    nosiyword = d[index]
+    return nosiyword
 
 def Substitution(word):
     B = 30
@@ -113,11 +111,11 @@ def Substitution(word):
     Same_PI = (B - 1)/ B + 1/(B*L)
     q = 1/(B*L)
     if (np.random.choice([True]+[False]*(L - 1), p=[Same_PI]+[q]*(L - 1) ) == True):
-        Nosiyword = word
+        nosiyword = word
     else:
         index=int(np.random.randint(0, len(phenome), 1))
-        Nosiyword = d[index]
-    return Nosiyword
+        nosiyword = d[index]
+    return nosiyword
 
 #def Delete(word):
 
@@ -129,14 +127,14 @@ if __name__ == '__main__':
         print("error")
     data_filename = "./OriginalDataset/"+sys.argv[1]
 
-    trainingDatas,labelDatas = ReadFile(data_filename)
+    datas,labels = ReadFile(data_filename)
 
     for PI,PS,PD in probs:
         print("PI,PS,PD",PI,PS,PD)
         phenomeDatas = []
         noisydata = []
 
-        for j,sentence in enumerate(trainingDatas):
+        for j,sentence in enumerate(datas):
             adj_sentence = []
             for i, word in enumerate(sentence.split(" ")):
                 if "_" in word:
@@ -186,33 +184,29 @@ if __name__ == '__main__':
                       mode="w") as f:
                 f.writelines("Input,phonemelabel,Noisylabel,Labeldata\n")
                 for i, (train_data, phenomeSentence, noisySentence, labelSentence) in enumerate(
-                        zip(trainingDatas, phenomeDatas, noisydata, labelDatas)):
-                    #print("PhonemeSentence:"," ".join(phenomeSentence),"NoisyData:"," ".join(NoisySentence))
+                        zip(datas, phenomeDatas, noisydata, labels)):
                     f.write(train_data+","+" ".join(phenomeSentence)+","+" ".join(noisySentence)+","+labelSentence)
                     f.write("\n")
 
             with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"Input"+str(sys.argv[1]).replace(".csv","")+".in",
                       mode="w") as f:
-                for i, train_data in enumerate(trainingDatas):
-                    #print("PhonemeSentence:"," ".join(phenomeSentence),"NoisyData:"," ".join(NoisySentence))
-                    f.write(train_data)
+                for i, data in enumerate(datas):
+                    f.write(data)
                     f.write("\n")
 
             with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"phoneme"+str(sys.argv[1]).replace(".csv","")+".in",
                       mode="w") as f:
                 for i, phenomeSentence in enumerate(phenomeDatas):
-                    #print("PhonemeSentence:"," ".join(phenomeSentence),"NoisyData:"," ".join(NoisySentence))
                     f.write(" ".join(phenomeSentence))
                     f.write("\n")
 
             with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"noisy"+str(sys.argv[1]).replace(".csv","")+".in",
                           mode="w") as f:
                 for i, noisySentence in enumerate(noisydata):
-                    #print("PhonemeSentence:"," ".join(phenomeSentence),"NoisyData:"," ".join(NoisySentence))
                     f.write(" ".join(noisySentence))
                     f.write("\n")
 
             with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"label"+str(sys.argv[1]).replace(".csv","")+".out",mode="w") as f:
-                for i, labelSentence in enumerate(labelDatas):
+                for i, labelSentence in enumerate(labels):
                     f.write(labelSentence)
                     f.write("\n")
