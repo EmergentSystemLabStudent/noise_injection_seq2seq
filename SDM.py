@@ -7,9 +7,6 @@ import sys
 #probs = [[1/20,9/10,1/20],[2/20,16/20,2/20],[4/20,12/20,4/20],[6/20,8/20,6/20],[8/20,4/20,8/20],[10/20,6/20,4/20],[4/20,6/20,10/20],[14/20,4/20,2/20],[2/20,4/20,14/20]]
 probs = [[1/20,9/10,1/20]] 
 
-#音素辞書作成
-#https://en.wikipedia.org/wiki/ARPABEThttps://en.wikipedia.org/wiki/ARPABET
-
 phenome = ["AA",
 "AA0",
 "AA1",
@@ -97,18 +94,13 @@ phenome = ["AA",
 
 def ReadFile(filename):
     df = pd.read_csv(filename,encoding="cp932")
-    TrainDatas = df["data"]
-    LabelDatas = df["labeldata"]
-    return TrainDatas,LabelDatas
+    Datas = df["data"]
+    Labels = df["labeldata"]
+    return Datas,Labels
 
 d = {s: v for s,v in enumerate(phenome) }
 
 cmudict = {"Softner":"S AO F AX N AX"}
-
-#http://www.speech.cs.cmu.edu/cgi-bin/cmudict
-#https://pronouncing.readthedocs.io/en/latest/tutorial.html
-#補助シンボルなし
-
 
 def Insert(word):
     index = int(np.random.randint(0, len(phenome), 1))
@@ -135,14 +127,14 @@ def Substitution(word):
 if __name__ == '__main__':
     if not sys.argv[1]:
         print("error")
-    traindata_filename = "./OriginalDataset/"+sys.argv[1]
+    data_filename = "./OriginalDataset/"+sys.argv[1]
 
-    trainingDatas,labelDatas = ReadFile(traindata_filename)
+    trainingDatas,labelDatas = ReadFile(data_filename)
 
     for PI,PS,PD in probs:
         print("PI,PS,PD",PI,PS,PD)
         phenomeDatas = []
-        Noisydata = []
+        noisydata = []
 
         for j,sentence in enumerate(trainingDatas):
             adj_sentence = []
@@ -194,7 +186,7 @@ if __name__ == '__main__':
                     #elif(state =="Delete"):
                         #Delete(phletter)
 
-            Noisydata.append(y)
+            noisydata.append(y)
             phenomeDatas.append(phenomeSentence)
 
             #traindata,phonemelabel.labldata
@@ -204,10 +196,10 @@ if __name__ == '__main__':
             with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+sys.argv[1],
                       mode="w") as f:
                 f.writelines("Input,phonemelabel,Noisylabel,Labeldata\n")
-                for i, (train_data, phenomeSentence, NoisySentence, labelSentence) in enumerate(
-                        zip(trainingDatas, phenomeDatas, Noisydata, labelDatas)):
+                for i, (train_data, phenomeSentence, noisySentence, labelSentence) in enumerate(
+                        zip(trainingDatas, phenomeDatas, noisydata, labelDatas)):
                     #print("PhonemeSentence:"," ".join(phenomeSentence),"NoisyData:"," ".join(NoisySentence))
-                    f.write(train_data+","+" ".join(phenomeSentence)+","+" ".join(NoisySentence)+","+labelSentence)
+                    f.write(train_data+","+" ".join(phenomeSentence)+","+" ".join(noisySentence)+","+labelSentence)
                     f.write("\n")
 
 
@@ -226,11 +218,11 @@ if __name__ == '__main__':
                     f.write(" ".join(phenomeSentence))
                     f.write("\n")
 
-            with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"Noisy"+str(sys.argv[1]).replace(".csv","")+".in",
+            with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"noisy"+str(sys.argv[1]).replace(".csv","")+".in",
                           mode="w") as f:
-                for i, NoisySentence in enumerate(Noisydata):
+                for i, noisySentence in enumerate(noisydata):
                     #print("PhonemeSentence:"," ".join(phenomeSentence),"NoisyData:"," ".join(NoisySentence))
-                    f.write(" ".join(NoisySentence))
+                    f.write(" ".join(noisySentence))
                     f.write("\n")
 
             with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"label"+str(sys.argv[1]).replace(".csv","")+".out",mode="w") as f:
