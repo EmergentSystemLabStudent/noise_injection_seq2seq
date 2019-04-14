@@ -9,14 +9,11 @@ import json
 import wave
 import math
 
-# read the locations, objects and sentences files
-# and clean up the lists from the files
 rooms           = []
 locations       = []
 items           = []
 cat1Sentences   = []
 
-# get rid of empty lines and do not use anything that starts with a '#'
 for room in [line.strip('\n') for line in open('rooms.txt', 'r').readlines()]:
     if room != '':
         if room[0] != '#':
@@ -53,11 +50,10 @@ for label in df['label']:
 for i in range(ndata):
     labelSetdatas.append([cat1Sentences[i],labeldatas[i]])
 
-# are there at least two locations?
 if len(locations) < 2:
     print ('Not enough locations. Exiting program')
     sys.exit(1)
-# are there at least two items?
+
 if len(items) < 2:
     print ('Not enough items. Exiting program')
     sys.exit(1)
@@ -65,21 +61,14 @@ if len(items) < 2:
 # the function 'fillIn' takes a sentence and replaces
 # the word 'location' for an actual location
 # and replaces the word 'item' for an actual item
-# as defined in the files:
-# locations.txt
-# and items.txt
-# random.shuffle(
 
 def fillIn(labelSetdatas):
     sentences = labelSetdatas[0]
 
     labels = labelSetdatas[1]
-    # shuffle the items and the locations
     random.shuffle(rooms)
     random.shuffle(items)
-    #random.shuffle(class_items)
     random.shuffle(locations)
-    #random.shuffle(names)
     # fill in the locations and items in the sentence
     # the counters are used so an item or location is not used twice
     # hence the shuffeling for randomization
@@ -94,18 +83,14 @@ def fillIn(labelSetdatas):
     finalLabel =[]
 
     for word in sentences.split(' '):
-        # print word
-        # fill in a room
         if word == 'ROOM':
             finalSentence.append(rooms[roomCounter])
             roomLabel.append(rooms[roomCounter])
             roomCounter += 1
-        # or fill in a location
         elif word == 'LOCATION':
             finalSentence.append(locations[locationCounter])
             locationLabel.append(locations[locationCounter])
             locationCounter += 1
-        # or an item
         elif word == 'ITEM':
             finalSentence.append( items[itemCounter] )
             itemLabel.append(items[itemCounter])
@@ -133,11 +118,9 @@ def fillIn(labelSetdatas):
     locationLabelCounter     = 0
 
     if(str(labels) !="nan"):
-        #print (labels)
         for label in labels.split(' '):
                 if label.find(u',') > -1:
                     continue
-                #print(label)
                 if label.find(u'Find') > -1 or label.find(u'Place') > -1 :
                     if roomLabelCounter >= 1:
                         roomLabelCounter -=1
@@ -162,9 +145,7 @@ def fillIn(labelSetdatas):
     else:
         outfinalLabel = "NULL"
     # then make a sentence again out of the created list
-#	    print finalSentence
     out = ' '.join(finalSentence)
-    #print(out)
     out = out.replace('    ', ' ')
     out = out.replace('   ', ' ')
     out = out.replace('  ', ' ')
@@ -173,7 +154,6 @@ def fillIn(labelSetdatas):
     outfinalLabel = outfinalLabel.replace('   ', ' ')
     outfinalLabel = outfinalLabel.replace('  ', ' ')
 
-    # return ' '.join(finalSentence)
     print(outfinalLabel)
     return out,outfinalLabel
 
