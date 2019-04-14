@@ -41,13 +41,12 @@ for sentence in df['Sentence']:
 
 labeldatas =[]
 labelSetdatas = []
-ndata = len(cat1Sentences)
 
 for label in df['label']:
     if label != '':
-            labeldatas.append(label)
+        labeldatas.append(label)
 
-for i in range(ndata):
+for i in range(len(cat1Sentences):
     labelSetdatas.append([cat1Sentences[i],labeldatas[i]])
 
 if len(locations) < 2:
