@@ -1,5 +1,3 @@
-# coding=utf-8
-
 import transitions
 from transitions import Machine
 import numpy as np
@@ -9,21 +7,7 @@ from datetime import datetime
 import sys
 import math
 
-"""
-
-"""
-
-
-#状態の定義
 states=['Ti', 'Si']
-
-#遷移の定義
-# trigger：遷移の引き金になるイベント、source：トリガーイベントを受ける状態、dest：トリガーイベントを受けた後の状態
-# before：遷移前に実施されるコールバック、after：遷移後に実施されるコールバック
-#線の定義
-#.add_transitionで定義できる
-
-
 transitions = [
     {'trigger': 'Delete', 'source': 'Ti', 'dest': 'Si','before': 'action_Delete'},
     {'trigger': 'Insert', 'source': 'Si', 'dest': 'Si','before': 'action_Insert'},
@@ -32,15 +16,10 @@ transitions = [
     {'trigger': 'SubStop', 'source': 'Si', 'dest': 'Ti', 'before': 'action_Stop'}
 ]
 
-#遷移「前」の状態(transitionsに定義したsource)で実施されます。一方で'after'にコールバックを指定した場合は遷移「後」の状態
-
-
 prods = [0.05,0.1,0.2,0.3]
 
-
-
 def ReadFile(filename):
-    df = pd.read_csv(filename,encoding="cp932")#データ読み込み
+    df = pd.read_csv(filename,encoding="cp932")
     TrainDatas = df["data"]
     LabelDatas = df["labeldata"]
     return TrainDatas,LabelDatas
@@ -134,35 +113,21 @@ cmudict = {"Softner":"S AO F AX N AX"}
 
 class Matter(object):
     def action_Delete(self):
-        #print("*** action_Delete ***")
-        #文字
         pass
     def action_Insert(self):
-        #print("*** action_Insert ***")
-        #同じ文字をInsertするかどうか
         pass
     def action_SameSubstitution(self):
         pass
-
     def action_Substitution(self):
-        #print("*** action_Substitution ***")
         pass
     def action_Stop(self):
-        #print("*** action_Stop ***")
         pass
-
-
 
 lump = Matter()
 machine = Machine(model=lump, states=states, transitions=transitions, initial='Si')
-#http://www.speech.cs.cmu.edu/cgi-bin/cmudict
-#https://pronouncing.readthedocs.io/en/latest/tutorial.html
-#補助シンボルなし
 
-
-def Insert(word):
+def Insert():
     lump.Insert()
-    #print("Insert")
     index = int(np.random.randint(0, len(phenome), 1))
     Nosiyword = d[index]
     return Nosiyword
@@ -174,18 +139,12 @@ def SameSubstitution(word):
 
 def Substitution(word):
     lump.Substitution()
-    #B = 30
-    #L = len(phenome)
-    #Same_PI = (B - 1)/ B + 1/(B*L)
-    #q = 1/(B*L)
-    #print("Substitution")
     index=int(np.random.randint(0, len(phenome), 1))
     Nosiyword = d[index]
     return Nosiyword
 
 def Delete(word):
     lump.Delete()
-    #print("Delete")
 
 def Stop():
     lump.SubStop()
@@ -244,11 +203,11 @@ if __name__ == '__main__':
 
                     if (np.random.choice([True,False],p=[PI,1 - PI]) == True):
                         #print("Insert")
-                        y.append(Insert(phletter))#関数
+                        y.append(Insert(phletter))
                         while True:
                             if(np.random.choice([True, False], p=[PI, 1 - PI]) == True):
                                 #print("Insert")
-                                y.append(Insert(phletter))  # 関数
+                                y.append(Insert(phletter))
                             else:
                                 break
                     Stop()
@@ -267,8 +226,6 @@ if __name__ == '__main__':
             #traindata,phonemelabel.labldata
             now = datetime.now()
             nowtime = str(now.day)+'_'+str(now.hour)+'_'+str(now.minute)
-
-            #元の現状
 
             """
             with open("./Result"+str(sys.argv[1]).replace(".csv","")+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"PS_S"+str(PS_S)+sys.argv[1],
@@ -289,8 +246,6 @@ if __name__ == '__main__':
                     f.write(train_data+","+" ".join(phenomeSentence)+","+" ".join(NoisySentence)+","+labelSentence)
                     f.write("\n")
 
-
-            #in と out
             with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"PS_S"+str(PS_S)+"Input"+str(sys.argv[1]).replace(".csv","")+".in",
                       mode="w") as f:
                 for i, train_data in enumerate(trainingDatas):
