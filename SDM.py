@@ -100,7 +100,7 @@ def ReadFile(filename):
     labels = df["labeldata"]
     return datas,labels
 
-def Insert(word):
+def Insert():
     index = int(np.random.randint(0, len(phenome), 1))
     nosiyword = d[index]
     return nosiyword
@@ -116,11 +116,6 @@ def Substitution(word):
         index=int(np.random.randint(0, len(phenome), 1))
         nosiyword = d[index]
     return nosiyword
-
-#def Delete(word):
-
-#def Stop():
-
 
 if __name__ == '__main__':
     if not sys.argv[1]:
@@ -164,18 +159,15 @@ if __name__ == '__main__':
 
                 for i, phletter in enumerate(ph):
                     if (np.random.choice(["Insert","Stop"],p=[PI,1 - PI]) == "Insert"):
-                        y.append(Insert(phletter))
+                        y.append(Insert())
                         while True:
                             if(np.random.choice(["Insert", "Stop"], p=[PI, 1 - PI]) == "Insert"):
-                                y.append(Insert(phletter))
+                                y.append(Insert())
                             else:
                                 break
-                    #Stop()
                     operation = np.random.choice(["Substitution", "Delete"], p=[PS/(PS+PD), PD/(PS+PD)])
                     if(operation =="Substitution"):
                         y.append(Substitution(phletter))
-                    #elif(operation =="Delete"):
-                        #Delete(phletter)
 
             noisydata.append(y)
             phenomeDatas.append(phenomeSentence)
