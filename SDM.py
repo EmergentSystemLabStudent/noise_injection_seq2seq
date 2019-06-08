@@ -2,7 +2,7 @@ import numpy as np
 import  pronouncing
 import pandas as pd
 import sys
-
+from tqdm import tqdm 
 probs = [[1/20,9/10,1/20]]
 
 phenome = ["AA",
@@ -128,7 +128,7 @@ if __name__ == '__main__':
         phenomeDatas = []
         noisydata = []
 
-        for j,sentence in enumerate(datas):
+        for j,sentence in enumerate(tqdm(datas)):
             adj_sentence = []
             for i, word in enumerate(sentence.split(" ")):
                 if "_" in word:
