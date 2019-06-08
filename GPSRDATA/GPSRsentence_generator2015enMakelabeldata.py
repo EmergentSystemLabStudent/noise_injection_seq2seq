@@ -8,6 +8,7 @@ import base64
 import json
 import wave
 import math
+from tqdm import tqdm
 
 rooms           = []
 locations       = []
@@ -153,12 +154,12 @@ def fillIn(labelSetdatas):
     outfinalLabel = outfinalLabel.replace('   ', ' ')
     outfinalLabel = outfinalLabel.replace('  ', ' ')
 
-    print(outfinalLabel)
+    #print(outfinalLabel)
     return out,outfinalLabel
 
 if __name__ == "__main__":
     df = pd.DataFrame([],columns=["data","labeldata"])
-    for i in range(15000):
+    for i in tqdm(range(15000)):
         random.shuffle(labelSetdatas)
         sentence = pd.DataFrame([fillIn(labelSetdatas[0])],columns=["data","labeldata"])
         df = df.append(sentence)
