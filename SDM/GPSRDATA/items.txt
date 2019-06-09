@@ -1,0 +1,57 @@
+# This is the items definition file.
+# Put 1 item per line (can be several words, such as 'blue cup' or a single word such as 'sponge').
+# The first line of this file is not used in the progam to generate sentences.
+# A line starting with '#' (as in '#cup') is not used but regarded as a comment.
+# Do not use tabs in this file
+Green Tea
+Orange Juice
+Brown Tea
+Japanese Tea
+Red Tea
+Lemon Tea
+Strawberry Juice
+Cup Star
+Cup Noodle
+Seafood Noodle
+Korean Soup
+Egg Soup
+Onion Dressing
+Japanese Dressing
+Chip Star
+Long Potato
+Blue Potato
+Red Potato
+Stick Potato
+Bleach
+Cloth Cleaner
+Dish Cleaner
+Bath Cleaner
+white cup
+pink cup
+tumbler
+empty ketchup
+filled ketchup
+ground pepper
+salt
+sauce
+soysauce
+sugar
+canned juice
+empty plastic bottle
+filled plastic bottle
+cubic clock
+bear doll
+dog doll
+rabbit doll
+toy car
+toy penguin
+toy duck
+nursing bottle
+apple
+cigarette
+hourglass
+camera
+rubik's cube
+bell pepper
+twin bell alarm clock
+spray bottle
