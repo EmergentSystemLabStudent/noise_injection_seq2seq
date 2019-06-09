@@ -121,13 +121,14 @@ if __name__ == '__main__':
         print("error")
     data_filename = "./OriginalDataset/"+sys.argv[1]
 
-    datas,labels = ReadFile(data_filename)
-
+    datas,labeldatas = ReadFile(data_filename)
+    phenomedatas = []
+    noisydatas = []
     for PI,PS,PD in probs:
-        print("PI,PS,PD",PI,PS,PD)
-        phenomeDatas = []
-        noisydata = []
-
+        strProbs="PI="+str(PI)+"_PS="+str(PS)+"_PD="+str(PD)
+        print(strProbs)
+        phenomedatas = []
+        noisydatas = []
         for j,sentence in enumerate(tqdm(datas)):
             adj_sentence = []
             for i, word in enumerate(sentence.split(" ")):
@@ -143,7 +144,6 @@ if __name__ == '__main__':
                     continue
                 else:
                     adj_sentence.append(word)
-
             phenomeSentence = []
             y = []
             for j,word in enumerate(adj_sentence):
@@ -155,7 +155,6 @@ if __name__ == '__main__':
                 else:
                     ph = ph[0].split()
                 phenomeSentence.extend(ph)
-
                 for i, phletter in enumerate(ph):
                     if (np.random.choice(["Insert","Stop"],p=[PI,1 - PI]) == "Insert"):
                         y.append(Insert())
@@ -167,37 +166,36 @@ if __name__ == '__main__':
                     operation = np.random.choice(["Substitution", "Delete"], p=[PS/(PS+PD), PD/(PS+PD)])
                     if(operation =="Substitution"):
                         y.append(Substitution(phletter))
+            noisydatas.append(y)
+            phenomedatas.append(phenomeSentence)
 
-            noisydata.append(y)
-            phenomeDatas.append(phenomeSentence)
-
-            with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+sys.argv[1],
-                      mode="w") as f:
-                f.writelines("Input,phonemelabel,Noisylabel,Labeldata\n")
-                for i, (train_data, phenomeSentence, noisySentence, labelSentence) in enumerate(
-                        zip(datas, phenomeDatas, noisydata, labels)):
-                    f.write(train_data+","+" ".join(phenomeSentence)+","+" ".join(noisySentence)+","+labelSentence)
-                    f.write("\n")
-
-            with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"Input"+str(sys.argv[1]).replace(".csv","")+".in",
+            with open("./Dataset"+"/"+strProbs+"_Input_"+str(sys.argv[1]).replace(".csv","")+".in",
                       mode="w") as f:
                 for i, data in enumerate(datas):
                     f.write(data)
                     f.write("\n")
 
-            with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"phoneme"+str(sys.argv[1]).replace(".csv","")+".in",
+            with open("./Dataset"+"/"+strProbs+"_phoneme_"+str(sys.argv[1]).replace(".csv","")+".in",
                       mode="w") as f:
-                for i, phenomeSentence in enumerate(phenomeDatas):
+                for i, phenomeSentence in enumerate(phenomedatas):
                     f.write(" ".join(phenomeSentence))
                     f.write("\n")
 
-            with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"noisy"+str(sys.argv[1]).replace(".csv","")+".in",
+            with open("./Dataset"+"/"+strProbs+"_noisy_"+str(sys.argv[1]).replace(".csv","")+".in",
                           mode="w") as f:
-                for i, noisySentence in enumerate(noisydata):
+                for i, noisySentence in enumerate(noisydatas):
                     f.write(" ".join(noisySentence))
                     f.write("\n")
 
-            with open("./Dataset"+"/"+"PI_"+str(PI)+"PS_"+str(PS)+"PD_"+str(PD)+"label"+str(sys.argv[1]).replace(".csv","")+".out",mode="w") as f:
-                for i, labelSentence in enumerate(labels):
+            with open("./Dataset"+"/"+strProbs+"_label_"+str(sys.argv[1]).replace(".csv","")+".out",mode="w") as f:
+                for i, labelSentence in enumerate(labeldatas):
                     f.write(labelSentence)
+                    f.write("\n")
+
+            with open("./Dataset"+"/"+strProbs+"_"+sys.argv[1],
+                      mode="w") as f:
+                f.writelines("Input,phonemelabel,Noisylabel,Labeldata\n")
+                for i, (train_data, phenomeSentence, noisySentence, labelSentence) in enumerate(
+                        zip(datas, phenomedatas, noisydatas, labeldatas)):
+                    f.write(train_data+","+" ".join(phenomeSentence)+","+" ".join(noisySentence)+","+labelSentence)
                     f.write("\n")
