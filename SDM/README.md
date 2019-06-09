@@ -34,8 +34,5 @@ Stochastic deformation models(SDM)
    - OriginalDataset
  - Output
    - Dataset
-     - PI=0.*_PS=0.*_PD=*_Input_<dev/test/train>_data.in
-     - PI=0.*_PS_0.*_PD=*_phoneme_<dev/test/train>_data.in
-     - PI=0.*_PS_0.*_PD=*_Noisy_<dev/test/train>_data.in
-     - PI=0.*_PS_0.*_PD=*_label_<dev/test/train>_data.out
-     - PI=0.*_PS_0.*_PD=*_<dev/test/train>_data.csv
+     - `PI=prob_PS=prob_PD=prob_Input_<dev/test/train>_data.in`
+
