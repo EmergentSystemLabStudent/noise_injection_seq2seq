@@ -11,4 +11,3 @@ echo "data,labeldata" > ../OriginalDataset/devdata.csv
 sed -e '10000,$d' tempGPSRSentence.csv >> ../OriginalDataset/traindata.csv
 sed -n '10001,12001p' tempGPSRSentence.csv >> ../OriginalDataset/testdata.csv
 sed -n '12002,14002p' tempGPSRSentence.csv >> ../OriginalDataset/devdata.csv
-cd ../OriginalDataset
