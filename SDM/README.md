@@ -2,8 +2,9 @@ Stochastic deformation models(SDM)
 ====
 
 # Overview
+GPSRDATA->OriginalDataset---(SDM)--> EditedDataset
 
-# Script List
+                          └─-------> Vocab
 ## Python
   - GPSRDATA/GPSRsentence_generator2015enMakelabeldata.py
   - SDM.py
