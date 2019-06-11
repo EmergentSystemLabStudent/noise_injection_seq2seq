@@ -146,6 +146,18 @@ def get_phenome_Sentence(adj_sentence):
         phenomeSentence.extend(ph)
     return phenomeSentence
 
+def edit_phenome_sentence(phenomeSentence):
+    edited_phenome_sentence=[]
+    for i, phletter in enumerate(phenomeSentence):
+        while True:
+            if(np.random.binomial(1, PI)):
+                edited_phenome_sentence.append(Insert())
+            else:
+                break       
+        if(np.random.binomial(1, PS/(PS+PD))):
+            edited_phenome_sentence.append(Substitution(phletter))
+    return edited_phenome_sentence
+
 if __name__ == '__main__':
     #sys.argv[1]:original data file name (.csv)   
     if not sys.argv[1]:
@@ -163,21 +175,8 @@ if __name__ == '__main__':
             adj_sentence = adjust_sentence(sentence)
             phenomeSentence = get_phenome_Sentence(adj_sentence)
             phenomedatas.append(phenomeSentence)
-            y = []
-            for j,word in enumerate(adj_sentence):
-                ph = pronouncing.phones_for_word(word)
-                for i, phletter in enumerate(ph):
-                    if (np.random.choice(["Insert","Stop"],p=[PI,1 - PI]) == "Insert"):
-                        y.append(Insert())
-                        while True:
-                            if(np.random.choice(["Insert", "Stop"], p=[PI, 1 - PI]) == "Insert"):
-                                y.append(Insert())
-                            else:
-                                break
-                    operation = np.random.choice(["Substitution", "Delete"], p=[PS/(PS+PD), PD/(PS+PD)])
-                    if(operation =="Substitution"):
-                        y.append(Substitution(phletter))
-            noisydatas.append(y)
+            edited_phenome_sentence = edit_phenome_sentence(phenomeSentence)
+            noisydatas.append(edited_phenome_sentence)
 
         with open("./Dataset"+"/"+strProbs+"_Input_"+str(sys.argv[1]).replace(".csv","")+".in",mode="w") as f:
             for i, sentence in enumerate(sentences):
