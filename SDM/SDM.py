@@ -101,60 +101,71 @@ def ReadFile(filename):
 
 def Insert():
     index = int(np.random.randint(0, len(phenome), 1))
-    nosiyword = d[index]
-    return nosiyword
+    i_ph = d[index]
+    return i_ph
 
-def Substitution(word):
+def Substitution(ph):
     B = 30
     L = len(phenome)
     Same_PI = (B - 1)/ B + 1/(B*L)
     q = 1/(B*L)
     if (np.random.choice([True]+[False]*(L - 1), p=[Same_PI]+[q]*(L - 1) ) == True):
-        nosiyword = word
+        s_ph = ph
     else:
         index=int(np.random.randint(0, len(phenome), 1))
-        nosiyword = d[index]
-    return nosiyword
+        s_ph = d[index]
+    return s_ph
+
+def adjust_sentence(sentence):
+    adj_sentence = []
+    for i, word in enumerate(sentence.split(" ")):
+        if "_" in word:
+            splitWord = word.split("_")
+            for data in splitWord:
+                adj_sentence.append(data)
+        elif "nearby" in word:
+            splitWord = ["near","by"]
+            for data in splitWord:
+                adj_sentence.append(data)
+        elif "." in word:
+            continue
+        else:
+            adj_sentence.append(word)
+    return adj_sentence
+
+def get_phenome_Sentence(adj_sentence):
+    phenomeSentence = []
+    for j,word in enumerate(adj_sentence):
+        ph = pronouncing.phones_for_word(word)
+        if not ph:
+            print("--------------------",word,"--------------------")
+            print("error")
+            exit()
+        else:
+            ph = ph[0].split()
+        phenomeSentence.extend(ph)
+    return phenomeSentence
 
 if __name__ == '__main__':
+    #sys.argv[1]:original data file name (.csv)   
     if not sys.argv[1]:
-        print("error")
+        print("argument:filename")
     data_filename = "./OriginalDataset/"+sys.argv[1]
 
     datas,labeldatas = ReadFile(data_filename)
-    phenomedatas = []
-    noisydatas = []
+
     for PI,PS,PD in probs:
         strProbs="PI="+str(PI)+"_PS="+str(PS)+"_PD="+str(PD)
         print(strProbs)
         phenomedatas = []
         noisydatas = []
         for j,sentence in enumerate(tqdm(datas)):
-            adj_sentence = []
-            for i, word in enumerate(sentence.split(" ")):
-                if "_" in word:
-                    splitWord = word.split("_")
-                    for data in splitWord:
-                        adj_sentence.append(data)
-                elif "nearby" in word:
-                    splitWord = ["near","by"]
-                    for data in splitWord:
-                        adj_sentence.append(data)
-                elif "." in word:
-                    continue
-                else:
-                    adj_sentence.append(word)
-            phenomeSentence = []
+            adj_sentence = adjust_sentence(sentence)
+            phenomeSentence = get_phenome_Sentence(adj_sentence)
+            phenomedatas.append(phenomeSentence)
             y = []
             for j,word in enumerate(adj_sentence):
                 ph = pronouncing.phones_for_word(word)
-                if not ph:
-                    print("--------------------",word,"--------------------")
-                    print("error")
-                    exit()
-                else:
-                    ph = ph[0].split()
-                phenomeSentence.extend(ph)
                 for i, phletter in enumerate(ph):
                     if (np.random.choice(["Insert","Stop"],p=[PI,1 - PI]) == "Insert"):
                         y.append(Insert())
@@ -167,7 +178,7 @@ if __name__ == '__main__':
                     if(operation =="Substitution"):
                         y.append(Substitution(phletter))
             noisydatas.append(y)
-            phenomedatas.append(phenomeSentence)
+
 
             with open("./Dataset"+"/"+strProbs+"_Input_"+str(sys.argv[1]).replace(".csv","")+".in",
                       mode="w") as f:
