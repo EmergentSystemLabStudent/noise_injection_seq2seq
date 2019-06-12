@@ -3,20 +3,30 @@
 ## List
 
 ## Usage
-
-- Learning
+- データセット
+- 各モデルの学習
 `./NTIME.sh`
 
-- Inference
+- 各モデルによる推論
 `./INFERECENTIME.sh`
 
-隠れ層の次元128, ユニットのドロップアウト確率0.2, アテンションあり
+- perplexityによる評価
+
+## Experiment 1
+# condition
+- 隠れ層 : 1層,128次元
+- ドロップアウト確率 : 0.2
+    
+## Experiment 2
+# condition
+
+
 `python -m nmt.nmt --src=in --tgt=out\
---vocab_prefix=/home/emlab/Desktop/syuuron/nmt/Dataset/Vocab\
---train_prefix=/home/emlab/Desktop/syuuron/nmt/Dataset/traindata\
---dev_prefix=/home/emlab/Desktop/syuuron/nmt/Dataset/devdata\
---test_prefix=/home/emlab/Desktop/syuuron/nmt/Dataset/testdata\
---out_dir=/home/emlab/Desktop/syuuron/nmt/Noisy_model\
+--vocab_prefix=/path/to/Dataset/Vocab\
+--train_prefix=/path/to/Dataset/traindata\
+--dev_prefix=/path/to/Dataset/devdata\
+--test_prefix=/path/to/Dataset/testdata\
+--out_dir=/path/to/Noisy_model\
 --num_train_steps=12000 --steps_per_stats=100 --num_layers=1 --num_units=128 --dropout=0.2 --metrics=bleu\
 --attention_architecture=standard --attention=luong`
 
