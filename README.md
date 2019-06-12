@@ -1,8 +1,13 @@
 # noise_injection_seq2seq
- 
-## List
 
-## Usage
+
+# Overview
+
+
+
+# contents
+
+# Usage
 - データセット
 - 各モデルの学習
 `./NTIME.sh`
@@ -12,13 +17,14 @@
 
 - perplexityによる評価
 
+# Experiment
 ## Experiment 1
-# condition
+## condition
 - 隠れ層 : 1層,128次元
 - ドロップアウト確率 : 0.2
     
 ## Experiment 2
-# condition
+## condition
 
 
 `python -m nmt.nmt --src=in --tgt=out\
