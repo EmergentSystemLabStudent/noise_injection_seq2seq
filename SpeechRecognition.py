@@ -1,6 +1,3 @@
-# coding=utf-8
-
-# write code...
 import speech_recognition
 import sys
 import pandas as pd
@@ -9,23 +6,7 @@ import pronouncing
 import glob
 import re
 
-#dir ="WANGDATA/"
 dir ="KOBAYASHIDATA/"
-
-def format_text(text):
-    '''
-    MeCabに入れる前のツイートの整形方法例
-    '''
-
-    text=re.sub(r'https?://[\w/:%#\$&\?\(\)~\.=\+\-…]+', "", text)
-    text=re.sub('RT', "", text)
-    text=re.sub('お気に入り', "", text)
-    text=re.sub('まとめ', "", text)
-    text=re.sub(r'[!-~]', "", text)#半角記号,数字,英字
-    text=re.sub(r'[︰-＠]', "", text)#全角記号
-    text=re.sub('\n', " ", text)#改行文字
-
-    return text
 
 def MakeRecodedata(filename):
     r = speech_recognition.Recognizer()
@@ -96,35 +77,19 @@ def MakeRecodedata(filename):
                 print(ph)
                 sphinx_phoneme.extend(ph)
 
-
-
-    #googlecloud_result=r.recognize_google_cloud(audio)
     print("Google_phneme_result:",google_phoneme)
     print("Sphinx_phneme_result:",sphinx_phoneme)
 
     frame =pd.DataFrame([[filename,google_result["alternative"][0]['transcript']," ".join(google_phoneme),sphinx_result.hyp().hypstr," ".join(sphinx_phoneme)]],columns=["Data","google_result","google_phoneme","sphinx_result","sphinx_phoneme"])
 
-
-
-    """
-    ph = pronouncing.phones_for_word(word)
-                if not ph:
-                    print("--------------------",word,"--------------------")
-                    print("error")
-                    exit()
-                else:
-                    ph = ph[0].split()
-    """
     path =dir+"google_Wordresultdata.csv"
     df = frame["google_result"].to_csv(path,index=False,mode='a')
 
     path =dir+"google_phonemeresultdata.csv"
     df = frame["google_phoneme"].to_csv(path,index=False,mode='a')
 
-
     path =dir+"sphinx_wordresultdata.csv"
     df = frame["sphinx_result"].to_csv(path,index=False,mode='a')
-
 
     path =dir+"sphinx_phonemeresultdata.csv"
     df = frame["sphinx_phoneme"].to_csv(path,index=False,mode='a')
@@ -146,14 +111,12 @@ def numericalSort(value):
     parts[1::2] = map(int, parts[1::2])
     return parts
 
-def main():
 
-    fitsf=sorted(glob.glob(dir+"/ID*.wav"), key=numericalSort)
+if __name__ == '__main__':
+    fitsf=sorted(glob.glob(dir+"/*.wav"), key=numericalSort)
     for filename in fitsf:
         MakeRecodedata(filename)
 
-if __name__ == '__main__':
-    main()
 
 
-#to_csv()
+
