@@ -6,9 +6,7 @@ import pronouncing
 import glob
 import re
 
-dir ="KOBAYASHIDATA/"
-
-def MakeRecodedata(filename):
+def SpeechRecognition(filename):
     r = speech_recognition.Recognizer()
     with speech_recognition.AudioFile(filename) as source:
         audio = r.record(source)
@@ -79,7 +77,7 @@ def MakeRecodedata(filename):
 
     print("Google_phneme_result:",google_phoneme)
     print("Sphinx_phneme_result:",sphinx_phoneme)
-
+'''
     frame =pd.DataFrame([[filename,google_result["alternative"][0]['transcript']," ".join(google_phoneme),sphinx_result.hyp().hypstr," ".join(sphinx_phoneme)]],columns=["Data","google_result","google_phoneme","sphinx_result","sphinx_phoneme"])
 
     path =dir+"google_Wordresultdata.csv"
@@ -104,18 +102,13 @@ def MakeRecodedata(filename):
         df = frame.to_csv(path,index=False,mode='w')
     else:
         df = frame.to_csv(path, index=False, mode='a',header=False)
-
-def numericalSort(value):
-    numbers = re.compile(r'(\d+)')
-    parts = numbers.split(value)
-    parts[1::2] = map(int, parts[1::2])
-    return parts
-
+'''
 
 if __name__ == '__main__':
-    fitsf=sorted(glob.glob(dir+"/*.wav"), key=numericalSort)
+    dir = "./utterance_data/speaker_K/"
+    fitsf=sorted(glob.glob(dir+"*.wav"))
     for filename in fitsf:
-        MakeRecodedata(filename)
+        SpeechRecogniton(filename)
 
 
 
