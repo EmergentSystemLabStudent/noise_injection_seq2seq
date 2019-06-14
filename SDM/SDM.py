@@ -4,6 +4,7 @@ import pandas as pd
 import sys
 from tqdm import tqdm 
 import os
+import shutil
 
 phenome = ["AA",
 "AA0",
@@ -162,11 +163,10 @@ if __name__ == '__main__':
     #sys.argv[1]:edited data directory path
     #sys.argv[2]:original data directory path
     #sys.argv[3]:original data file name (.csv)   
-    #if not sys.argv[3]:
-    #    print("argument:filename")
-    edited_dir_path = "./Dataset/"
-    original_dir_path = "./OriginalDataset/"
-    original_filename = "testdata.csv"
+
+    edited_dir_path = sys.argv[1]
+    original_dir_path = sys.argv[2]
+    original_filename = sys.argv[3]
     data_filepath = original_dir_path + original_filename 
 
     sentences,labels = ReadFile(data_filepath)
@@ -184,8 +184,9 @@ if __name__ == '__main__':
         phenomedatas.append(phenomeSentence)
         edited_phenome_sentence = edit_phenome_sentence(phenomeSentence)
         noisydatas.append(edited_phenome_sentence)
+
+    shutil.rmtree(edited_dir_path+strProbs)
     os.mkdir(edited_dir_path+strProbs)
-    
     with open(edited_dir_path+strProbs+"/"+strProbs+"_Input_"+original_filename.replace(".csv","")+".in",mode="w") as f:
         for i, sentence in enumerate(sentences):
             f.write(sentence)
