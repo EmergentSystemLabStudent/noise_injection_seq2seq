@@ -17,14 +17,23 @@
 
 - perplexityによる評価
 
-# Experiment
+# Experiments
 ## Experiment 1
-## condition
+### Experimental procedure
+ - 1. Prepare GPSRDATA
+ - 2. Make "original" Dataset
+ - 3. Make "edited" Dataset (Ineject Noise)
+ - 4. Prepare Utterance Data
+   - 1. Speech Recognition
+ - 5. Learning
+ - 6. Inference
+### condition
 - 隠れ層 : 1層,128次元
 - ドロップアウト確率 : 0.2
     
 ## Experiment 2
-## condition
+### Experimental procedure
+### condition
 
 
 `python -m nmt.nmt --src=in --tgt=out\
