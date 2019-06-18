@@ -1,5 +1,4 @@
 #!/bin/zsh
-#学習時スクリプト
 
 hoge=("Noisy")
 
@@ -25,7 +24,7 @@ do
       cd Dataset
     done
   done
-  cd /home/emlab/Desktop/syuuron/nmt
+  cd ../nmt
   test=`date '+%F_%H'`
   echo $test
   mkdir $test
