@@ -140,3 +140,8 @@ python -m nmt.nmt \
     --num_units=128 \
     --dropout=0.2 \
     --metrics=bleu`
+    
+# Main Contributors
+ - Yuki Tada (ex-student of Ritsumeikan University)
+# maintainor
+ - Hiroki Tanaka (assistant researcher of Ritsumeikan University)
