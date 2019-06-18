@@ -7,15 +7,6 @@
 
 # contents
 
-# Usage
-- データセット
-- 各モデルの学習
-`./NTIME.sh`
-
-- 各モデルによる推論
-`./INFERECENTIME.sh`
-
-- perplexityによる評価
 
 # Experiments
 ## Experiment 1
