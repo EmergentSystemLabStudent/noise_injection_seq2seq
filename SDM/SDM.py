@@ -100,21 +100,19 @@ def ReadFile(filename):
     labels = df["labeldata"]
     return datas,labels
 
-def Insert():
+def random_phoneme():
     index = int(np.random.randint(0, len(phenome), 1))
-    i_ph = d[index]
-    return i_ph
+    return d[index]
 
-def Substitution(ph):
-    B = 30
+def Insert():
+    return random_phoneme()
+
+def Substitution(ph,rho):
     L = len(phenome)
-    Same_PI = (B - 1)/ B + 1/(B*L)
-    q = 1/(B*L)
-    if (np.random.choice([True]+[False]*(L - 1), p=[Same_PI]+[q]*(L - 1) ) == True):
-        s_ph = ph
+    if (np.random.binomial(1,rho*L/((1.0-2.0*rho)*(L-1)))):
+        s_ph = random_phoneme()
     else:
-        index=int(np.random.randint(0, len(phenome), 1))
-        s_ph = d[index]
+        s_ph = ph
     return s_ph
 
 def adjust_sentence(sentence):
@@ -147,16 +145,16 @@ def get_phenome_Sentence(adj_sentence):
         phenomeSentence.extend(ph)
     return phenomeSentence
 
-def edit_phenome_sentence(phenomeSentence):
+def edit_phenome_sentence(phenomeSentence,rho):
     edited_phenome_sentence=[]
     for i, phletter in enumerate(phenomeSentence):
         while True:
-            if(np.random.binomial(1, PI)):
+            if(np.random.binomial(1, rho)):
                 edited_phenome_sentence.append(Insert())
             else:
                 break       
-        if(np.random.binomial(1, PS/(PS+PD))):
-            edited_phenome_sentence.append(Substitution(phletter))
+        if(np.random.binomial(1, (1-2*rho)/(1-rho))):
+            edited_phenome_sentence.append(Substitution(phletter,rho))
     return edited_phenome_sentence
 
 if __name__ == '__main__':
@@ -170,45 +168,42 @@ if __name__ == '__main__':
     data_filepath = original_dir_path + original_filename 
 
     sentences,labels = ReadFile(data_filepath)
-    PI = 0.05
-    PS = 0.9
-    PD = 0.05
-
-    strProbs="PI="+str(PI)+"_PS="+str(PS)+"_PD="+str(PD)
-    print(strProbs)
+    rho=float(sys.argv[4])
+    str_noiselevel = "rho="+str(rho)
+    print(str_noiselevel)
     phenomedatas = []
     noisydatas = []
     for j,sentence in enumerate(tqdm(sentences)):
         adj_sentence = adjust_sentence(sentence)
         phenomeSentence = get_phenome_Sentence(adj_sentence)
         phenomedatas.append(phenomeSentence)
-        edited_phenome_sentence = edit_phenome_sentence(phenomeSentence)
+        edited_phenome_sentence = edit_phenome_sentence(phenomeSentence,rho)
         noisydatas.append(edited_phenome_sentence)
 
-    shutil.rmtree(edited_dir_path+strProbs)
-    os.mkdir(edited_dir_path+strProbs)
-    with open(edited_dir_path+strProbs+"/"+strProbs+"_Input_"+original_filename.replace(".csv","")+".in",mode="w") as f:
+    shutil.rmtree(edited_dir_path+str_noiselevel)
+    os.mkdir(edited_dir_path+str_noiselevel)
+    with open(edited_dir_path+str_noiselevel+"/"+str_noiselevel+"_original_sentence_"+original_filename.replace(".csv","")+".in",mode="w") as f:
         for i, sentence in enumerate(sentences):
             f.write(sentence)
             f.write("\n")
 
-    with open(edited_dir_path+strProbs+"/"+strProbs+"_phoneme_"+original_filename.replace(".csv","")+".in",mode="w") as f:
+    with open(edited_dir_path+str_noiselevel+"/"+str_noiselevel+"_phoneme_"+original_filename.replace(".csv","")+".in",mode="w") as f:
         for i, phenomeSentence in enumerate(phenomedatas):
             f.write(" ".join(phenomeSentence))
             f.write("\n")
 
-    with open(edited_dir_path+strProbs+"/"+strProbs+"_noisy_"+original_filename.replace(".csv","")+".in",mode="w") as f:
+    with open(edited_dir_path+str_noiselevel+"/"+str_noiselevel+"_edited_phoneme_"+original_filename.replace(".csv","")+".in",mode="w") as f:
         for i, noisySentence in enumerate(noisydatas):
             f.write(" ".join(noisySentence))
             f.write("\n")
 
-    with open(edited_dir_path+strProbs+"/"+strProbs+"_label_"+original_filename.replace(".csv","")+".out",mode="w") as f:
+    with open(edited_dir_path+str_noiselevel+"/"+str_noiselevel+"_label_"+original_filename.replace(".csv","")+".out",mode="w") as f:
         for i, label in enumerate(labels):
             f.write(label)
             f.write("\n")
 
-    with open(edited_dir_path+strProbs+"/"+strProbs+"_"+original_filename,mode="w") as f:
-        f.writelines("Input,phonemelabel,Noisylabel,Labeldata\n")
+    with open(edited_dir_path+str_noiselevel+"/"+str_noiselevel+"_"+original_filename,mode="w") as f:
+        f.writelines("original_sentence,phoneme,edited_phoneme,label\n")
         for i, (train_data, phenomeSentence, noisySentence, labelSentence) in enumerate(
                 zip(sentences, phenomedatas, noisydatas, labels)):
             f.write(train_data+","+" ".join(phenomeSentence)+","+" ".join(noisySentence)+","+labelSentence)
