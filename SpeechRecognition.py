@@ -46,9 +46,10 @@ def SpeechRecognition(filename):
                 google_phoneme.extend(ph)
     #print("Google_phoneme_result:",google_phoneme)
 
+
+    #sphinx_result=r.recognize_sphinx(audio, show_all=True)
+    #print("Sphinx_result:",sphinx_result.hyp().hypstr)                
     """
-    sphinx_result=r.recognize_sphinx(audio, show_all=True)
-    print("Sphinx_result:",sphinx_result.hyp().hypstr)                
     sphinx_phoneme = []
     for word in (sphinx_result.hyp().hypstr).split():
             print(word)
@@ -74,9 +75,8 @@ def SpeechRecognition(filename):
                 print(ph)
                 sphinx_phoneme.extend(ph)
     print("Sphinx_phneme_result:",sphinx_phoneme)
-"""
-
-    
+    """
+   
     result = [filename,google_result["alternative"][0]['transcript']," ".join(google_phoneme)]
     return result
 
@@ -114,5 +114,5 @@ if __name__ == '__main__':
         result=SpeechRecognition(filename)
         results.append(result)
     df = pd.DataFrame(results,columns=["filename","google_word","google_phoneme"])
-    df.to_csv(dir+"SpeechRecognitionResults.csv",index=False)
+    df.to_csv(dir+"SpeechRecognitionResults.csv",index=True)
 
