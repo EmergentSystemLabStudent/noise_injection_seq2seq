@@ -20,15 +20,15 @@ index,original_sentence
 18,Move to Living_Table  grasp Cup_Noodle  leave the apartment please .
 19,Can you go to Side_Table take cigarette carry it to Bar .
 20,Can you go to Kitchen_Table take apple carry it to Living_Table .
-21,Go to Corridor er find a person neayby bring sauce from Dining_Sofa .
+21,Go to Corridor er find a person nearby bring sauce from Dining_Sofa .
 22,Well go to Side_Table  take Korean_Soup finally come back .
-23,Go to Dining_Sofa find a person neayby  er follow a person .
+23,Go to Dining_Sofa find a person nearby  er follow a person .
 24,Would you move to Reception_Table take Orange_Juice then come back .
 25,Would you move to Side_Table take dog_doll then come back .
 26,Go to lobby take empty_ketchup put it on Dining_Table please .
 27,Would you go to Sofa  take Cup_Star  bring it to Side_Table .
 28,Go to Living_Sofa get Korean_Soup  exit from Kitchen_Room okay .
-29,Go to Bar find a person neayby  er follow a person .
+29,Go to Bar find a person nearby  er follow a person .
 30,Can you go to lobby get canned_juice then come back .
 31,Well move to Living_Table Grasp Brown_Tea then come back .
 32,Go to Dining_Table Grasp filled_plastic_bottle  leave the apartment please .
@@ -44,7 +44,7 @@ index,original_sentence
 42,Call a person then ask for an order get cubic_clock from Bar .
 43,Go to Corridor get Red_Tea throw it into Dustbin please .
 44,Go to Kitchen_Room  go to Dining_Sofa er leave the apartment .
-45,Go to Side_Table find a person neayby  er follow a person .
+45,Go to Side_Table find a person nearby  er follow a person .
 46,Move to Kitchen_Table  go to Living_Sofa then exit the apartment .
 47,Go to Living_Sofa  take filled_ketchup put it on Kitchen_Table okay .
 48,Can you move to Kitchen_Table get rabbit_doll then come back .
@@ -59,7 +59,7 @@ index,original_sentence
 57,Well go to Kitchen_Table  take dog_doll finally come back .
 58,Would you go to Kitchen_Table  take rubik's_cube  bring it to Dining_Table .
 59,Well move to Living_Sofa get empty_plastic_bottle and come back .
-60,Go to Kitchen_Table find a person neayby  er follow a person .
+60,Go to Kitchen_Table find a person nearby  er follow a person .
 61,Go to Living_Room get Blue_Potato throw it into Dustbin please .
 62,Can you go to kitchen Grasp bear_doll  bring it to Living_Table .
 63,Would you go to lobby Grasp pink_cup finally come back .
@@ -68,7 +68,7 @@ index,original_sentence
 66,Go to Visitor_Room next find toy_car take it .
 67,Go to Dining_Room  go to Side_Table then exit the apartment .
 68,Go to Dining_Room go to Living_Table  and exit from Visitor_Room .
-69,Go to Dining_Sofa find a person neayby  er follow a person .
+69,Go to Dining_Sofa find a person nearby  er follow a person .
 70,Call a person then ask for an order get Cloth_Cleaner from Dining_Table .
 71,Go to Bar  take spray_bottle put it on Dining_Sofa okay .
 72,Move to Living_Table  Grasp sauce  leave the apartment please .
