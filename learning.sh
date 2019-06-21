@@ -18,7 +18,14 @@ do
       echo "Data"$var >> log.txt 
       echo `./datasetMake.sh $var $noise`
       cd ..
-      python -m nmt.nmt --src=in --tgt=out --vocab_prefix=/home/emlab/Desktop/syuuron/nmt/Dataset/Vocab --train_prefix=/home/emlab/Desktop/syuuron/nmt/Dataset/traindata --dev_prefix=/home/emlab/Desktop/syuuron/nmt/Dataset/devdata --test_prefix=/home/emlab/Desktop/syuuron/recodescript/WANGDATA/google_phonemeresultdata --out_dir=/home/emlab/Desktop/syuuron/nmt/Noattention_${noise}_${var}_model --num_train_steps=12000 --steps_per_stats=100 --num_layers=1 --num_units=128 --dropout=0.2 --metrics=bleu --attention_architecture=standard 
+      python -m nmt.nmt --src=in --tgt=out\
+      --vocab_prefix=./Dataset/Vocab\
+      --train_prefix=./Dataset/traindata
+      --dev_prefix=./Dataset/devdata\
+      --test_prefix=./google_phonemeresultdata\
+      --out_dir=./DatasetResults/Noattention_${noise}_${var}_model\
+      --num_train_steps=12000 --steps_per_stats=100 --num_layers=1 --num_units=128 --dropout=0.2\
+      --metrics=bleu --attention_architecture=standard 
       echo Noattention_${noise}_${var}_model >> log.txt
       echo attention_${noise}_${var}_model >> log.txt
       cd Dataset
