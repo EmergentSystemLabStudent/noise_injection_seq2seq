@@ -13,9 +13,15 @@
 ### Experimental procedure
  - 1. Prepare GPSRDATA
  - 2. Make "original" Dataset
+ 
+     `./MakeoriginalDataset.sh`
  - 3. Make "edited" Dataset (Ineject Noise)
+ 
+     `./MakeSDM.sh`
  - 4. Prepare Utterance Data
    - 1. Speech Recognition
+ 
+     `./SpeechRecognition.sh`
  - 5. Learning
  - 6. Inference
 ### condition
