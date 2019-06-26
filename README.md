@@ -13,9 +13,15 @@
 ### Experimental procedure
  - 1. Prepare GPSRDATA
  - 2. Make "original" Dataset
+ 
+     `./MakeoriginalDataset.sh`
  - 3. Make "edited" Dataset (Ineject Noise)
+ 
+     `./MakeSDM.sh`
  - 4. Prepare Utterance Data
    - 1. Speech Recognition
+ 
+     `./SpeechRecognition.sh`
  - 5. Learning
  - 6. Inference
 ### condition
@@ -86,7 +92,7 @@
    --metrics=bleu \
    --attention_architecture=MultiInput`
 
-# 
+ 
 `python -m nmt.nmt \
 --src=in --tgt=out \
 --vocab_prefix=/home/emlab/Desktop/syuuron/phonemeWordSeq2Seq/Dataset/VocabNoisylabel \
@@ -122,24 +128,6 @@
 --metrics=bleu \
 --attention_architecture=standard \
 --attention=luong`
-
-
-
-Run the following command to start the training:
-`mkdir /tmp/nmt_model
-python -m nmt.nmt \
-    --src=vi --tgt=en \
-    --vocab_prefix=/tmp/nmt_data/vocab  \
-    --train_prefix=/tmp/nmt_data/train \
-    --dev_prefix=/tmp/nmt_data/tst2012  \
-    --test_prefix=/tmp/nmt_data/tst2013 \
-    --out_dir=/tmp/nmt_model \
-    --num_train_steps=12000 \
-    --steps_per_stats=100 \
-    --num_layers=2 \
-    --num_units=128 \
-    --dropout=0.2 \
-    --metrics=bleu`
     
 # Main Contributors
  - Yuki Tada (ex-student of Ritsumeikan University)
