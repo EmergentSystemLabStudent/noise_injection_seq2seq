@@ -1,3 +1,3 @@
 echo "start vocabMake"
-echo "vocabMake.py"
-python vocabMake.py traindata.csv data
+echo "vocab.py"
+python vocab.py traindata.csv data

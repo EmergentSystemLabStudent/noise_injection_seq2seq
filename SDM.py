@@ -160,15 +160,17 @@ def edit_phenome_sentence(phenomeSentence,rho):
 if __name__ == '__main__':
     #sys.argv[1]:edited data directory path
     #sys.argv[2]:original data directory path
-    #sys.argv[3]:original data file name (.csv)   
+    #sys.argv[3]:train/test/dev
+    #sys.argv[4]:noise level
 
     edited_dir_path = sys.argv[1]
     original_dir_path = sys.argv[2]
     original_filename = sys.argv[3]
-    data_filepath = original_dir_path + original_filename 
+    rho=float(sys.argv[4])
+    data_filepath = original_dir_path + original_filename +"data.csv" 
 
     sentences,labels = ReadFile(data_filepath)
-    rho=float(sys.argv[4])
+
     str_noiselevel = "rho="+str(rho)
     print(str_noiselevel)
     phenomedatas = []
@@ -180,29 +182,28 @@ if __name__ == '__main__':
         edited_phenome_sentence = edit_phenome_sentence(phenomeSentence,rho)
         noisydatas.append(edited_phenome_sentence)
 
-    shutil.rmtree(edited_dir_path+str_noiselevel)
     os.mkdir(edited_dir_path+str_noiselevel)
-    with open(edited_dir_path+str_noiselevel+"/"+str_noiselevel+"_original_sentence_"+original_filename.replace(".csv","")+".in",mode="w") as f:
+    with open(edited_dir_path+str_noiselevel+"/"+"original_sentence_"+original_filename.replace(".csv","")+".in",mode="w") as f:
         for i, sentence in enumerate(sentences):
             f.write(sentence)
             f.write("\n")
 
-    with open(edited_dir_path+str_noiselevel+"/"+str_noiselevel+"_phoneme_"+original_filename.replace(".csv","")+".in",mode="w") as f:
+    with open(edited_dir_path+str_noiselevel+"/"+"phoneme_"+original_filename.replace(".csv","")+".in",mode="w") as f:
         for i, phenomeSentence in enumerate(phenomedatas):
             f.write(" ".join(phenomeSentence))
             f.write("\n")
 
-    with open(edited_dir_path+str_noiselevel+"/"+str_noiselevel+"_edited_phoneme_"+original_filename.replace(".csv","")+".in",mode="w") as f:
+    with open(edited_dir_path+str_noiselevel+"/"+"edited_phoneme_"+original_filename.replace(".csv","")+".in",mode="w") as f:
         for i, noisySentence in enumerate(noisydatas):
             f.write(" ".join(noisySentence))
             f.write("\n")
 
-    with open(edited_dir_path+str_noiselevel+"/"+str_noiselevel+"_label_"+original_filename.replace(".csv","")+".out",mode="w") as f:
+    with open(edited_dir_path+str_noiselevel+"/"+"label_"+original_filename.replace(".csv","")+".out",mode="w") as f:
         for i, label in enumerate(labels):
             f.write(label)
             f.write("\n")
 
-    with open(edited_dir_path+str_noiselevel+"/"+str_noiselevel+"_"+original_filename,mode="w") as f:
+    with open(edited_dir_path+str_noiselevel+"/"+original_filename,mode="w") as f:
         f.writelines("original_sentence,phoneme,edited_phoneme,label\n")
         for i, (train_data, phenomeSentence, noisySentence, labelSentence) in enumerate(
                 zip(sentences, phenomedatas, noisydatas, labels)):
