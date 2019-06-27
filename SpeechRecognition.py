@@ -85,13 +85,13 @@ if __name__ == '__main__':
     out_dir = sys.argv[2]
     fitsf=sorted(glob.glob(dir+"*.wav"))
     results = []
-    for i,filename in enumerate(fitsf):
+    for _,filename in enumerate(fitsf):
         print(filename)
         result=SpeechRecognition(filename)
-        results.append([i,result[0],result[1],result[2],result[3],result[4]])
-    df1 = pd.DataFrame(results,columns=["index","filename","google_word","google_phoneme","sphinx_word","sphinx_phoneme"])
+        results.append([result[0],result[1],result[2],result[3],result[4]])
+    df1 = pd.DataFrame(results,columns=["filename","google_word","google_phoneme","sphinx_word","sphinx_phoneme"])
     df2 = pd.read_csv("GPSRsentence_list.csv")
-    df = pd.merge(df1,df2)
-    df.to_csv(out_dir+"SpeechRecognitionResults.csv",columns=["index","filename","original_sentence","google_word","google_phoneme","sphinx_word","sphinx_phoneme"])
+    df = pd.merge(df1,df2,left_index=True,right_index=True)
+    df.to_csv(out_dir+"SpeechRecognitionResults.csv",columns=["filename","original_sentence","google_word","google_phoneme","sphinx_word","sphinx_phoneme"] )
 
 
