@@ -9,5 +9,6 @@ if __name__ == '__main__':
         s1=s1.replace("_"," ")
         s1=s1.replace("."," ")
         s2=row.google_word
-        print(index,wer(s1,s2))
+        s3=row.sphinx_word
+        print(index,wer(s1,s2),wer(s1,s3)
 
