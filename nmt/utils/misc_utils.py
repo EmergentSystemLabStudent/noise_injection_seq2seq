@@ -26,11 +26,14 @@ import time
 from distutils import version
 
 import numpy as np
+import six
 import tensorflow as tf
 
 
 def check_tensorflow_version():
-  min_tf_version = "1.4.0-dev20171024"
+  # LINT.IfChange
+  min_tf_version = "1.12.0"
+  # LINT.ThenChange(<pwd>/nmt/copy.bara.sky)
   if (version.LooseVersion(tf.__version__) <
       version.LooseVersion(min_tf_version)):
     raise EnvironmentError("Tensorflow version must >= %s" % min_tf_version)
@@ -63,10 +66,10 @@ def print_out(s, f=None, new_line=True):
       f.write(b"\n")
 
   # stdout
-  out_s = s.encode("utf-8")
-  if not isinstance(out_s, str):
-    out_s = out_s.decode("utf-8")
-  print(out_s, end="", file=sys.stdout)
+  if six.PY2:
+    sys.stdout.write(s.encode("utf-8"))
+  else:
+    sys.stdout.buffer.write(s.encode("utf-8"))
 
   if new_line:
     sys.stdout.write("\n")

@@ -255,7 +255,7 @@ class BaseModel(object):
         self.global_step < hparams.warmup_steps,
         lambda: inv_decay * self.learning_rate,
         lambda: self.learning_rate,
-        name="learning_rate_warump_cond")
+        name="learning_rate_warmup_cond")
 
   def _get_decay_info(self, hparams):
     """Return decay info based on decay_scheme."""
@@ -534,12 +534,15 @@ class BaseModel(object):
         start_tokens = tf.fill([self.batch_size], tgt_sos_id)
         end_token = tgt_eos_id
         utils.print_out(
-            "  decoder: infer_mode=%sbeam_width=%d, length_penalty=%f" % (
-                infer_mode, hparams.beam_width, hparams.length_penalty_weight))
+            "  decoder: infer_mode=%sbeam_width=%d, "
+            "length_penalty=%f, coverage_penalty=%f"
+            % (infer_mode, hparams.beam_width, hparams.length_penalty_weight,
+               hparams.coverage_penalty_weight))
 
         if infer_mode == "beam_search":
           beam_width = hparams.beam_width
           length_penalty_weight = hparams.length_penalty_weight
+          coverage_penalty_weight = hparams.coverage_penalty_weight
 
           my_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
               cell=cell,
@@ -549,7 +552,8 @@ class BaseModel(object):
               initial_state=decoder_initial_state,
               beam_width=beam_width,
               output_layer=self.output_layer,
-              length_penalty_weight=length_penalty_weight)
+              length_penalty_weight=length_penalty_weight,
+              coverage_penalty_weight=coverage_penalty_weight)
         elif infer_mode == "sample":
           # Helper
           sampling_temperature = hparams.sampling_temperature

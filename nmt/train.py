@@ -437,7 +437,7 @@ def get_model_creator(hparams):
   if (hparams.encoder_type == "gnmt" or
       hparams.attention_architecture in ["gnmt", "gnmt_v2"]):
     model_creator = gnmt_model.GNMTModel
-  elif hparams.attention_architecture == "standard":
+  elif hparams.attention and hparams.attention_architecture == "standard":
     model_creator = attention_model.AttentionModel
   elif not hparams.attention:
     model_creator = nmt_model.Model
@@ -522,7 +522,6 @@ def train(hparams, scope=None, target_session=""):
       hparams.epoch_step += 1
     except tf.errors.OutOfRangeError:
       # Finished going through the training dataset.  Go to next epoch.
-      print("--------------------------------------------------------------------------------------------")
       hparams.epoch_step = 0
       utils.print_out(
           "# Finished an epoch, step %d. Perform external evaluation" %
