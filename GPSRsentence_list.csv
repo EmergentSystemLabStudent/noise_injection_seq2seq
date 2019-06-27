@@ -1,4 +1,4 @@
-,Input,Labeldata
+,original_sentence,label
 0,Well go to Sofa  take empty_ketchup finally come back .,Move ( Sofa )  Grasp ( empty_ketchup )  Comeback ( )
 1,Go to Dining_Sofa next detect camera  take it .,Move ( Dining_Sofa )  Find ( camera )  Grasp ( camera )
 2,Move to Living_Table  grasp Bleach  leave the apartment please .,Move ( Living_Table )  Grasp ( Bleach )  Move ( apartment )
