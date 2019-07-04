@@ -11,33 +11,29 @@ attentions=["attention_","Noattention_"]
 filename = sys.argv[1]+"ResultmatomeBlue.csv"
 ID = 0
 for attetnion in attentions:
-	for data in noisedata:
-		for Type in datatypes:
-			path=str(attetnion)+str(data)+"_"+str(Type)+"_model"
-			print("path:",path)
-			if (os.path.exists("./"+path)):
-				print(glob.glob("./"+path+"/"+'log_*'))
-				file=glob.glob("./"+path+"/"+'log_*')
-				print("file:",file)
-				sortdata=sorted([ x for x in file if os.path.isfile(x)], key=os.path.getmtime)
-				print("sortdata :",sortdata)				
-				latent_file=sortdata[-1]
-				print(latent_file)
-				with open(latent_file,"r") as f:
-					for line in f.readlines():
-						if(line.find("Best bleu") > 0):
-							start=line.find("test ppl")
-							end=line.rfind(",")
-							testdata=line[start:end].replace(" test bleu","").replace("test ppl ","").split(",")
-							float_testdata=[float(s) for s in testdata]
-							frame =pd.DataFrame([[str(latent_file),float(float_testdata[0]),float(float_testdata[1])]],columns=["data","PPL","BLUE"])
-							if (ID ==0 ):
-								frame.to_csv(filename,index=False,mode='a')
-								ID = 1
-							else:
-								frame.to_csv(filename,index=False,header=False,mode='a')
+    for data in noisedata:
+	for Type in datatypes:
+            path=str(attetnion)+str(data)+"_"+str(Type)+"_model"
+	    print("path:",path)
+	    if (os.path.exists("./"+path)):
+		print(glob.glob("./"+path+"/"+'log_*'))
+		file=glob.glob("./"+path+"/"+'log_*')
+		print("file:",file)
+		sortdata=sorted([ x for x in file if os.path.isfile(x)], key=os.path.getmtime)
+		print("sortdata :",sortdata)				
+		latent_file=sortdata[-1]
+		print(latent_file)
+		with open(latent_file,"r") as f:
+	            for line in f.readlines():
+			if(line.find("Best bleu") > 0):
+		            start=line.find("test ppl")
+			    end=line.rfind(",")
+			    testdata=line[start:end].replace(" test bleu","").replace("test ppl ","").split(",")
+			    float_testdata=[float(s) for s in testdata]
+			    frame =pd.DataFrame([[str(latent_file),float(float_testdata[0]),float(float_testdata[1])]],columns=["data","PPL","BLUE"])
+			    if (ID ==0 ):
+                                frame.to_csv(filename,index=False,mode='a')
+				ID = 1
+			    else:
+				frame.to_csv(filename,index=False,header=False,mode='a')
 
-
-
-
-            #print(os.path.basename(latent_file))
