@@ -4,7 +4,7 @@
     "avg_ckpts": false,
     "batch_size": 128,
     "beam_width": 0,
-    "best_bleu": 0,
+    "best_bleu": 97.88021804165385,
     "best_bleu_dir": "./Models/ex2/rho=0.05/best_bleu",
     "check_special_token": true,
     "colocate_gradients_with_ops": true,
