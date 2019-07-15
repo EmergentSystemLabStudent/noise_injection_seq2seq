@@ -72,7 +72,7 @@
 70,Call a person then ask for an order get Cloth_Cleaner from Dining_Table .,Say ( person ) Listen ( Cloth_Cleaner ) Move ( Dining_Table ) Find ( Cloth_Cleaner Dining_Table ) Grasp ( Cloth_Cleaner ) Move ( Cloth_Cleaner ) Place ( Cloth_Cleaner Dining_Table )
 71,Go to Bar  take spray_bottle put it on Dining_Sofa okay .,Move ( Bar ) Grasp ( spray_bottle ) Move ( Dining_Sofa ) Place ( spray_bottle Bar )
 72,Move to Living_Table  Grasp sauce  leave the apartment please .,Move ( Living_Table ) Find ( sauce Living_Table  ) Grasp ( sauce ) Move ( apartment )
-73,Go to kitchen  move to Kitchen_Table  finally leave the apartment .,Move ( kitchen ) Move ( Kitchen_Table )  Move ( apartment )
+73,Go to kitchen  move to Kitchen_Table  finally leave the apartment .,Move ( kitchen ) Move ( Kitchen_Table ) Move ( apartment )
 74,Go to Dining_Sofa and find a person neayby bring dog_doll from Living_Table .,Move ( Dining_Sofa ) Find ( dog_doll Dining_Sofa ) Grasp ( dog_doll ) Find ( PERSON Dining_Sofa ) Plcae ( dog_doll PERSON )
 75,Would you go to Sofa get Lemon_Tea carry it to Dining_Table .,Move ( Sofa ) Find ( Lemon_Tea Sofa ) Grasp ( Lemon_Tea ) Move ( Sofa )
 76,Go to Kitchen_Room  find a person neayby  finally follow a person .,Move ( Kitchen_Room ) Find ( person Kitchen_Room ) Follow ( person )
