@@ -1,0 +1,14 @@
+# log_file=./Models/ex2/rho=0.1/log_1563119362
+# Start step 11000, lr 1, Mon Jul 15 00:49:29 2019
+  step 11100 lr 1 step-time 0.18s wps 41.28K ppl 1.00 gN 0.33 bleu 93.81, Mon Jul 15 00:49:52 2019
+  step 11200 lr 1 step-time 0.17s wps 43.88K ppl 1.00 gN 0.36 bleu 93.81, Mon Jul 15 00:50:13 2019
+  step 11300 lr 1 step-time 0.17s wps 43.59K ppl 1.00 gN 0.34 bleu 93.81, Mon Jul 15 00:50:35 2019
+  step 11400 lr 1 step-time 0.17s wps 42.45K ppl 1.00 gN 0.34 bleu 93.81, Mon Jul 15 00:51:01 2019
+  step 11500 lr 1 step-time 0.17s wps 43.56K ppl 1.00 gN 0.32 bleu 93.81, Mon Jul 15 00:51:23 2019
+  step 11600 lr 1 step-time 0.17s wps 43.72K ppl 1.00 gN 0.33 bleu 93.81, Mon Jul 15 00:51:45 2019
+  step 11700 lr 1 step-time 0.17s wps 43.60K ppl 1.00 gN 0.26 bleu 93.81, Mon Jul 15 00:52:06 2019
+  step 11800 lr 1 step-time 0.18s wps 42.47K ppl 1.00 gN 0.26 bleu 93.81, Mon Jul 15 00:52:33 2019
+  step 11900 lr 1 step-time 0.17s wps 43.49K ppl 1.00 gN 0.28 bleu 93.81, Mon Jul 15 00:52:54 2019
+  step 12000 lr 1 step-time 0.17s wps 43.55K ppl 1.00 gN 0.24 bleu 93.81, Mon Jul 15 00:53:16 2019
+# Final, step 12000 lr 1 step-time 0.17s wps 43.55K ppl 1.00 gN 0.24 dev ppl 1.07, dev bleu 93.8, test ppl 1.08, test bleu 93.9, Mon Jul 15 00:53:25 2019
+# Best bleu, step 12000 lr 1 step-time 0.17s wps 43.55K ppl 1.00 gN 0.24 dev ppl 1.07, dev bleu 93.8, test ppl 1.08, test bleu 93.9, Mon Jul 15 00:53:31 2019
