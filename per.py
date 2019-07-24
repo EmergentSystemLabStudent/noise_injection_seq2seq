@@ -3,7 +3,7 @@ import pandas as pd
 import sys
 if __name__ == '__main__':
     f=open("GPSRsentence_phoneme_list","r")
-    dir="./speech_recognition_results/speaker_K/"
+    dir=sys.argv[1]
     g=open(dir+"google_phonemeresultdata.csv")
     s=open(dir+"sphinx_phonemeresultdata.csv")
     sumg=0
