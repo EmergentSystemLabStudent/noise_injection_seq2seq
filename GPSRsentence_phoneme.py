@@ -10,5 +10,5 @@ if __name__ == '__main__':
             ph = pronouncing.phones_for_word(str(word))
             if ph:
                 phoneme = phoneme + ph[0]+" "
-        print(index,phoneme)
+        print(index,",",phoneme)
 
