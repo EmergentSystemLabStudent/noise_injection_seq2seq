@@ -1,0 +1,44 @@
+# log_file=./Models/ex2/rho=0.1/log_1563091062
+# Start step 0, lr 1, Sun Jul 14 16:57:45 2019
+  step 100 lr 1 step-time 0.18s wps 41.37K ppl 10.74 gN 11.67 bleu 0.00, Sun Jul 14 16:58:03 2019
+  step 200 lr 1 step-time 0.17s wps 43.72K ppl 2.97 gN 1.63 bleu 0.00, Sun Jul 14 16:58:20 2019
+  step 300 lr 1 step-time 0.17s wps 43.77K ppl 2.67 gN 1.35 bleu 0.00, Sun Jul 14 16:58:38 2019
+  step 400 lr 1 step-time 0.17s wps 42.75K ppl 2.50 gN 1.24 bleu 0.00, Sun Jul 14 16:58:55 2019
+  step 500 lr 1 step-time 0.17s wps 43.54K ppl 2.44 gN 1.12 bleu 0.00, Sun Jul 14 16:59:13 2019
+  step 600 lr 1 step-time 0.17s wps 43.68K ppl 2.40 gN 1.16 bleu 0.00, Sun Jul 14 16:59:30 2019
+  step 700 lr 1 step-time 0.17s wps 43.67K ppl 2.36 gN 1.12 bleu 0.00, Sun Jul 14 16:59:48 2019
+  step 800 lr 1 step-time 0.17s wps 42.39K ppl 2.32 gN 1.39 bleu 0.00, Sun Jul 14 17:00:05 2019
+  step 900 lr 1 step-time 0.17s wps 43.56K ppl 2.23 gN 1.17 bleu 0.00, Sun Jul 14 17:00:23 2019
+  step 1000 lr 1 step-time 0.17s wps 43.75K ppl 2.18 gN 1.17 bleu 0.00, Sun Jul 14 17:00:40 2019
+  step 1100 lr 1 step-time 0.17s wps 43.55K ppl 2.13 gN 1.16 bleu 28.76, Sun Jul 14 17:01:04 2019
+  step 1200 lr 1 step-time 0.17s wps 42.64K ppl 2.10 gN 1.13 bleu 28.76, Sun Jul 14 17:01:29 2019
+  step 1300 lr 1 step-time 0.17s wps 43.78K ppl 2.05 gN 1.17 bleu 28.76, Sun Jul 14 17:01:49 2019
+  step 1400 lr 1 step-time 0.17s wps 43.64K ppl 2.01 gN 1.37 bleu 28.76, Sun Jul 14 17:02:11 2019
+  step 1500 lr 1 step-time 0.17s wps 43.62K ppl 1.95 gN 1.27 bleu 28.76, Sun Jul 14 17:02:31 2019
+  step 1600 lr 1 step-time 0.18s wps 42.57K ppl 1.90 gN 1.41 bleu 28.76, Sun Jul 14 17:02:56 2019
+  step 1700 lr 1 step-time 0.17s wps 43.62K ppl 1.83 gN 1.44 bleu 28.76, Sun Jul 14 17:03:17 2019
+  step 1800 lr 1 step-time 0.17s wps 43.80K ppl 1.78 gN 1.51 bleu 28.76, Sun Jul 14 17:03:38 2019
+  step 1900 lr 1 step-time 0.17s wps 42.48K ppl 1.73 gN 1.49 bleu 28.76, Sun Jul 14 17:04:03 2019
+  step 2000 lr 1 step-time 0.17s wps 43.64K ppl 1.68 gN 1.63 bleu 28.76, Sun Jul 14 17:04:24 2019
+  step 2100 lr 1 step-time 0.17s wps 43.87K ppl 1.63 gN 1.77 bleu 42.09, Sun Jul 14 17:04:48 2019
+  step 2200 lr 1 step-time 0.17s wps 43.57K ppl 1.55 gN 1.93 bleu 42.09, Sun Jul 14 17:05:10 2019
+  step 2300 lr 1 step-time 0.17s wps 42.62K ppl 1.45 gN 1.97 bleu 42.09, Sun Jul 14 17:05:35 2019
+  step 2400 lr 1 step-time 0.17s wps 43.71K ppl 1.35 gN 1.87 bleu 42.09, Sun Jul 14 17:05:57 2019
+  step 2500 lr 1 step-time 0.17s wps 43.69K ppl 1.29 gN 1.78 bleu 42.09, Sun Jul 14 17:06:18 2019
+  step 2600 lr 1 step-time 0.17s wps 43.79K ppl 1.24 gN 1.84 bleu 42.09, Sun Jul 14 17:06:40 2019
+  step 2700 lr 1 step-time 0.17s wps 42.40K ppl 1.19 gN 1.78 bleu 42.09, Sun Jul 14 17:07:06 2019
+  step 2800 lr 1 step-time 0.17s wps 44.00K ppl 1.16 gN 1.71 bleu 42.09, Sun Jul 14 17:07:27 2019
+  step 2900 lr 1 step-time 0.17s wps 43.65K ppl 1.13 gN 1.64 bleu 42.09, Sun Jul 14 17:07:49 2019
+  step 3000 lr 1 step-time 0.17s wps 43.70K ppl 1.10 gN 1.50 bleu 42.09, Sun Jul 14 17:08:10 2019
+  step 3100 lr 1 step-time 0.17s wps 42.69K ppl 1.08 gN 1.56 bleu 83.88, Sun Jul 14 17:08:39 2019
+  step 3200 lr 1 step-time 0.17s wps 43.76K ppl 1.07 gN 1.50 bleu 83.88, Sun Jul 14 17:09:01 2019
+  step 3300 lr 1 step-time 0.17s wps 43.73K ppl 1.06 gN 1.52 bleu 83.88, Sun Jul 14 17:09:22 2019
+  step 3400 lr 1 step-time 0.17s wps 42.50K ppl 1.05 gN 1.32 bleu 83.88, Sun Jul 14 17:09:48 2019
+  step 3500 lr 1 step-time 0.17s wps 43.71K ppl 1.04 gN 1.25 bleu 83.88, Sun Jul 14 17:10:10 2019
+  step 3600 lr 1 step-time 0.17s wps 43.88K ppl 1.03 gN 1.20 bleu 83.88, Sun Jul 14 17:10:31 2019
+  step 3700 lr 1 step-time 0.17s wps 43.53K ppl 1.03 gN 1.14 bleu 83.88, Sun Jul 14 17:10:53 2019
+  step 3800 lr 1 step-time 0.17s wps 42.44K ppl 1.03 gN 1.26 bleu 83.88, Sun Jul 14 17:11:19 2019
+  step 3900 lr 1 step-time 0.17s wps 43.88K ppl 1.02 gN 1.10 bleu 83.88, Sun Jul 14 17:11:41 2019
+  step 4000 lr 1 step-time 0.17s wps 43.66K ppl 1.02 gN 1.01 bleu 83.88, Sun Jul 14 17:12:02 2019
+  step 4100 lr 1 step-time 0.17s wps 43.61K ppl 1.02 gN 1.02 bleu 91.59, Sun Jul 14 17:12:26 2019
+ 
