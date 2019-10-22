@@ -3,7 +3,7 @@ def remove(line):
     line = line.replace('you','')
     line = line.replace('can','')
     line = line.replace('well','')
-    line = line.replace('er','')
+    line = line.replace(' er',' ')
     line = line.replace('please','')
     line = line.replace('and','')
     line = line.replace('next','')
@@ -12,100 +12,97 @@ def remove(line):
     line = line.replace('okay','')
     return line
 
+verbs = ['go','move','take','get','detect','find','grasp','bring','leave','come','exit','call','carry','place','put','throw']
+
+def conbine_words(words):
+    try:
+        conbined_words = str(words[0])
+        for word in words[1:]:
+            conbined_words = conbined_words + '_' +str(word)
+        return conbined_words
+    except:
+        return None
+#def search_verb(words):
+    
+
 def create_command(line):
     command = ""
-    while True:
-        if(line[0] == 'go' or line[0] == 'move'):
-            command = command + ' Move ( '
-            if 'go' in line[1:]:
-                if line[3:].index('go') == 0:
-                    command = command + line[2] + ' ) '
-                    del line[0:3]
-                elif line[3:].index('go') == 0:
-                    command = command + line[2] + '_' + line[3] + ' ) '
-                    del line[0:4]
-            elif 'move' in line[1:]:
-                if line[3:].index('move') == 0:
-                    command = command + line[2] + ' ) '
-                    del line[0:3]
-                elif line[4:].index('move') == 0:
-                    command = command + line[2] + '_' + line[3] + ' ) '
-                    del line[0:4]
-            elif  'take' in line:
-                if line.index('take') == 3:
-                    command = command + line[2] + ' ) ' + ' Find '
-                    del line[0:3]
-                elif line.index('take') == 4:
-                    command = command + line[2] + '_' +line[3] + ' ) '
-                    del line[0:4]
-            elif 'detect' in line:
-                if line.index('detect') == 3:
-                    command = command + line[2] + ' ) '
-                    command = command + ' Find ( ' + line[4] + ' ) '
-                    del line[0:4]
-                elif line.index('detect') == 4:
-                    command = command + line[2] + '_' +line[3] + ' ) '
-                    command = command + ' Find ( ' + line[5] + ' ) '
-                    del line[0:5]
-            elif 'get' in line:
-                if line.index('get') == 3:
-                    command = command + line[2] + ' ) '
-                    command = command + ' Find ( ' + line[4] + ' ) '
-                    del line[0:4]
-                elif line.index('get') == 4:
-                    command = command + line[2] + '_' +line[3] + ' ) '
-                    command = command + ' Find ( ' + line[5] + ' ) '
-                    del line[0:5]
-            elif 'find' in line:
-                if line.index('find') == 3:
-                    command = command + line[2] + ' ) '
-                    command = command + ' Find ( ' + line[4] + ' ) '
-                    del line[0:4]
-                elif line.index('find') == 4:
-                    command = command + line[2] + '_' +line[3] + ' ) '
-                    command = command + ' Find ( ' + line[5] + ' ) '
-                    del line[0:5]
-            elif 'grasp' in line:
-                if line.index('grasp') == 3:
-                    command = command + line[2] + ' ) '
-                    command = command + ' Find ( ' + line[4] + ' ) '
-                    del line[0:4]
-                elif line.index('grasp') == 4:
-                    command = command + line[2] + '_' +line[3] + ' ) '
-                    command = command + ' Find ( ' + line[5] + ' ) '
-                    del line[0:5]
-            elif 'come' in line[1:]:
-                if line.index('come') == 3:
-                    command = command + line[2] + ' ) '
-                    command = command + ' Find ( ' + line[4] + ' ) '
-                    del line[0:4]
-                elif line.index('come') == 4:
-                    command = command + line[2] + '_' +line[3] + ' ) '
-                    command = command + ' Find ( ' + line[5] + ' ) '
-                    del line[0:5]               
-            '''
-            
-            elif(line[3] == 'find'):
-                command = command + ' Find '
-            elif(line[4] == 'grasp'):
-                command = command + ' Find '
-            elif(line[0] == 'bring' or line[0] == 'get'):
-                command = command + ' Move ( '
-            '''
-        
-        elif((line[0] == 'leave' or line[0] == 'exit') and line[1] == 'the' and line[2] == 'apartment'):
-            command = command + ' Move ( apartment ) '
-        elif(line[0] == 'come' and line[1] == 'back'):
-            command = command + ' Move ( HERE ) '
-        elif(line[0] == 'exit'):
-            command = command + ' Move ( ' + line[2] + ')'
-        elif(line[0] == 'call'):
-            command = command + ' Say ( person ) '
-        
-        line.pop(0)
-        if len(line)==0:
-            break;
+    command_verb = []
+    command_objective = []
+    for i,word in enumerate(line):
+        for verb in verbs:
+          if word == verb:
+              command_verb.append((i,word))
+              break
+    print(command_verb)
+    for i in range(len(command_verb)):
+        verb = command_verb[i]
+        try:
+            next_verb = command_verb[i+1]
+        except:
+            next_verb = (len(line), None)
+        command_objective.append(line[verb[0]+1:next_verb[0]])
+        '''
+        if(verb[1] == 'go' or verb[1] == 'move'):
+            command_objective.append(line[verb[0]+2:next_verb[0]])
+        elif(verb[1] in ('take','detect','get','grasp')):
+            command_objective.append(line[verb[0]+1:next_verb[0]])
+        elif(verb[1] in ('place','throw','bring','carry','put')):
+            command_objective.append(line[verb[0]+3:next_verb[0]])
+        elif(verb[1] in ('find','grasp')):
+            if line[verb[0]+2] == 'person':
+                command_objective.append('person')
+            else:
+                command_objective.append(line[verb[0]+1:next_verb[0]])
+        elif(verb[1] == 'leave' or verb[1] == 'exit'):
+            command_objective.append('apartment')
+        elif(verb[1] == 'come'):
+            command_objective.append('HERE')
+        elif(verb[1] == 'call'):
+            command_objective.append('person')
+        '''
+    print(command_objective)
+
+
+
+    
     return command
+'''
+    while len(command_verb)!=0:
+        if(command_verb[0][1] in ('go','move','come','leave')):
+            command = command + ' Move ( ' + command_objective[0] + ' ) '
+            if len(command_verb) == 1:
+                command_verb.pop(0)
+                command_objective.pop(0)
+            elif len(command_verb) > 2:
+                if command_verb[1][1] == 'take':
+                    if command_verb[2][1] in ('bring','carry','place','come'):
+                        command = command + 'Find ( ' + command_objective[1] + ' , ' + command_objective[0] + ' ) '
+                        command = command + 'Grasp ( ' + command_objective[1] + ' ) '
+                        command = command + 'Move ( ' + command_objective[2] + ' ) '
+                elif command_verb[1][1] == 'get':
+                    if command_verb[2][1] == 'come':
+                        command = command + 'Grasp ( ' + command_objective[1] + ' ) '
+                        command = command + 'Move ( ' + command_objective[2] + ' ) '
+                    elif command_verb[2][1] == 'exit':
+                        command = command + 'Grasp ( ' + command_objective[1] + ' ) '
+                        command = command + 'Move ( ' + command_objective[2] + ' ) '                  
+                    elif command_verb[2][1] == 'place':
+                        command = command + 'Grasp ( ' + command_objective[1] + ' ) '
+                        command = command + 'Move ( ' + command_objective[2] + ' ) '                  
+                    elif command_verb[2][1] == 'throw':
+                        command = command + 'Grasp ( ' + command_objective[1] + ' ) '
+                        command = command + 'Move ( ' + command_objective[2] + ' ) '                  
+                elif command_verb[1][1] == 'detect':
+                    command = command + 'Grasp ( ' + command_objective[1] + ' ) '
+                elif command_verb[1][1] == 'find':
+                    command = command + 'Grasp ( ' + command_objective[1] + ' ) '
+                elif command_verb[1][1] == 'grasp':
+                    command = command + 'Grasp ( ' + command_objective[1] + ' ) '
+                del command_verb[0:2]
+                del command_objective[0:2]
+'''
+    
 
 if __name__ == '__main__':
     file = "./speech_recognition_results/speaker_W/google_wordresultdata.csv"
@@ -116,5 +113,6 @@ if __name__ == '__main__':
         line = line.split()
         print(line)
         print(create_command(line))
+        print('\n')
         line = f.readline()
     f.close()
