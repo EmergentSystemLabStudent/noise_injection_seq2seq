@@ -3,7 +3,7 @@
 1,Go to Dining_Sofa next detect camera  take it .,Move ( Dining_Sofa ) Find ( camera Dining_Sofa ) Grasp ( camera )
 2,Move to Living_Table  grasp Bleach  leave the apartment please .,Move ( Living_Table ) Grasp ( Bleach ) Move ( apartment )
 3,Go to Sofa  take Cup_Star put it on Living_Table okay .,Move ( Sofa ) Grasp ( Cup_Star ) Move ( Living_Table ) Place ( Cup_Star )
-4,Go to Kitchen_Table move to Living_Table take Red_Tea .,Move ( Kitchen_Table ) Move ( Living_Table ) Find ( Red_Tea Living_Table) Grasp ( Red_Tea ) Move ( HERE )
+4,Go to Kitchen_Table move to Living_Table take Red_Tea .,Move ( Kitchen_Table ) Move ( Living_Table ) Find ( Red_Tea Living_Table ) Grasp ( Red_Tea ) Move ( HERE )
 5,Can you move to Living_Table get toy_car then come back .,Move ( Living_Table ) Grasp ( toy_car )  Move ( HERE )
 6,Move to Side_Table get ground_pepper place it on Sofa okay .,Move ( Side_Table ) Grasp ( ground_pepper ) Move ( Sofa ) Place ( ground_pepper )
 7,Would you go to Kitchen_Table  take sugar  bring it to Side_Table .,Move ( Kitchen_Table ) Grasp ( sugar ) Move ( Side_Table )

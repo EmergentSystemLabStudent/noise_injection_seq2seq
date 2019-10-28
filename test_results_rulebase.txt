@@ -1,0 +1,689 @@
+['Green Tea', 'Orange Juice', 'Brown Tea', 'Japanese Tea', 'Red Tea', 'Lemon Tea', 'Strawberry Juice', 'Cup Star', 'Cup Noodle', 'Seafood Noodle', 'Korean Soup', 'Egg Soup', 'Onion Dressing', 'Japanese Dressing', 'Chip Star', 'Long Potato', 'Blue Potato', 'Red Potato', 'Stick Potato', 'Bleach', 'Cloth Cleaner', 'Dish Cleaner', 'Bath Cleaner', 'white cup', 'pink cup', 'tumbler', 'empty ketchup', 'filled ketchup', 'ground pepper', 'salt', 'sauce', 'soysauce', 'sugar', 'canned juice', 'empty plastic bottle', 'filled plastic bottle', 'cubic clock', 'bear doll', 'dog doll', 'rabbit doll', 'toy car', 'toy penguin', 'toy duck', 'nursing bottle', 'apple', 'cigarette', 'hourglass', 'camera', "rubik's cube", 'bell pepper', 'twin bell alarm clock', 'spray bottle']
+####
+['Dining Table', 'Dining Sofa', 'Sofa', 'Living Sofa', 'Side Table', 'Living Table', 'Kitchen Table', 'Bar', 'Reception Table']
+####
+['Dining Room', 'Living Room', 'Corridor', 'Kitchen Room', 'Visitor Room', 'bed room', 'kitchen', 'lobby', 'apartment']
+####
+0
+Well go to Sofa  take empty_ketchup finally come back .
+created_command : Move ( Sofa ) Grasp ( empty_ketchup ) Move ( HERE ) 
+label           : Move ( Sofa ) Grasp ( empty_ketchup ) Move ( HERE ) 
+OK
+
+
+1
+Go to Dining_Sofa next detect camera  take it .
+created_command : Move ( Dining_Sofa ) Find ( camera Dining_Sofa ) Grasp ( camera ) 
+label           : Move ( Dining_Sofa ) Find ( camera Dining_Sofa ) Grasp ( camera ) 
+OK
+
+
+2
+Move to Living_Table  grasp Bleach  leave the apartment please .
+created_command : Move ( Living_Table ) Grasp ( Bleach ) Move ( apartment ) 
+label           : Move ( Living_Table ) Grasp ( Bleach ) Move ( apartment ) 
+OK
+
+
+3
+Go to Sofa  take Cup_Star put it on Living_Table okay .
+created_command : Move ( Sofa ) Grasp ( Cup_Star ) Move ( Living_Table ) Place ( Cup_Star Sofa ) 
+label           : Move ( Sofa ) Grasp ( Cup_Star ) Move ( Living_Table ) Place ( Cup_Star ) 
+
+
+4
+Go to Kitchen_Table move to Living_Table take Red_Tea .
+created_command : Move ( Kitchen_Table ) Move ( Living_Table ) Find ( Red_Tea Living_Table ) Grasp ( Red_Tea ) Move ( HERE ) 
+label           : Move ( Kitchen_Table ) Move ( Living_Table ) Find ( Red_Tea Living_Table ) Grasp ( Red_Tea ) Move ( HERE ) 
+OK
+
+
+5
+Can you move to Living_Table get toy_car then come back .
+created_command : Move ( Living_Table ) Grasp ( toy_car ) Move ( HERE ) 
+label           : Move ( Living_Table ) Grasp ( toy_car ) Move ( HERE ) 
+OK
+
+
+6
+Move to Side_Table get ground_pepper place it on Sofa okay .
+created_command : Move ( Side_Table ) Grasp ( ground_pepper ) Move ( Sofa ) Place ( ground_pepper ) 
+label           : Move ( Side_Table ) Grasp ( ground_pepper ) Move ( Sofa ) Place ( ground_pepper ) 
+OK
+
+
+7
+Would you go to Kitchen_Table  take sugar  bring it to Side_Table .
+created_command : Move ( Kitchen_Table ) Find ( sugar Kitchen_Table ) Grasp ( sugar ) Move ( Side_Table ) 
+label           : Move ( Kitchen_Table ) Grasp ( sugar ) Move ( Side_Table ) 
+
+
+8
+Can you move to Side_Table get salt then come back .
+created_command : Move ( Side_Table ) Grasp ( salt ) Move ( HERE ) 
+label           : Move ( Side_Table ) Grasp ( salt ) Move ( HERE ) 
+OK
+
+
+9
+Go to Visitor_Room take canned_juice put it on Bar please .
+created_command : Move ( Visitor_Room ) Grasp ( canned_juice ) Move ( Bar ) Place ( canned_juice Visitor_Room ) 
+label           : Move ( Visitor_Room ) Find ( canned_juice Visitor_Room ) Grasp ( canned_juice ) Move ( Bar ) Place ( canned_juice ) 
+
+
+10
+Move to Sofa  go to Bar then exit the apartment .
+created_command : Move ( Sofa ) Move ( Bar ) Move ( apartment ) 
+label           : Move ( Sofa ) Move ( Bar ) Move ( apartment ) 
+OK
+
+
+11
+Well get Cup_Noodle from Living_Table go to Dining_Room move to Sofa .
+created_command : Move ( Living_Table ) Grasp ( Cup_Noodle ) Move ( Dining_Room ) Move ( Sofa ) 
+label           : Move ( Living_Table ) Grasp ( Cup_Noodle ) Move ( Dining_Room ) Move ( Sofa ) 
+OK
+
+
+12
+Call a person then ask for an order get Brown_Tea from Reception_Table .
+Brown_Tea
+Reception_Table
+created_command : Say ( person ) Listen ( Brown_Tea ) Move ( Reception_Table ) Find ( Brown_Tea Reception_Table ) Grasp ( Brown_Tea ) Move ( Brown_Tea ) Place ( Brown_Tea Reception_Table ) 
+label           : Say ( person ) Listen ( Brown_Tea ) Move ( Reception_Table ) Find ( Brown_Tea ) Grasp ( Brown_Tea ) Move ( Brown_Tea ) Place ( Brown_Tea ) 
+
+
+13
+Can you bring nursing_bottle from Bar go to Kitchen_Room move to Sofa .
+created_command : Move ( Bar ) Grasp ( nursing_bottle ) Move ( Kitchen_Room ) Move ( Sofa ) 
+label           : Move ( Bar ) Grasp ( nursing_bottle ) Move ( Kitchen_Room ) Move ( Sofa ) 
+OK
+
+
+14
+Can you bring filled_ketchup from Sofa go to lobby move to Reception_Table .
+created_command : Move ( Sofa ) Grasp ( filled_ketchup ) Move ( lobby ) Move ( Reception_Table ) 
+label           : Move ( Sofa ) Grasp ( filled_ketchup ) Move ( lobby ) Move ( Reception_Table ) 
+OK
+
+
+15
+Would you go to Dining_Table  take spray_bottle  bring it to Living_Sofa .
+created_command : Move ( Dining_Table ) Find ( spray_bottle Dining_Table ) Grasp ( spray_bottle ) Move ( Living_Sofa ) 
+label           : Move ( Dining_Table ) Grasp ( spray_bottle ) Move ( Living_Sofa ) 
+
+
+16
+Go to lobby  move to Dining_Table  finally leave the apartment .
+created_command : Move ( lobby ) Move ( Dining_Table ) Move ( apartment ) 
+label           : Move ( lobby ) Move ( Dining_Table ) Move ( apartment ) 
+OK
+
+
+17
+Would you move to Reception_Table grasp dog_doll and come back .
+created_command : Move ( Reception_Table ) Find ( dog_doll Reception_Table ) Grasp ( dog_doll ) Move ( HERE ) 
+label           : Move ( Reception_Table ) Grasp ( dog_doll ) Move ( HERE ) 
+
+
+18
+Move to Living_Table  grasp Cup_Noodle  leave the apartment please .
+created_command : Move ( Living_Table ) Grasp ( Cup_Noodle ) Move ( apartment ) 
+label           : Move ( Living_Table ) Grasp ( Cup_Noodle ) Move ( apartment ) 
+OK
+
+
+19
+Can you go to Side_Table take cigarette carry it to Bar .
+created_command : Move ( Side_Table ) Find ( cigarette Side_Table ) Grasp ( cigarette ) Move ( Side_Table ) 
+label           : Move ( Side_Table ) Find ( cigarette Side_Table ) Grasp ( cigarette ) Move ( Side_Table ) 
+OK
+
+
+20
+Can you go to Kitchen_Table take apple carry it to Living_Table .
+created_command : Move ( Kitchen_Table ) Find ( apple Kitchen_Table ) Grasp ( apple ) Move ( Kitchen_Table ) 
+label           : Move ( Kitchen_Table ) Find ( apple Kitchen_Table ) Grasp ( apple ) Move ( Kitchen_Table ) 
+OK
+
+
+21
+Go to Corridor er find a person neayby bring sauce from Dining_Sofa .
+created_command : Move ( Corridor ) Find ( person Corridor ) Move ( Dining_Sofa ) Grasp ( sauce ) 
+label           : Move ( Corridor ) Find ( person Corridor ) Move ( Dining_Sofa ) Grasp ( sauce ) 
+OK
+
+
+22
+Well go to Side_Table  take Korean_Soup finally come back .
+created_command : Move ( Side_Table ) Grasp ( Korean_Soup ) Move ( HERE ) 
+label           : Move ( Side_Table ) Grasp ( Korean_Soup ) Move ( HERE ) 
+OK
+
+
+23
+Go to Dining_Sofa find a person neayby  er follow a person .
+created_command : Move ( Dining_Sofa ) Find ( person Dining_Sofa ) Follow ( person ) 
+label           : Move ( Dining_Sofa ) Find ( person Dining_Sofa ) Follow ( person ) 
+OK
+
+
+24
+Would you move to Reception_Table take Orange_Juice then come back .
+created_command : Move ( Reception_Table ) Grasp ( Orange_Juice ) Move ( HERE ) 
+label           : Move ( Reception_Table ) Find ( Orange_Juice Reception_Table ) Grasp ( Orange_Juice ) Move ( HERE ) 
+
+
+25
+Would you move to Side_Table take dog_doll then come back .
+created_command : Move ( Side_Table ) Grasp ( dog_doll ) Move ( HERE ) 
+label           : Move ( Side_Table ) Find ( dog_doll Side_Table ) Grasp ( dog_doll ) Move ( HERE ) 
+
+
+26
+Go to lobby take empty_ketchup put it on Dining_Table please .
+created_command : Move ( lobby ) Grasp ( empty_ketchup ) Move ( Dining_Table ) Place ( empty_ketchup lobby ) 
+label           : Move ( lobby ) Find ( empty_ketchup lobby ) Grasp ( empty_ketchup ) Move ( Dining_Table ) Place ( empty_ketchup Dining_Table ) 
+
+
+27
+Would you go to Sofa  take Cup_Star  bring it to Side_Table .
+created_command : Move ( Sofa ) Find ( Cup_Star Sofa ) Grasp ( Cup_Star ) Move ( Side_Table ) 
+label           : Move ( Sofa ) Find ( Cup_Star Sofa ) Grasp ( Cup_Star ) Move ( Side_Table ) 
+OK
+
+
+28
+Go to Living_Sofa get Korean_Soup  exit from Kitchen_Room okay .
+created_command : Move ( Living_Sofa ) Find ( Korean_Soup Living_Sofa ) Grasp ( Korean_Soup ) Move ( Kitchen_Room ) 
+label           : Move ( Living_Sofa ) Find ( Korean_Soup Living_Sofa ) Grasp ( Korean_Soup ) Move ( Kitchen_Room ) 
+OK
+
+
+29
+Go to Bar find a person neayby  er follow a person .
+created_command : Move ( Bar ) Find ( person Bar ) Follow ( person ) 
+label           : Move ( Bar ) Find ( person Bar ) Follow ( person ) 
+OK
+
+
+30
+Can you go to lobby get canned_juice then come back .
+created_command : Move ( lobby ) Grasp ( canned_juice ) Move ( HERE ) 
+label           : Move ( lobby ) Find ( canned_juice lobby ) Grasp ( canned_juice ) Move ( HERE ) 
+
+
+31
+Well move to Living_Table Grasp Brown_Tea then come back .
+created_command : Move ( Living_Table ) Find ( Brown_Tea Living_Table ) Grasp ( Brown_Tea ) Move ( HERE ) 
+label           : Move ( Living_Table ) Move ( Brown_Tea ) Move ( HERE ) 
+
+
+32
+Go to Dining_Table Grasp filled_plastic_bottle  leave the apartment please .
+created_command : Move ( Dining_Table ) Grasp ( filled_plastic_bottle ) Move ( apartment ) 
+label           : Move ( Dining_Table ) Grasp ( filled_plastic_bottle ) Move ( apartment ) 
+OK
+
+
+33
+Well move to Reception_Table Grasp Japanese_Tea then come back .
+created_command : Move ( Reception_Table ) Find ( Japanese_Tea Reception_Table ) Grasp ( Japanese_Tea ) Move ( HERE ) 
+label           : Move ( Reception_Table ) Move ( Japanese_Tea ) Move ( HERE ) 
+
+
+34
+Go to lobby Grasp nursing_bottle throw it into Dustbin please .
+nursing_bottle
+created_command : Move ( lobby ) Grasp ( nursing_bottle ) Move ( Dustbin ) Place ( nursing_bottle Dustbin ) 
+label           : Move ( lobby ) Grasp ( nursing_bottle ) Move ( Dustbin ) Place ( nursing_bottle Dustbin ) 
+OK
+
+
+35
+Can you go to Visitor_Room get Japanese_Tea then come back .
+created_command : Move ( Visitor_Room ) Grasp ( Japanese_Tea ) Move ( HERE ) 
+label           : Move ( Visitor_Room ) Find ( Japanese_Tea Visitor_Room ) Grasp ( Japanese_Tea ) Move ( HERE ) 
+
+
+36
+Go to kitchen next find Cup_Noodle take it .
+created_command : Move ( kitchen ) Find ( Cup_Noodle kitchen ) Grasp ( Cup_Noodle ) 
+label           : Move ( kitchen ) Find ( Cup_Noodle kitchen ) Grasp ( Cup_Noodle ) 
+OK
+
+
+37
+Can you go to Visitor_Room get toy_penguin then come back .
+created_command : Move ( Visitor_Room ) Grasp ( toy_penguin ) Move ( HERE ) 
+label           : Move ( Visitor_Room ) Find ( toy_penguin Visitor_Room ) Grasp ( toy_penguin ) Move ( HERE ) 
+
+
+38
+Well get Bath_Cleaner from Living_Table go to Visitor_Room go to Living_Room .
+created_command : Move ( Living_Table ) Grasp ( Bath_Cleaner ) Move ( Visitor_Room ) Move ( Living_Room ) 
+label           : Move ( Living_Table ) Find ( Bath_Cleaner Living_Table ) Grasp ( Bath_Cleaner ) Move ( Visitor_Room ) Move ( Living_Room ) 
+
+
+39
+Would you go to Dining_Room Grasp pink_cup er come back .
+created_command : Move ( Dining_Room ) Find ( pink_cup Dining_Room ) Grasp ( pink_cup ) Move ( HERE ) 
+label           : Move ( Dining_Room ) Find ( pink_cup Dining_Room ) Move ( HERE ) 
+
+
+40
+Go to Dining_Sofa  take Korean_Soup put it on Bar okay .
+created_command : Move ( Dining_Sofa ) Grasp ( Korean_Soup ) Move ( Bar ) Place ( Korean_Soup Dining_Sofa ) 
+label           : Move ( Dining_Sofa ) Grasp ( Korean_Soup ) Move ( Bar ) Place ( Korean_Soup Dining_Sofa ) 
+OK
+
+
+41
+Go to lobby take nursing_bottle put it on Bar please .
+created_command : Move ( lobby ) Grasp ( nursing_bottle ) Move ( Bar ) Place ( nursing_bottle lobby ) 
+label           : Move ( lobby ) Find ( nursing_bottle lobby ) Grasp ( nursing_bottle ) Move ( Bar ) Place ( nursing_bottle Bar ) 
+
+
+42
+Call a person then ask for an order get cubic_clock from Bar .
+cubic_clock
+Bar
+created_command : Say ( person ) Listen ( cubic_clock ) Move ( Bar ) Find ( cubic_clock Bar ) Grasp ( cubic_clock ) Move ( cubic_clock ) Place ( cubic_clock Bar ) 
+label           : Say ( person ) Listen ( cubic_clock ) Move ( Bar ) Find ( cubic_clock Bar ) Grasp ( cubic_clock ) Move ( cubic_clock ) Place ( cubic_clock Bar ) 
+OK
+
+
+43
+Go to Corridor get Red_Tea throw it into Dustbin please .
+created_command : Move ( Corridor ) Find ( Red_Tea Corridor ) Grasp ( Red_Tea ) Move ( Dustbin ) Place ( Red_Tea Dustbin ) 
+label           : Move ( Corridor ) Find ( Red_Tea Corridor ) Grasp ( Red_Tea ) Move ( Dustbin ) Place ( Red_Tea Dustbin ) 
+OK
+
+
+44
+Go to Kitchen_Room  go to Dining_Sofa er leave the apartment .
+created_command : Move ( Kitchen_Room ) Move ( Dining_Sofa ) Move ( apartment ) 
+label           : Move ( Kitchen_Room ) Move ( Dining_Sofa ) Move ( apartment ) 
+OK
+
+
+45
+Go to Side_Table find a person neayby  er follow a person .
+created_command : Move ( Side_Table ) Find ( person Side_Table ) Follow ( person ) 
+label           : Move ( Side_Table ) Find ( person Side_Table ) Follow ( person ) 
+OK
+
+
+46
+Move to Kitchen_Table  go to Living_Sofa then exit the apartment .
+created_command : Move ( Kitchen_Table ) Move ( Living_Sofa ) Move ( apartment ) 
+label           : Move ( Kitchen_Table ) Move ( Living_Sofa ) Move ( apartment ) 
+OK
+
+
+47
+Go to Living_Sofa  take filled_ketchup put it on Kitchen_Table okay .
+created_command : Move ( Living_Sofa ) Grasp ( filled_ketchup ) Move ( Kitchen_Table ) Place ( filled_ketchup Living_Sofa ) 
+label           : Move ( Living_Sofa ) Grasp ( filled_ketchup ) Move ( Kitchen_Table ) Place ( filled_ketchup Living_Sofa ) 
+OK
+
+
+48
+Can you move to Kitchen_Table get rabbit_doll then come back .
+created_command : Move ( Kitchen_Table ) Grasp ( rabbit_doll ) Move ( HERE ) 
+label           : Move ( Kitchen_Table ) Grasp ( rabbit_doll ) Move ( HERE ) 
+OK
+
+
+49
+Well get toy_car from Sofa go to bed_room move to Living_Table .
+created_command : Move ( Sofa ) Grasp ( toy_car ) Move ( bed_room ) Move ( Living_Table ) 
+label           : Move ( Sofa ) Grasp ( toy_car ) Move ( bed_room ) Move ( Living_Table ) 
+OK
+
+
+50
+Go to Side_Table next detect toy_duck  take it .
+created_command : Move ( Side_Table ) Find ( toy_duck Side_Table ) Grasp ( toy_duck ) 
+label           : Move ( Side_Table ) Find ( toy_duck Side_Table ) Grasp ( toy_duck ) 
+OK
+
+
+51
+Go to Visitor_Room get toy_penguin throw it into Dustbin please .
+created_command : Move ( Visitor_Room ) Find ( toy_penguin Visitor_Room ) Grasp ( toy_penguin ) Move ( Dustbin ) Place ( toy_penguin Dustbin ) 
+label           : Move ( Visitor_Room ) Find ( toy_penguin Visitor_Room ) Grasp ( toy_penguin ) Move ( Dustbin ) Place ( toy_penguin Dustbin ) 
+OK
+
+
+52
+Would you move to Dining_Sofa get hourglass bring it to Side_Table .
+created_command : Move ( Dining_Sofa ) Find ( hourglass Dining_Sofa ) Grasp ( hourglass ) Move ( Dining_Sofa ) 
+label           : Move ( Dining_Sofa ) Find ( hourglass Dining_Sofa ) Grasp ( hourglass ) Move ( Dining_Sofa ) 
+OK
+
+
+53
+Would you move to Bar Grasp rubik's_cube and come back .
+created_command : Move ( Bar ) Find ( rubik's_cube Bar ) Grasp ( rubik's_cube ) Move ( HERE ) 
+label           : Move ( Bar ) Grasp ( rubik's_cube ) Move ( HERE ) 
+
+
+54
+Go to Kitchen_Room Grasp camera throw it into Dustbin please .
+camera
+created_command : Move ( Kitchen_Room ) Grasp ( camera ) Move ( Dustbin ) Place ( camera Dustbin ) 
+label           : Move ( Kitchen_Room ) Grasp ( camera ) Move ( Dustbin ) Place ( camera Dustbin ) 
+OK
+
+
+55
+Would you go to Sofa take Chip_Star er come back .
+created_command : Move ( Sofa ) Grasp ( Chip_Star ) Move ( HERE ) 
+label           : Move ( Sofa ) Find ( Chip_Star Sofa ) Grasp ( Chip_Star ) Move ( HERE ) 
+
+
+56
+Go to Visitor_Room next find apple Grasp it .
+created_command : Move ( Visitor_Room ) Find ( apple Visitor_Room ) Grasp ( apple ) 
+label           : Move ( Visitor_Room ) Find ( apple Visitor_Room ) Grasp ( apple ) 
+OK
+
+
+57
+Well go to Kitchen_Table  take dog_doll finally come back .
+created_command : Move ( Kitchen_Table ) Grasp ( dog_doll ) Move ( HERE ) 
+label           : Move ( Kitchen_Table ) Grasp ( dog_doll ) Move ( HERE ) 
+OK
+
+
+58
+Would you go to Kitchen_Table  take rubik's_cube  bring it to Dining_Table .
+created_command : Move ( Kitchen_Table ) Find ( rubik's_cube Kitchen_Table ) Grasp ( rubik's_cube ) Move ( Dining_Table ) 
+label           : Move ( Kitchen_Table ) Find ( rubik's_cube Kitchen_Table ) Grasp ( rubik's_cube ) Move ( Dining_Table ) 
+OK
+
+
+59
+Well move to Living_Sofa get empty_plastic_bottle and come back .
+created_command : Move ( Living_Sofa ) Grasp ( empty_plastic_bottle ) Move ( HERE ) 
+label           : Move ( Living_Sofa ) Grasp ( empty_plastic_bottle ) Move ( Living_Sofa ) Grasp ( empty_plastic_bottle ) Move ( HERE ) 
+
+
+60
+Go to Kitchen_Table find a person neayby  er follow a person .
+created_command : Move ( Kitchen_Table ) Find ( person Kitchen_Table ) Follow ( person ) 
+label           : Move ( Kitchen_Table ) Find ( person Kitchen_Table ) Follow ( person ) 
+OK
+
+
+61
+Go to Living_Room get Blue_Potato throw it into Dustbin please .
+created_command : Move ( Living_Room ) Find ( Blue_Potato Living_Room ) Grasp ( Blue_Potato ) Move ( Dustbin ) Place ( Blue_Potato Dustbin ) 
+label           : Move ( Living_Room ) Find ( Blue_Potato Living_Room ) Grasp ( Blue_Potato ) Move ( Dustbin ) Place ( Blue_Potato Dustbin ) 
+OK
+
+
+62
+Can you go to kitchen Grasp bear_doll  bring it to Living_Table .
+created_command : Move ( kitchen ) Find ( bear_doll kitchen ) Grasp ( bear_doll ) Move ( Living_Table ) Find ( bear_doll Living_Table ) Grasp ( bear_doll ) Move ( kitchen ) 
+label           : Move ( kitchen ) Find ( bear_doll kitchen ) Grasp ( bear_doll ) Move ( Living_Table ) Find ( bear_doll Living_Table ) Grasp ( bear_doll ) Move ( kitchen ) 
+OK
+
+
+63
+Would you go to lobby Grasp pink_cup finally come back .
+created_command : Move ( lobby ) Find ( pink_cup lobby ) Grasp ( pink_cup ) Move ( HERE ) 
+label           : Move ( lobby ) Find ( pink_cup lobby ) Grasp ( pink_cup ) Move ( HERE ) 
+OK
+
+
+64
+Move to Dining_Table  Grasp hourglass  leave the apartment please .
+created_command : Move ( Dining_Table ) Grasp ( hourglass ) Move ( apartment ) 
+label           : Move ( Dining_Table ) Find ( hourglass Dining_Table ) Grasp ( hourglass ) Move ( apartment ) 
+
+
+65
+Would you go to Dining_Sofa get Cloth_Cleaner carry it to Living_Table .
+created_command : Move ( Dining_Sofa ) Find ( Cloth_Cleaner Dining_Sofa ) Grasp ( Cloth_Cleaner ) Move ( Dining_Sofa ) 
+label           : Move ( Dining_Sofa ) Find ( Cloth_Cleaner Dining_Sofa ) Grasp ( Cloth_Cleaner ) Move ( Dining_Sofa ) 
+OK
+
+
+66
+Go to Visitor_Room next find toy_car take it .
+created_command : Move ( Visitor_Room ) Find ( toy_car Visitor_Room ) Grasp ( toy_car ) 
+label           : Move ( Visitor_Room ) Find ( toy_car Visitor_Room ) Grasp ( toy_car ) 
+OK
+
+
+67
+Go to Dining_Room  go to Side_Table then exit the apartment .
+created_command : Move ( Dining_Room ) Move ( Side_Table ) Move ( apartment ) 
+label           : Move ( Dining_Room ) Move ( Side_Table ) Move ( apartment ) 
+OK
+
+
+68
+Go to Dining_Room go to Living_Table  and exit from Visitor_Room .
+created_command : Move ( Dining_Room ) Move ( Living_Table ) Move ( Visitor_Room ) 
+label           : Move ( Dining_Room ) Move ( Living_Table ) Move ( Visitor_Room ) 
+OK
+
+
+69
+Go to Dining_Sofa find a person neayby  er follow a person .
+created_command : Move ( Dining_Sofa ) Find ( person Dining_Sofa ) Follow ( person ) 
+label           : Move ( Dining_Sofa ) Find ( person Dining_Sofa ) Follow ( person ) 
+OK
+
+
+70
+Call a person then ask for an order get Cloth_Cleaner from Dining_Table .
+Cloth_Cleaner
+Dining_Table
+created_command : Say ( person ) Listen ( Cloth_Cleaner ) Move ( Dining_Table ) Find ( Cloth_Cleaner Dining_Table ) Grasp ( Cloth_Cleaner ) Move ( Cloth_Cleaner ) Place ( Cloth_Cleaner Dining_Table ) 
+label           : Say ( person ) Listen ( Cloth_Cleaner ) Move ( Dining_Table ) Find ( Cloth_Cleaner Dining_Table ) Grasp ( Cloth_Cleaner ) Move ( Cloth_Cleaner ) Place ( Cloth_Cleaner Dining_Table ) 
+OK
+
+
+71
+Go to Bar  take spray_bottle put it on Dining_Sofa okay .
+created_command : Move ( Bar ) Grasp ( spray_bottle ) Move ( Dining_Sofa ) Place ( spray_bottle Bar ) 
+label           : Move ( Bar ) Grasp ( spray_bottle ) Move ( Dining_Sofa ) Place ( spray_bottle Bar ) 
+OK
+
+
+72
+Move to Living_Table  Grasp sauce  leave the apartment please .
+created_command : Move ( Living_Table ) Grasp ( sauce ) Move ( apartment ) 
+label           : Move ( Living_Table ) Find ( sauce Living_Table ) Grasp ( sauce ) Move ( apartment ) 
+
+
+73
+Go to kitchen  move to Kitchen_Table  finally leave the apartment .
+created_command : Move ( kitchen ) Move ( Kitchen_Table ) Move ( apartment ) 
+label           : Move ( kitchen ) Move ( Kitchen_Table ) Move ( apartment ) 
+OK
+
+
+74
+Go to Dining_Sofa and find a person neayby bring dog_doll from Living_Table .
+created_command : Move ( Dining_Sofa ) Find ( person Dining_Sofa ) Move ( Living_Table ) Grasp ( dog_doll ) 
+label           : Move ( Dining_Sofa ) Find ( dog_doll Dining_Sofa ) Grasp ( dog_doll ) Find ( PERSON Dining_Sofa ) Plcae ( dog_doll PERSON ) 
+
+
+75
+Would you go to Sofa get Lemon_Tea carry it to Dining_Table .
+created_command : Move ( Sofa ) Find ( Lemon_Tea Sofa ) Grasp ( Lemon_Tea ) Move ( Sofa ) 
+label           : Move ( Sofa ) Find ( Lemon_Tea Sofa ) Grasp ( Lemon_Tea ) Move ( Sofa ) 
+OK
+
+
+76
+Go to Kitchen_Room  find a person neayby  finally follow a person .
+created_command : Move ( Kitchen_Room ) Find ( person Kitchen_Room ) Follow ( person ) 
+label           : Move ( Kitchen_Room ) Find ( person Kitchen_Room ) Follow ( person ) 
+OK
+
+
+77
+Go to kitchen  find a person neayby  finally follow a person .
+created_command : Move ( kitchen ) Find ( person kitchen ) Follow ( person ) 
+label           : Move ( kitchen ) Find ( person kitchen ) Follow ( person ) 
+OK
+
+
+78
+Go to Dining_Room er find a person neayby bring camera from Dining_Table .
+created_command : Move ( Dining_Room ) Find ( person Dining_Room ) Move ( Dining_Table ) Grasp ( camera ) 
+label           : Move ( Dining_Room ) Find ( person Dining_Room ) Move ( Dining_Table ) Grasp ( camera ) 
+OK
+
+
+79
+Go to Visitor_Room Grasp nursing_bottle throw it into Dustbin please .
+nursing_bottle
+created_command : Move ( Visitor_Room ) Grasp ( nursing_bottle ) Move ( Dustbin ) Place ( nursing_bottle Dustbin ) 
+label           : Move ( Visitor_Room ) Grasp ( nursing_bottle ) Move ( Dustbin ) Place ( nursing_bottle Dustbin ) 
+OK
+
+
+80
+Go to Living_Room next find Lemon_Tea take it .
+created_command : Move ( Living_Room ) Find ( Lemon_Tea Living_Room ) Grasp ( Lemon_Tea ) 
+label           : Move ( Living_Room ) Find ( Lemon_Tea Living_Room ) Grasp ( Lemon_Tea ) 
+OK
+
+
+81
+Go to Dining_Sofa take Red_Potato  leave the apartment please .
+created_command : Move ( Dining_Sofa ) Grasp ( Red_Potato ) Move ( apartment ) 
+label           : Move ( Dining_Sofa ) Grasp ( Red_Potato ) Move ( apartment ) 
+OK
+
+
+82
+Would you go to Bar  take Red_Potato  bring it to Dining_Table .
+created_command : Move ( Bar ) Find ( Red_Potato Bar ) Grasp ( Red_Potato ) Move ( Dining_Table ) 
+label           : Move ( Bar ) Find ( Red_Potato Bar ) Grasp ( Red_Potato ) Move ( Dining_Table ) 
+OK
+
+
+83
+Well move to Reception_Table Grasp Japanese_Dressing then come back .
+created_command : Move ( Reception_Table ) Find ( Japanese_Dressing Reception_Table ) Grasp ( Japanese_Dressing ) Move ( HERE ) 
+label           : Move ( Reception_Table ) Move ( Japanese_Dressing ) Move ( HERE ) 
+
+
+84
+Would you go to lobby Grasp toy_penguin finally come back .
+created_command : Move ( lobby ) Find ( toy_penguin lobby ) Grasp ( toy_penguin ) Move ( HERE ) 
+label           : Move ( lobby ) Find ( toy_penguin lobby ) Grasp ( toy_penguin ) Move ( HERE ) 
+OK
+
+
+85
+Go to lobby er find a person neayby bring cubic_clock from Sofa .
+created_command : Move ( lobby ) Find ( person lobby ) Move ( Sofa ) Grasp ( cubic_clock ) 
+label           : Move ( lobby ) Find ( person lobby ) Move ( Sofa ) Grasp ( cubic_clock ) 
+OK
+
+
+86
+Well get Egg_Soup from Sofa go to Visitor_Room move to Dining_Table .
+created_command : Move ( Sofa ) Grasp ( Egg_Soup ) Move ( Visitor_Room ) Move ( Dining_Table ) 
+label           : Move ( Sofa ) Grasp ( Egg_Soup ) Move ( Visitor_Room ) Move ( Dining_Table ) 
+OK
+
+
+87
+Move to Dining_Table  go to Sofa then exit the apartment .
+created_command : Move ( Dining_Table ) Move ( Sofa ) Move ( apartment ) 
+label           : Move ( Dining_Table ) Move ( Sofa ) Move ( apartment ) 
+OK
+
+
+88
+Move to Living_Table get salt place it on Bar okay .
+created_command : Move ( Living_Table ) Grasp ( salt ) Move ( Bar ) Place ( salt ) 
+label           : Move ( Living_Table ) Find ( salt Living_Table ) Grasp ( salt ) Move ( Bar ) Place ( salt Living_Table ) 
+
+
+89
+Go to Visitor_Room next find Strawberry_Juice take it .
+created_command : Move ( Visitor_Room ) Find ( Strawberry_Juice Visitor_Room ) Grasp ( Strawberry_Juice ) 
+label           : Move ( Visitor_Room ) Find ( Strawberry_Juice Visitor_Room ) Grasp ( Strawberry_Juice ) 
+OK
+
+
+90
+Go to Corridor take toy_duck put it on Reception_Table please .
+created_command : Move ( Corridor ) Grasp ( toy_duck ) Move ( Reception_Table ) Place ( toy_duck Corridor ) 
+label           : Move ( Corridor ) Find ( toy_duck Corridor ) Grasp ( toy_duck ) Move ( Reception_Table ) Place ( toy_duck Reception_Table ) 
+
+
+91
+Well go to Dining_Sofa  take Cup_Noodle finally come back .
+created_command : Move ( Dining_Sofa ) Grasp ( Cup_Noodle ) Move ( HERE ) 
+label           : Move ( Dining_Sofa ) Grasp ( Cup_Noodle ) Move ( HERE ) 
+OK
+
+
+92
+Go to kitchen  go to Living_Sofa er leave the apartment .
+created_command : Move ( kitchen ) Move ( Living_Sofa ) Move ( apartment ) 
+label           : Move ( kitchen ) Move ( Living_Sofa ) Move ( apartment ) 
+OK
+
+
+93
+Go to lobby get empty_plastic_bottle throw it into Dustbin please .
+created_command : Move ( lobby ) Find ( empty_plastic_bottle lobby ) Grasp ( empty_plastic_bottle ) Move ( Dustbin ) Place ( empty_plastic_bottle Dustbin ) 
+label           : Move ( lobby ) Find ( empty_plastic_bottle lobby ) Grasp ( empty_plastic_bottle ) Move ( Dustbin ) Place ( empty_plastic_bottle Dustbin ) 
+OK
+
+
+94
+Would you go to lobby Grasp soysauce er come back .
+created_command : Move ( lobby ) Find ( soysauce lobby ) Grasp ( soysauce ) Move ( HERE ) 
+label           : Move ( lobby ) Find ( soysauce lobby ) Move ( HERE ) 
+
+
+95
+Go to Kitchen_Room get twin_bell_alarm_clock throw it into Dustbin please .
+created_command : Move ( Kitchen_Room ) Find ( twin_bell_alarm_clock Kitchen_Room ) Grasp ( twin_bell_alarm_clock ) Move ( Dustbin ) Place ( twin_bell_alarm_clock Dustbin ) 
+label           : Move ( Kitchen_Room ) Find ( twin_bell_alarm_clock Kitchen_Room ) Grasp ( twin_bell_alarm_clock ) Move ( Dustbin ) Place ( twin_bell_alarm_clock Dustbin ) 
+OK
+
+
+96
+Well go to Kitchen_Table  take Brown_Tea  bring it to Dining_Sofa .
+created_command : Move ( Kitchen_Table ) Find ( Brown_Tea Kitchen_Table ) Grasp ( Brown_Tea ) Move ( Dining_Sofa ) 
+label           : Move ( Kitchen_Table ) Find ( Brown_Tea Kitchen_Table ) Grasp ( Brown_Tea ) Move ( Kitchen_Table ) 
+
+
+97
+Go to lobby  go to Reception_Table er leave the apartment .
+created_command : Move ( lobby ) Move ( Reception_Table ) Move ( apartment ) 
+label           : Move ( lobby ) Move ( Reception_Table ) Move ( apartment ) 
+OK
+
+
+98
+Would you go to Bar take Red_Potato er come back .
+created_command : Move ( Bar ) Grasp ( Red_Potato ) Move ( HERE ) 
+label           : Move ( Bar ) Find ( Red_Potato Bar ) Grasp ( Red_Potato ) Move ( HERE ) 
+
+
+99
+Would you go to lobby Grasp toy_duck finally come back .
+created_command : Move ( lobby ) Find ( toy_duck lobby ) Grasp ( toy_duck ) Move ( HERE ) 
+label           : Move ( lobby ) Find ( toy_duck lobby ) Grasp ( toy_duck ) Move ( HERE ) 
+OK
+
+
+71
+[0, 1, 2, 4, 5, 6, 8, 10, 11, 13, 14, 16, 18, 19, 20, 21, 22, 23, 27, 28, 29, 32, 34, 36, 40, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 54, 56, 57, 58, 60, 61, 62, 63, 65, 66, 67, 68, 69, 70, 71, 73, 75, 76, 77, 78, 79, 80, 81, 82, 84, 85, 86, 87, 89, 91, 92, 93, 95, 97, 99]
+[3, 7, 9, 12, 15, 17, 24, 25, 26, 30, 31, 33, 35, 37, 38, 39, 41, 53, 55, 59, 64, 72, 74, 83, 88, 90, 94, 96, 98]
