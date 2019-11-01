@@ -1,0 +1,100 @@
+Say ( person ) Listen ( dummy ) Move ( dummy ) Find ( dummy dummy ) Grasp ( dummy ) Move ( dummy ) Place ( dummy dummy ) 
+
+
+
+
+
+
+Move ( Visitor_Room ) 
+Move ( bed_room ) Find ( Egg_Soup Reception Table ) Grasp ( Egg_Soup ) 
+
+Move ( HERE ) 
+
+Say ( person ) Listen ( dummy ) Move ( dummy ) Find ( dummy dummy ) Grasp ( dummy ) Move ( dummy ) Place ( dummy dummy ) 
+
+
+Move ( apartment ) Say ( person ) Listen ( dummy ) Move ( dummy ) Find ( dummy dummy ) Grasp ( dummy ) Move ( dummy ) Place ( dummy dummy ) 
+Move ( lobby ) 
+Say ( person ) Listen ( dummy ) Move ( dummy ) Find ( dummy dummy ) Grasp ( dummy ) Move ( dummy ) Place ( dummy dummy ) 
+
+
+
+Move ( Living_Room ) 
+Move ( Visitor_Room ) 
+
+
+
+Move ( lobby ) Find ( Egg_Soup Reception Table ) Grasp ( Egg_Soup ) 
+Move ( Corridor ) 
+Move ( Dining_Room ) Find ( Japanese_Tea Reception Table ) Grasp ( Japanese_Tea ) 
+Move ( bed_room ) Find ( Japanese_Tea bed_room ) 
+Move ( apartment ) Find ( Cup_Star Reception Table ) Grasp ( Cup_Star ) 
+Move ( lobby ) 
+
+
+Move ( kitchen ) 
+Move ( bed_room ) Find ( Red_Tea Reception Table ) Grasp ( Red_Tea ) 
+Move ( Dining_Room ) Find ( Red_Potato Dining_Room ) 
+Move ( kitchen ) Find ( twin_bell_alarm_clock Reception Table ) Grasp ( twin_bell_alarm_clock ) 
+
+Move ( Living_Room ) 
+Move ( bed_room ) 
+Move ( apartment ) Find ( rubik's_cube apartment ) Grasp ( rubik's_cube ) Move ( HERE ) 
+
+Move ( lobby ) Move ( bed_room ) Find ( Seafood_Noodle Reception Table ) Grasp ( Seafood_Noodle ) 
+
+Move ( Living_Room ) 
+
+
+
+
+
+
+
+
+
+
+
+Move ( Dining_Room ) 
+
+Say ( person ) Listen ( dummy ) Move ( dummy ) Find ( dummy dummy ) Grasp ( dummy ) Move ( dummy ) Place ( dummy dummy ) 
+Move ( bed_room ) 
+
+
+
+Say ( person ) Listen ( dummy ) Move ( dummy ) Find ( dummy dummy ) Grasp ( dummy ) Move ( dummy ) Place ( dummy dummy ) 
+Move ( kitchen ) Find ( rabbit_doll Reception Table ) Grasp ( rabbit_doll ) 
+Move ( kitchen ) Find ( Cup_Star kitchen ) 
+Move ( apartment ) 
+Move ( Corridor ) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Move ( lobby ) 
+
+Move ( apartment ) Find ( filled_plastic_bottle apartment ) 
+
+
+
+
+
+Move ( Living_Room ) Find ( Onion_Dressing Living_Room ) Grasp ( Onion_Dressing ) Move ( HERE ) 
+Move ( Kitchen_Room ) 
+
+
+Move ( Living_Room ) 
+
+Move ( kitchen ) Find ( filled_ketchup kitchen ) Grasp ( filled_ketchup ) Move ( HERE ) 
+
+Move ( bed_room ) 
+
