@@ -380,17 +380,18 @@ def create_command(line):
         elif verb == 'call':
             command_verb.append('Say')
             command_objective.append('person')
-            item_and_place = sentence_non_verb.pop(2)
-            fr = item_and_place.index('from')
-            item = check_command_items(item_and_place[:fr])
-            place = check_command_places(item_and_place[fr+1:])
-            print(item)
-            print(place)
+            try:
+                item_and_place = sentence_non_verb.pop(2)       
+                fr = item_and_place.index('from')
+                item = check_command_items(item_and_place[:fr])
+                place = check_command_places(item_and_place[fr+1:])
+            except:
+                item = 'dummy'
+                place = 'dummy'
             command_verb.append('Listen')
             command_objective.append(item)
             command_verb.append('Move')
             command_objective.append(place)
-            #command_objective.append(check_command_places(sentence_non_verb.pop(0)))
             command_verb.append('Find')
             # on:12 off:70
             #command_objective.append(item)
@@ -425,7 +426,7 @@ rooms = []
 
 if __name__ == '__main__':
     
-    file = "./speech_recognition_results/speaker_W/google_wordresultdata.csv"
+    file = "./speech_recognition_results/speaker_W/sphinx_wordresultdata.csv"
     f = open(file,mode='r')
     
     file_items = "./GPSRDATA/items.txt"
@@ -435,8 +436,8 @@ if __name__ == '__main__':
             if item[0] != '#':
                 items.append(item)
 
-    print(items)
-    print('####')
+    #print(items)
+    #print('####')
 
     file_locations = "./GPSRDATA/locations.txt"
     fl = open(file_locations,mode='r')
@@ -444,8 +445,8 @@ if __name__ == '__main__':
         if location != '':
             if location[0] != '#':
                 locations.append(location)
-    print(locations)
-    print('####')
+    #print(locations)
+    #print('####')
 
     file_rooms = "./GPSRDATA/rooms.txt"
     fr = open(file_rooms,mode='r')
@@ -454,9 +455,9 @@ if __name__ == '__main__':
             if room[0] != '#':
                 rooms.append(room)
     rooms.append('apartment')
-    print(rooms)    
-    print('####')
-
+    #print(rooms)    
+    #print('####')
+    '''
     sum = 0
     correct =[]
     df=pd.read_csv("GPSRsentence_list.csv")
@@ -485,14 +486,19 @@ if __name__ == '__main__':
     print(correct)
     print([3,7,9,12,15,17,24,25,26,30,31,33,35,37,38,39,41,53,55,59,64,72,74,83,88,90,94,96,98])
     '''
-    line = f.readline()
-    while line:
-        print(line)
+    df=pd.read_csv("GPSRsentence_list.csv")
+    lines = f.readlines()
+    for i in range(100):
+        #print(i)
+        #print(df.loc[i,'original_sentence'])       
+        line = lines[i]
+        #print(line)
         line = remove(line)
         line = line.split()
         print(create_command(line))
-        print('\n')
+        #print(df.loc[i,'label'])
+        #print('\n')
         line = f.readline()
 
     f.close()
-    '''
+
