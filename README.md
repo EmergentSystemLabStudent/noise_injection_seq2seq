@@ -7,6 +7,9 @@
 
 # contents
 
+# Setup
+## conda
+## pip
 
 # Experiments
 ## Experiment 1
