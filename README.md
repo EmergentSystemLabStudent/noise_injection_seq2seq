@@ -1,4 +1,6 @@
-# noise_injection_seq2seq
+NI-seq2seq (Noise injection sequence to sequence)
+=======================
+
 
 
 # Overview
@@ -58,8 +60,8 @@
 ### Experimental procedure
 ### condition
 
-
-
+# Reference
+- Yuuki Tada, Yoshinobu Hagiwara, Hiroki Tanaka and Tadahiro Taniguchi. [Robust Understanding of Robot-Directed Speech Commands Using Sequence to Sequence With Noise Injection](https://www.frontiersin.org/articles/10.3389/frobt.2019.00144/full), 2020.
 # Main Contributors
  - Yuki Tada (ex-student of Ritsumeikan University)
 # maintainor
