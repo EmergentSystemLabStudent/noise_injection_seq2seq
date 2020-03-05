@@ -13,12 +13,12 @@ def Readdata(filename, inputhead):
         textdatas = []
         for data in datas:
             text = np.array([])
-            data_list = (str(data).replace('\n', '')).split()
+            data_list = (str(data).replace("\n", "")).split()
             data_length = len(data_list)
             for i, word in enumerate(data_list):
-                if (i == 0):
+                if i == 0:
                     text = np.append(text, word)
-                elif (i >= data_length - 1):
+                elif i >= data_length - 1:
                     text = np.append(text, word)
                 else:
                     text = np.append(text, word)
@@ -47,8 +47,10 @@ def OnehotMakedata(filedatalist, picklefilename):
             if c_f.get(symbol) is None:
                 c_f[symbol] = 0
             c_f[symbol] += 1
-    c_i = {c: e for e, (c, f) in enumerate(
-        sorted(c_f.items(), key=lambda x: x[1] * -1)[:depth])}
+    c_i = {
+        c: e
+        for e, (c, f) in enumerate(sorted(c_f.items(), key=lambda x: x[1] * -1)[:depth])
+    }
     open(picklefilename, "wb").write(pickle.dumps(c_i))
 
 
@@ -59,16 +61,16 @@ def Makevocab(picklefilename, outputfilename):
     print(len(c_i))
     with open(outputfilename, "w") as f:
         for word in c_i:
-            f.write(word+"\n")
+            f.write(word + "\n")
 
 
-if __name__ == '__main__':
-    data_filename = "./OriginalDataset/"+sys.argv[1]
+if __name__ == "__main__":
+    data_filename = "./OriginalDataset/" + sys.argv[1]
     datas, label_datas = Readdata(data_filename, sys.argv[2])
-    print("sentence_length:"+str(SentenceLength(data_filename)))
+    print("sentence_length:" + str(SentenceLength(data_filename)))
     picklename = "Vocabulary.pkl"
     OnehotMakedata(datas, picklename)
     if sys.argv[2] == "label":
         Makevocab(picklename, "./Dataset/Vocab.out")
     else:
-        Makevocab(picklename, "./Dataset/Vocab"+sys.argv[2]+".in")
+        Makevocab(picklename, "./Dataset/Vocab" + sys.argv[2] + ".in")

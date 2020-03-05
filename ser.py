@@ -1,8 +1,9 @@
 import pandas as pd
 import sys
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     dir = sys.argv[1]
-    df = pd.read_csv(dir+"SpeechRecognitionResults.csv")
+    df = pd.read_csv(dir + "SpeechRecognitionResults.csv")
     sumg = 0
     sums = 0
     for index, row in df.iterrows():
@@ -19,9 +20,9 @@ if __name__ == '__main__':
         print(s2)
         print(s3)
         print(s1 == s2)
-        if(s1 == s2):
-            sumg = sumg+1
-        if(s1 == s3):
-            sums = sums+1
+        if s1 == s2:
+            sumg = sumg + 1
+        if s1 == s3:
+            sums = sums + 1
 
-    print("Google:", sumg/100.0, " , Sphinx:", sums/100.0)
+    print("Google:", sumg / 100.0, " , Sphinx:", sums / 100.0)

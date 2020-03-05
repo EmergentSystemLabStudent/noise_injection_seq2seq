@@ -1,9 +1,10 @@
 from jiwer import wer
 import pandas as pd
 import sys
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     dir = sys.argv[1]
-    df = pd.read_csv(dir+"SpeechRecognitionResults.csv")
+    df = pd.read_csv(dir + "SpeechRecognitionResults.csv")
     sumg = 0
     sums = 0
     for index, row in df.iterrows():
@@ -17,4 +18,4 @@ if __name__ == '__main__':
         print(index, wg, ws)
         sumg += wg
         sums += ws
-    print("avg", sumg/100.0, sums/100.0)
+    print("avg", sumg / 100.0, sums / 100.0)

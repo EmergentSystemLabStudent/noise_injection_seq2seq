@@ -1,10 +1,11 @@
 from jiwer import wer
 import sys
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     f = open("GPSRsentence_phoneme_list", "r")
     dir = sys.argv[1]
-    g = open(dir+"google_phonemeresultdata.csv")
-    s = open(dir+"sphinx_phonemeresultdata.csv")
+    g = open(dir + "google_phonemeresultdata.csv")
+    s = open(dir + "sphinx_phonemeresultdata.csv")
     sumg = 0
     sums = 0
 
@@ -18,4 +19,4 @@ if __name__ == '__main__':
         print(i, wg, ws)
         sumg += wg
         sums += ws
-    print("avg", sumg/100.0, sums/100.0)
+    print("avg", sumg / 100.0, sums / 100.0)
