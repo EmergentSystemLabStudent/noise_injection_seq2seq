@@ -4,8 +4,7 @@ NI-seq2seq (Noise injection sequence to sequence)
 
 
 # Overview
-
-
+![overview](https://user-images.githubusercontent.com/990923/75913992-4a6dbd80-5e97-11ea-9a25-4f0215711967.jpg)
 
 # contents
 
@@ -62,6 +61,11 @@ NI-seq2seq (Noise injection sequence to sequence)
 
 # Reference
 - Yuuki Tada, Yoshinobu Hagiwara, Hiroki Tanaka and Tadahiro Taniguchi. [Robust Understanding of Robot-Directed Speech Commands Using Sequence to Sequence With Noise Injection](https://www.frontiersin.org/articles/10.3389/frobt.2019.00144/full), 2020.
+
+# LINK
+- https://github.com/komeisugiura/GPSRsentence_generator
+- https://github.com/tensorflow/nmt
+
 # Main Contributors
  - Yuki Tada (ex-student of Ritsumeikan University)
 # maintainor
