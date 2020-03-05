@@ -1,3 +1,4 @@
 *.pkl
 GPSR/tempGPSRSentence.csv
 .vscode/
+OriginalDataset/*.csv
