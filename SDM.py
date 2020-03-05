@@ -1,3 +1,4 @@
+import pronouncing
 import numpy as np
 import pandas as pd
 import sys
@@ -166,18 +167,25 @@ def edit_phenome_sentence(phenomeSentence, rho):
 
 
 if __name__ == "__main__":
-    # sys.argv[1]:edited data directory path
-    # sys.argv[2]:original data directory path
-    # sys.argv[3]:train/test/dev
-    # sys.argv[4]:noise level
+    """
+    sys.argv[1]:edited data directory path
+    sys.argv[2]:original data directory path
+    sys.argv[3]:train/test/dev
+    sys.argv[4]:noise level
 
+    original_sentence_[].in
+    phoneme_[].in
+    edited_phoneme_[].in
+    label_[].out
+    [].csv
+    """
     edited_dir_path = sys.argv[1]
     original_dir_path = sys.argv[2]
     original_filename = sys.argv[3]
     rho = float(sys.argv[4])
-    data_filepath = original_dir_path + original_filename + "data.csv"
+    original_data_filepath = original_dir_path + original_filename + ".csv"
 
-    sentences, labels = ReadFile(data_filepath)
+    sentences, labels = ReadFile(original_data_filepath)
 
     str_noiselevel = "rho=" + str(rho)
     print(str_noiselevel)
@@ -244,7 +252,7 @@ if __name__ == "__main__":
             f.write("\n")
 
     with open(
-        edited_dir_path + str_noiselevel + "/" + original_filename, mode="w"
+        edited_dir_path + str_noiselevel + "/" + original_filename + ".csv", mode="w"
     ) as f:
         f.writelines("original_sentence,phoneme,edited_phoneme,label\n")
         for i, (train_data, phenomeSentence, noisySentence, labelSentence) in enumerate(
