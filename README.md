@@ -6,23 +6,16 @@ NI-seq2seq (Noise injection sequence to sequence)
 # Overview
 ![overview](https://user-images.githubusercontent.com/990923/75913992-4a6dbd80-5e97-11ea-9a25-4f0215711967.jpg)
 
-# contents
-
-# Setup
-## conda
-## pip
-
 # Experiments
 ## Experiment 1
 ### Experimental procedure
  - 1. Prepare GPSRDATA
  - 2. Make "original" Dataset
  
-     `./MakeoriginalDataset.sh`
+     `./create_original_dataset.sh`
      
-     - `./OriginalDataset/test.csv`
-     - `./OriginalDataset/dev.csv`
-     - `./OriginalDataset/train.csv`
+     - `original_dataset`
+       - `test.csv` `dev.csv` `train.csv`
  - 3. Make "edited" Dataset (Ineject Noise)
  
      `./MakeSDM.sh`
