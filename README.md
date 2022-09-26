@@ -14,9 +14,8 @@ NI-seq2seq (Noise injection sequence to sequence)
  
      `./create_original_dataset.sh`
      
-     - `./OriginalDataset/test.csv`
-     - `./OriginalDataset/dev.csv`
-     - `./OriginalDataset/train.csv`
+     - `original_dataset`
+       - `test.csv` `dev.csv` `train.csv`
  - 3. Make "edited" Dataset (Ineject Noise)
  
      `./MakeSDM.sh`
