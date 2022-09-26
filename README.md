@@ -6,12 +6,6 @@ NI-seq2seq (Noise injection sequence to sequence)
 # Overview
 ![overview](https://user-images.githubusercontent.com/990923/75913992-4a6dbd80-5e97-11ea-9a25-4f0215711967.jpg)
 
-# contents
-
-# Setup
-## conda
-## pip
-
 # Experiments
 ## Experiment 1
 ### Experimental procedure
