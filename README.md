@@ -18,7 +18,7 @@ NI-seq2seq (Noise injection sequence to sequence)
  - 1. Prepare GPSRDATA
  - 2. Make "original" Dataset
  
-     `./MakeoriginalDataset.sh`
+     `./create_original_dataset.sh`
      
      - `./OriginalDataset/test.csv`
      - `./OriginalDataset/dev.csv`
