@@ -1,0 +1,24 @@
+#
+# Template for making a sequence of verb phrases(VPs)
+#
+
+# Verb phrases(VPs) are separated by '|' (OR)
+# The index of a VP starts from '$'
+
+$fetch = get a CLASS_ITEM at LOCATION | get ITEM for me | bring a CLASS_ITEM
+$find_item = ITEM | a CLASS_ITEM
+$grasp_item = take ITEM | catch ITEM | find ITEM 
+$bring = bring ITEM to LOCATION
+
+$find_person = find a person
+
+$firstly = well | would you | can you
+$please = please
+
+
+# To define a sentence template, use '[]'.
+# The script rewrites defined VPs 
+[$firstly $fetch]
+[$find_item $please]
+[$find_person]
+[$firstly $bring]
