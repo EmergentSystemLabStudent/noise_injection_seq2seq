@@ -1,4 +1,6 @@
+from jiwer import wer
 import pandas as pd
+import sys
 import pronouncing
 if __name__ == '__main__':
     df = pd.read_csv("./GPSRsentence_list.csv")

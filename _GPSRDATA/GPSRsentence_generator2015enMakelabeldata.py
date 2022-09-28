@@ -1,6 +1,13 @@
 import random
 import sys
+import copy
+import os
 import pandas as pd
+import string
+import base64
+import json
+import wave
+import math
 from tqdm import tqdm
 
 rooms           = []
