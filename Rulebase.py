@@ -1,7 +1,7 @@
 import random
 import pandas as pd
 
-def remove(line):
+def remove_words(line):
     line = line.replace('would','')
     line = line.replace('you','')
     line = line.replace('can ',' ')
@@ -457,35 +457,7 @@ if __name__ == '__main__':
     rooms.append('apartment')
     #print(rooms)    
     #print('####')
-    '''
-    sum = 0
-    correct =[]
-    df=pd.read_csv("GPSRsentence_list.csv")
-    for i in range(100):
-        print(i)
-        line = df.loc[i,'original_sentence']
-        print(line)   
-        line = remove(line)
-        line = line.replace('.','')
-        line = str.lower(line)
-        line = line.replace('_',' ')
-        #print(line)
-        line = line.split()
-        created_command = create_command(line)
-        print('created_command : ' + created_command)
-        label = df.loc[i,'label']
-        label = label.replace('  ',' ')
-        label = label + ' '
-        print('label           : ' + label)
-        if created_command == label:
-            print("OK")
-            sum = sum + 1
-            correct.append(i)
-        print('\n')
-    print(sum)
-    print(correct)
-    print([3,7,9,12,15,17,24,25,26,30,31,33,35,37,38,39,41,53,55,59,64,72,74,83,88,90,94,96,98])
-    '''
+
     df=pd.read_csv("GPSRsentence_list.csv")
     lines = f.readlines()
     for i in range(100):
@@ -493,7 +465,7 @@ if __name__ == '__main__':
         #print(df.loc[i,'original_sentence'])       
         line = lines[i]
         #print(line)
-        line = remove(line)
+        line = remove_words(line)
         line = line.split()
         print(create_command(line))
         #print(df.loc[i,'label'])
