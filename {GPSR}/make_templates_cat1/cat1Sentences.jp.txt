@@ -1,0 +1,2000 @@
+ROOM に入って    次に   ITEM を発見して    それを把持して .
+ROOM に行って（動的障害物）    ROOM に行って    それで   フィールドから出て .
+LOCATION に行って   ITEM を持ち上げて   ダストビン に捨てて   ほしいんだけど .
+LOCATION に行って    えっと   ITEM を発見して    それを把持して .
+LOCATION まで行って   ITEM を持ち上げて   ダストビン に捨てて   ください .
+最初に   ITEM を LOCATION から取ってきて   LOCATION まで行って   LOCATION まで行って .
+LOCATION に行って    ROOM に入って    そのまま   ROOM を出て .
+LOCATION に行って    ROOM に行って    そのまま   フィールドから退出して .
+LOCATION に行って    LOCATION まで行って    それで   ROOM を出て .
+ROOM に行って    そのあと   ITEM を発見して    それを持ち上げて .
+最初に   LOCATION まで行って   ITEM を把持して   それから   戻ってきて .
+ROOM に行って   ITEM を取って   LOCATION に置いて   くれる？ .
+最初に   ROOM に入って   ITEM を持って    LOCATION に持って行って .
+まず   ROOM に行って（動的障害物）   ITEM を持って   それで   戻ってきて .
+ROOM に入って    近くにいる 人を探して    そのまま   その人に付いて行って .
+ROOM に行って    LOCATION に行って    そのあと   外に出て .
+LOCATION に行って    ITEM を持ち上げて    フィールドから出て   くれる？ .
+LOCATION まで行って    次に   ITEM を見つけて    それを持ち上げて .
+ROOM に行って    ROOM に行って    それで   外に出て .
+ROOM に行って（動的障害物）    ROOM に入って    えっと   フィールドから退出して .
+人を呼んで    次に   注文を聞いて    ITEM が LOCATION にあるから持ってきて .
+ROOM に入って    ROOM に入って    えっと   外に出て .
+ROOM に行って    ITEM を持って    フィールドから出て   ほしいんだけど .
+まず   ROOM に入って   ITEM を取って    LOCATION に届けて .
+LOCATION に行って    ROOM に行って    それから   フィールドから出て .
+LOCATION まで行って    ROOM に行って（動的障害物）    えっと   ROOM を出て .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    それで   フィールドから出て .
+ROOM に行って    ROOM に行って    そのまま   フィールドから退出して .
+ROOM に入って    LOCATION まで行って    そのあと   フィールドから出て .
+ROOM に行って    次に   ITEM を発見して    それを取って .
+ROOM に行って（動的障害物）    近くにいる 人を探して    から   その人に付いて行って .
+LOCATION まで行って    次に   ITEM を見つけて    それを掴んで .
+LOCATION まで行って    ROOM に入って    そのあと   フィールドから退出して .
+最初に   ROOM に入って   ITEM を持ち上げて   から   戻ってきて .
+最初に   ROOM に行って（動的障害物）   ITEM を持ち上げて   そのあと   戻ってきて .
+ROOM に行って    ROOM に行って（動的障害物）    えっと   フィールドから出て .
+ROOM に行って    ROOM に行って    それから   フィールドから退出して .
+LOCATION まで行って    近くにいる 人を探して    それで   その人を追跡して .
+LOCATION まで行って    ROOM に行って    それから   フィールドから退出して .
+LOCATION まで行って    ROOM に入って    そのあと   ROOM を出て .
+まず   ROOM に入って   ITEM を持ち上げて   それから   戻ってきて .
+まず   ROOM に入って   ITEM を持ち上げて   から   戻ってきて .
+LOCATION に行って    ITEM を取って    ROOM を出て   ください .
+LOCATION に行って    LOCATION まで行って    えっと   フィールドから出て .
+最初に   LOCATION に行って   ITEM を持って   そのあと   戻ってきて .
+ROOM に行って    LOCATION に行って    えっと   フィールドから退出して .
+最初に   ITEM を LOCATION から取ってきて   ROOM に行って（動的障害物）   ROOM に入って .
+まず   ROOM に入って   ITEM を持って   そのまま   戻ってきて .
+ROOM に行って    ROOM に入って    そのまま   外に出て .
+ROOM に入って   ITEM を把持して   LOCATION に置いて   ほしいんだけど .
+ROOM に入って    ITEM を取って    フィールドから出て   ほしいんだけど .
+まず   ROOM に行って（動的障害物）   ITEM を取って   そのあと   戻ってきて .
+ROOM に行って    ROOM に行って    そのあと   フィールドから退出して .
+LOCATION まで行って    LOCATION に行って    えっと   フィールドから出て .
+LOCATION まで行って    LOCATION まで行って    そのあと   外に出て .
+LOCATION まで行って    近くにいる 人を探して    から   その人を追跡して .
+ROOM に行って    LOCATION に行って    から   フィールドから出て .
+ROOM に入って    LOCATION に行って    それから   フィールドから退出して .
+LOCATION に行って    ROOM に行って    それで   ROOM を出て .
+ROOM に入って    えっと   ITEM を探して    それを持ち上げて .
+ROOM に行って（動的障害物）    ROOM に入って    最後に   フィールドから出て .
+ROOM に行って    ROOM に行って（動的障害物）    から   外に出て .
+ROOM に入って    から   ITEM を発見して    それを把持して .
+最初に   ITEM を LOCATION から取ってきて   LOCATION まで行って   ROOM に入って .
+ROOM に行って（動的障害物）    ITEM を取って    外に出て   ください .
+LOCATION に行って    LOCATION に行って    最後に   フィールドから退出して .
+まず   LOCATION に置かれた ITEM を持って   ROOM に入って   ROOM に入って .
+LOCATION に行って    ROOM に行って（動的障害物）    そのあと   フィールドから退出して .
+まず   ITEM が LOCATION にあるから持ってきて   ROOM に入って   ROOM に行って .
+ROOM に行って（動的障害物）    ITEM を取って    フィールドから出て   ね .
+ROOM に入って    LOCATION まで行って    から   フィールドから退出して .
+まず   ITEM が LOCATION にあるから持ってきて   ROOM に行って（動的障害物）   LOCATION に行って .
+LOCATION に行って    そのあと   ITEM を見つけて    それを掴んで .
+ROOM に入って    ROOM に行って（動的障害物）    それから   フィールドから出て .
+LOCATION に行って   ITEM を持って   ダストビン に捨てて   くれる？ .
+ROOM に行って   ITEM を持ち上げて   ダストビン に捨てて   ください .
+ROOM に行って（動的障害物）    LOCATION まで行って    最後に   フィールドから退出して .
+LOCATION に行って    LOCATION に行って    それで   外に出て .
+LOCATION まで行って    ITEM を持ち上げて    外に出て   くれる？ .
+ROOM に行って（動的障害物）    LOCATION に行って    えっと   フィールドから退出して .
+ROOM に入って    えっと   ITEM を発見して    それを取って .
+ROOM に入って    LOCATION に行って    から   ROOM を出て .
+最初に   ITEM を LOCATION から取ってきて   ROOM に入って   ROOM に行って .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    最後に   フィールドから出て .
+LOCATION に行って    から   ITEM を探して    それを持ち上げて .
+ROOM に行って    次に   ITEM を探して    それを持ち上げて .
+まず   ITEM を LOCATION から取ってきて   ROOM に入って   LOCATION まで行って .
+まず   LOCATION まで行って   ITEM を持って   えっと   戻ってきて .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    フィールドから出て   ください .
+ROOM に行って    その次に   ITEM を発見して    それを掴んで .
+LOCATION に行って    LOCATION に行って    えっと   ROOM を出て .
+ROOM に行って    近くにいる 人を探して    から   その人を追跡して .
+最初に   LOCATION に行って   ITEM を取って    LOCATION に持って行って .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    外に出て   ください .
+ROOM に行って（動的障害物）   次に   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+LOCATION に行って    ITEM を持って    フィールドから出て   ください .
+ROOM に行って   ITEM を把持して   ダストビン に捨てて   ください .
+ROOM に行って   その次に   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+LOCATION まで行って    LOCATION に行って    最後に   ROOM を出て .
+最初に   ITEM を LOCATION から取ってきて   LOCATION に行って   ROOM に行って（動的障害物） .
+ROOM に行って    それから   ITEM を発見して    それを掴んで .
+まず   ROOM に行って   ITEM を持って   から   戻ってきて .
+LOCATION まで行って    それから   ITEM を見つけて    それを持ち上げて .
+ROOM に行って（動的障害物）    から   ITEM を見つけて    それを取って .
+まず   ROOM に入って   ITEM を取って   そのあと   戻ってきて .
+ROOM に入って   ITEM を取って   LOCATION に置いて   くれる？ .
+ROOM に行って    そのあと   ITEM を探して    それを持ち上げて .
+最初に   ROOM に行って   ITEM を持って   えっと   戻ってきて .
+ROOM に行って    それから   ITEM を探して    それを掴んで .
+最初に   ROOM に入って   ITEM を持って   えっと   戻ってきて .
+ROOM に行って    ITEM を取って    フィールドから退出して   くれる？ .
+ROOM に入って    近くにいる 人を探して    えっと   その人に付いて行って .
+ROOM に行って（動的障害物）    LOCATION に行って    最後に   ROOM を出て .
+ROOM に行って（動的障害物）    そのあと   ITEM を発見して    それを掴んで .
+ROOM に入って    そのあと   ITEM を発見して    それを把持して .
+ROOM に行って    その次に   ITEM を発見して    それを持ち上げて .
+ROOM に行って（動的障害物）    それから   ITEM を発見して    それを把持して .
+LOCATION に行って    LOCATION に行って    から   フィールドから退出して .
+ROOM に行って（動的障害物）   ITEM を持ち上げて   ダストビン に捨てて   くれる？ .
+まず   LOCATION に置かれた ITEM を持って   ROOM に行って   LOCATION まで行って .
+ROOM に入って    それから   ITEM を発見して    それを把持して .
+まず   LOCATION まで行って   ITEM を持って   そのあと   戻ってきて .
+まず   ROOM に行って   ITEM を把持して   そのまま   戻ってきて .
+LOCATION に行って    ROOM に行って    それで   フィールドから退出して .
+ROOM に入って    ROOM に行って（動的障害物）    それから   ROOM を出て .
+LOCATION まで行って    ITEM を把持して    フィールドから退出して   ください .
+最初に   ROOM に行って   ITEM を持ち上げて   それで   戻ってきて .
+まず   ROOM に入って   ITEM を把持して    LOCATION に持って行って .
+LOCATION まで行って    そのあと   ITEM を発見して    それを掴んで .
+最初に   ROOM に行って（動的障害物）   ITEM を持ち上げて   それから   戻ってきて .
+ROOM に行って    ROOM に入って    そのまま   フィールドから出て .
+最初に   ROOM に行って（動的障害物）   ITEM を把持して    LOCATION に届けて .
+最初に   LOCATION まで行って   ITEM を持って   えっと   戻ってきて .
+LOCATION まで行って    そのあと   ITEM を見つけて    それを掴んで .
+LOCATION まで行って    ITEM を取って    ROOM を出て   くれる？ .
+ROOM に行って（動的障害物）    ROOM に行って    そのあと   外に出て .
+LOCATION に行って   ITEM を持って   LOCATION に置いて   ほしいんだけど .
+LOCATION に行って    それから   ITEM を発見して    それを取って .
+LOCATION に行って   そのあと   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+LOCATION まで行って    ITEM を把持して    外に出て   くれる？ .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    外に出て   くれる？ .
+LOCATION まで行って    近くにいる 人を探して    それから   その人に付いて行って .
+ROOM に入って    ROOM に行って    から   外に出て .
+ROOM に行って    その次に   ITEM を発見して    それを把持して .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    ROOM を出て   くれる？ .
+LOCATION まで行って    えっと   ITEM を見つけて    それを取って .
+ROOM に入って   ITEM を持って   ダストビン に捨てて   ください .
+ROOM に行って（動的障害物）    その次に   ITEM を探して    それを把持して .
+まず   ROOM に行って（動的障害物）   ITEM を持ち上げて   そのまま   戻ってきて .
+最初に   ROOM に入って   ITEM を把持して   それで   戻ってきて .
+ROOM に行って（動的障害物）    ROOM に入って    そのあと   ROOM を出て .
+まず   ROOM に行って   ITEM を持ち上げて   そのあと   戻ってきて .
+ROOM に行って    から   ITEM を発見して    それを取って .
+ROOM に入って    ROOM に行って（動的障害物）    そのまま   フィールドから出て .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に入って   ROOM に行って .
+LOCATION に行って    次に   ITEM を見つけて    それを取って .
+ROOM に入って   次に   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って    それから   ITEM を探して    それを把持して .
+LOCATION に行って   次に   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+ROOM に行って   ITEM を持ち上げて   ダストビン に捨てて   ほしいんだけど .
+まず   ROOM に行って（動的障害物）   ITEM を持ち上げて    LOCATION に持って行って .
+LOCATION まで行って   ITEM を取って   ダストビン に捨てて   くれる？ .
+LOCATION に行って    それから   ITEM を見つけて    それを取って .
+まず   ROOM に入って   ITEM を取って   えっと   戻ってきて .
+LOCATION まで行って    近くにいる 人を探して    から   その人に付いて行って .
+ROOM に入って    LOCATION に行って    最後に   ROOM を出て .
+LOCATION まで行って   ITEM を持って   ダストビン に捨てて   くれる？ .
+ROOM に入って    それから   ITEM を発見して    それを掴んで .
+LOCATION に行って    LOCATION に行って    そのまま   外に出て .
+LOCATION まで行って    ROOM に行って（動的障害物）    そのあと   フィールドから出て .
+LOCATION まで行って    LOCATION まで行って    それから   フィールドから退出して .
+ROOM に行って    ROOM に入って    そのまま   フィールドから退出して .
+ROOM に入って    LOCATION まで行って    それで   外に出て .
+まず   LOCATION まで行って   ITEM を持ち上げて   最後に   戻ってきて .
+まず   LOCATION に行って   ITEM を持って   そのあと   戻ってきて .
+最初に   ROOM に行って   ITEM を持ち上げて   から   戻ってきて .
+ROOM に行って（動的障害物）    ROOM に行って    から   フィールドから退出して .
+最初に   LOCATION まで行って   ITEM を取って    LOCATION に届けて .
+ROOM に入って   ITEM を持って   LOCATION に置いて   ほしいんだけど .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に行って   ROOM に行って（動的障害物） .
+ROOM に行って    えっと   ITEM を見つけて    それを持ち上げて .
+人を呼んで    その次に   注文を聞いて    ITEM が LOCATION にあるから持ってきて .
+ROOM に入って    ITEM を持ち上げて    ROOM を出て   ほしいんだけど .
+ROOM に入って    ROOM に行って（動的障害物）    えっと   フィールドから退出して .
+LOCATION まで行って    ROOM に行って    それから   フィールドから出て .
+ROOM に行って    ITEM を取って    フィールドから退出して   ね .
+ROOM に入って    ITEM を把持して    フィールドから退出して   くれる？ .
+まず   LOCATION に行って   ITEM を持って    LOCATION に届けて .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    そのまま   外に出て .
+LOCATION まで行って    ITEM を持って    フィールドから退出して   ね .
+ROOM に行って（動的障害物）   ITEM を取って   LOCATION に置いて .
+ROOM に行って    次に   ITEM を探して    それを把持して .
+ROOM に行って    ITEM を持ち上げて    フィールドから退出して   ほしいんだけど .
+ROOM に行って    ITEM を持って    フィールドから退出して   くれる？ .
+ROOM に行って（動的障害物）    LOCATION に行って    えっと   フィールドから出て .
+ROOM に行って（動的障害物）    ROOM に入って    から   ROOM を出て .
+ROOM に入って   ITEM を持って   ダストビン に捨てて .
+最初に   ROOM に行って（動的障害物）   ITEM を持ち上げて   から   戻ってきて .
+LOCATION まで行って    ROOM に行って    それで   フィールドから出て .
+LOCATION まで行って    ROOM に行って（動的障害物）    それから   外に出て .
+ROOM に行って（動的障害物）    次に   ITEM を発見して    それを取って .
+LOCATION に行って    その次に   ITEM を発見して    それを把持して .
+ROOM に行って    ROOM に行って（動的障害物）    それから   フィールドから出て .
+ROOM に入って    それから   ITEM を発見して    それを持ち上げて .
+LOCATION まで行って    その次に   ITEM を見つけて    それを把持して .
+LOCATION に行って    それから   ITEM を見つけて    それを掴んで .
+ROOM に行って（動的障害物）    ITEM を取って    フィールドから退出して   ね .
+LOCATION に行って    ITEM を把持して    フィールドから退出して   くれる？ .
+ROOM に入って    から   ITEM を発見して    それを掴んで .
+LOCATION まで行って    LOCATION まで行って    えっと   フィールドから出て .
+ROOM に行って（動的障害物）    ITEM を把持して    フィールドから出て   ください .
+まず   ROOM に行って（動的障害物）   ITEM を持ち上げて    LOCATION に届けて .
+LOCATION まで行って   ITEM を把持して   ダストビン に捨てて   ほしいんだけど .
+LOCATION まで行って   ITEM を持って   ダストビン に捨てて   ね .
+LOCATION まで行って    ROOM に行って    それで   ROOM を出て .
+ROOM に行って   次に   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    それから   ROOM を出て .
+最初に   ROOM に入って   ITEM を持って   から   戻ってきて .
+LOCATION に行って    から   ITEM を見つけて    それを取って .
+まず   LOCATION に行って   ITEM を把持して   最後に   戻ってきて .
+LOCATION に行って    ROOM に入って    えっと   ROOM を出て .
+LOCATION に行って    ROOM に行って    それで   フィールドから出て .
+LOCATION まで行って   ITEM を把持して   LOCATION に置いて   ください .
+まず   ITEM が LOCATION にあるから持ってきて   ROOM に行って   LOCATION まで行って .
+最初に   ITEM を LOCATION から取ってきて   LOCATION まで行って   ROOM に行って .
+LOCATION に行って    そのあと   ITEM を見つけて    それを取って .
+ROOM に行って   えっと   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+最初に   LOCATION に行って   ITEM を持って    LOCATION に持って行って .
+LOCATION に行って    ITEM を持って    フィールドから出て   くれる？ .
+最初に   ROOM に行って（動的障害物）   ITEM を把持して   から   戻ってきて .
+LOCATION に行って    ROOM に入って    それで   フィールドから出て .
+ROOM に行って（動的障害物）   ITEM を把持して   LOCATION に置いて   ほしいんだけど .
+LOCATION に行って    LOCATION に行って    そのあと   フィールドから出て .
+LOCATION に行って    それから   ITEM を発見して    それを掴んで .
+まず   ROOM に入って   ITEM を取って   から   戻ってきて .
+ROOM に行って    LOCATION まで行って    そのあと   フィールドから出て .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に行って（動的障害物）   LOCATION に行って .
+最初に   ROOM に行って（動的障害物）   ITEM を把持して    LOCATION に持って行って .
+まず   ROOM に入って   ITEM を持って   それで   戻ってきて .
+ROOM に行って    それから   ITEM を発見して    それを把持して .
+LOCATION まで行って   ITEM を取って   LOCATION に置いて   くれる？ .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に行って   ROOM に行って（動的障害物） .
+最初に   LOCATION に行って   ITEM を持ち上げて   それから   戻ってきて .
+LOCATION に行って    ROOM に行って（動的障害物）    から   フィールドから出て .
+ROOM に行って（動的障害物）    ITEM を把持して    ROOM を出て   ほしいんだけど .
+まず   ROOM に入って   ITEM を把持して   から   戻ってきて .
+LOCATION まで行って    ROOM に行って    そのあと   フィールドから出て .
+ROOM に行って（動的障害物）   ITEM を持ち上げて   LOCATION に置いて .
+LOCATION まで行って    LOCATION まで行って    それで   フィールドから退出して .
+LOCATION に行って    ROOM に行って    そのまま   外に出て .
+まず   ITEM を LOCATION から取ってきて   ROOM に行って   ROOM に行って .
+LOCATION まで行って    その次に   ITEM を探して    それを掴んで .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    ROOM を出て   ね .
+ROOM に行って    ROOM に行って（動的障害物）    えっと   ROOM を出て .
+LOCATION まで行って    LOCATION に行って    最後に   フィールドから出て .
+ROOM に入って    ITEM を把持して    外に出て   ください .
+LOCATION に行って    ITEM を持って    フィールドから退出して   くれる？ .
+最初に   ROOM に行って（動的障害物）   ITEM を持って   そのあと   戻ってきて .
+最初に   LOCATION に行って   ITEM を把持して   から   戻ってきて .
+LOCATION まで行って    から   ITEM を見つけて    それを掴んで .
+ROOM に行って（動的障害物）    近くにいる 人を探して    えっと   その人を追跡して .
+ROOM に行って    ROOM に行って    そのまま   フィールドから出て .
+ROOM に入って   ITEM を持ち上げて   LOCATION に置いて   ほしいんだけど .
+まず   ROOM に行って   ITEM を取って   から   戻ってきて .
+ROOM に行って（動的障害物）    ITEM を取って    フィールドから退出して   くれる？ .
+ROOM に行って    えっと   ITEM を見つけて    それを取って .
+最初に   ROOM に行って（動的障害物）   ITEM を持って   そのまま   戻ってきて .
+LOCATION に行って    ITEM を把持して    外に出て   ください .
+LOCATION に行って    ITEM を把持して    フィールドから出て   ほしいんだけど .
+LOCATION に行って    ITEM を把持して    フィールドから退出して   ほしいんだけど .
+LOCATION に行って    ROOM に入って    それで   外に出て .
+ROOM に行って    ITEM を持って    外に出て   ね .
+ROOM に行って    ROOM に入って    えっと   ROOM を出て .
+LOCATION まで行って    ROOM に入って    それから   フィールドから退出して .
+LOCATION まで行って    そのあと   ITEM を探して    それを持ち上げて .
+LOCATION まで行って    LOCATION まで行って    そのあと   ROOM を出て .
+LOCATION に行って    ROOM に行って    から   フィールドから退出して .
+ROOM に行って    ROOM に行って    それから   フィールドから出て .
+LOCATION まで行って    ITEM を持ち上げて    ROOM を出て   ほしいんだけど .
+最初に   ITEM を LOCATION から取ってきて   LOCATION に行って   ROOM に行って .
+ROOM に行って（動的障害物）    LOCATION に行って    そのまま   外に出て .
+LOCATION に行って    ROOM に行って    それで   外に出て .
+ROOM に行って（動的障害物）   その次に   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に入って   ROOM に行って（動的障害物） .
+ROOM に入って    ITEM を把持して    ROOM を出て   ください .
+LOCATION に行って    近くにいる 人を探して    それで   その人に付いて行って .
+最初に   LOCATION に行って   ITEM を持ち上げて   そのまま   戻ってきて .
+人を呼んで    そのあと   注文をとって    LOCATION に置かれた ITEM を持って .
+ROOM に行って    近くにいる 人を探して    えっと   その人に付いて行って .
+ROOM に行って    ITEM を持ち上げて    フィールドから出て   ね .
+最初に   LOCATION に行って   ITEM を持って   そのまま   戻ってきて .
+最初に   ROOM に入って   ITEM を取って   から   戻ってきて .
+LOCATION まで行って    LOCATION まで行って    から   フィールドから出て .
+まず   ROOM に行って（動的障害物）   ITEM を持ち上げて   から   戻ってきて .
+ROOM に行って    LOCATION に行って    そのまま   ROOM を出て .
+まず   ITEM を LOCATION から取ってきて   ROOM に行って   LOCATION に行って .
+LOCATION まで行って    ITEM を取って    フィールドから退出して   ほしいんだけど .
+ROOM に行って（動的障害物）   ITEM を取って   LOCATION に置いて   ね .
+LOCATION に行って   ITEM を把持して   ダストビン に捨てて   ください .
+まず   LOCATION に行って   ITEM を持ち上げて   最後に   戻ってきて .
+ROOM に行って（動的障害物）    次に   ITEM を発見して    それを持ち上げて .
+ROOM に入って    LOCATION まで行って    えっと   フィールドから出て .
+ROOM に入って    ITEM を持ち上げて    フィールドから出て   ほしいんだけど .
+ROOM に入って    えっと   ITEM を発見して    それを把持して .
+最初に   LOCATION まで行って   ITEM を持って   そのまま   戻ってきて .
+最初に   ROOM に行って（動的障害物）   ITEM を把持して   それで   戻ってきて .
+LOCATION まで行って    から   ITEM を発見して    それを把持して .
+まず   ITEM が LOCATION にあるから持ってきて   LOCATION に行って   LOCATION まで行って .
+最初に   LOCATION に置かれた ITEM を持って   LOCATION まで行って   ROOM に行って（動的障害物） .
+LOCATION まで行って    ROOM に行って（動的障害物）    から   フィールドから出て .
+LOCATION まで行って    ITEM を取って    ROOM を出て   ほしいんだけど .
+人を呼んで    えっと   注文をとって    LOCATION に置かれた ITEM を持って .
+まず   ITEM を LOCATION から取ってきて   LOCATION に行って   ROOM に行って（動的障害物） .
+LOCATION に行って    ROOM に入って    最後に   ROOM を出て .
+LOCATION まで行って    ITEM を把持して    フィールドから退出して   ね .
+まず   ROOM に行って   ITEM を取って   えっと   戻ってきて .
+ROOM に行って    近くにいる 人を探して    それから   その人に付いて行って .
+ROOM に行って   ITEM を取って   ダストビン に捨てて   ね .
+ROOM に入って    えっと   ITEM を見つけて    それを把持して .
+LOCATION に行って    ROOM に行って（動的障害物）    最後に   ROOM を出て .
+ROOM に入って    ITEM を把持して    フィールドから退出して   ください .
+ROOM に入って    そのあと   ITEM を見つけて    それを掴んで .
+ROOM に行って（動的障害物）    ROOM に行って    それから   外に出て .
+ROOM に行って    そのあと   ITEM を発見して    それを把持して .
+ROOM に行って    ROOM に行って（動的障害物）    えっと   フィールドから退出して .
+LOCATION まで行って    LOCATION まで行って    そのまま   フィールドから出て .
+人を呼んで    その人に付いて行って    ROOM を出て .
+LOCATION に行って    LOCATION まで行って    最後に   ROOM を出て .
+ROOM に行って   ITEM を持ち上げて   LOCATION に置いて   くれる？ .
+LOCATION まで行って    ROOM に行って    から   外に出て .
+最初に   ROOM に行って（動的障害物）   ITEM を取って    LOCATION に持って行って .
+ROOM に入って    LOCATION に行って    えっと   フィールドから退出して .
+ROOM に行って    ITEM を持って    外に出て   ほしいんだけど .
+ROOM に行って    ITEM を把持して    フィールドから出て   ください .
+まず   ROOM に行って   ITEM を持ち上げて    LOCATION に持って行って .
+ROOM に行って（動的障害物）    LOCATION まで行って    そのまま   外に出て .
+LOCATION に行って    ROOM に行って    最後に   フィールドから出て .
+ROOM に行って    近くにいる 人を探して    最後に   その人に付いて行って .
+最初に   ITEM を LOCATION から取ってきて   LOCATION に行って   ROOM に入って .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に行って   ROOM に行って .
+まず   ROOM に行って（動的障害物）   ITEM を把持して   そのまま   戻ってきて .
+LOCATION に行って    ROOM に行って（動的障害物）    最後に   外に出て .
+LOCATION まで行って    その次に   ITEM を探して    それを把持して .
+LOCATION に行って    ROOM に入って    最後に   外に出て .
+ROOM に入って    ROOM に入って    それから   フィールドから退出して .
+ROOM に行って    ROOM に行って    それから   ROOM を出て .
+まず   LOCATION に行って   ITEM を取って   それで   戻ってきて .
+LOCATION まで行って    LOCATION に行って    そのまま   フィールドから出て .
+LOCATION まで行って    ROOM に入って    それから   ROOM を出て .
+LOCATION に行って    次に   ITEM を見つけて    それを掴んで .
+LOCATION に行って    LOCATION に行って    最後に   ROOM を出て .
+ROOM に行って（動的障害物）    ROOM に入って    から   フィールドから退出して .
+ROOM に行って（動的障害物）    ROOM に行って    それで   ROOM を出て .
+LOCATION に行って    から   ITEM を探して    それを取って .
+まず   LOCATION に行って   ITEM を持ち上げて   そのあと   戻ってきて .
+ROOM に入って    ROOM に行って（動的障害物）    そのあと   フィールドから退出して .
+ROOM に行って（動的障害物）    ITEM を取って    フィールドから退出して   ほしいんだけど .
+LOCATION に行って    ROOM に行って    それから   外に出て .
+ROOM に入って    から   ITEM を見つけて    それを持ち上げて .
+LOCATION まで行って    その次に   ITEM を発見して    それを掴んで .
+最初に   LOCATION まで行って   ITEM を持って   から   戻ってきて .
+人を呼んで    その人を追跡して    ROOM を出て .
+LOCATION まで行って    次に   ITEM を探して    それを取って .
+ROOM に入って    ROOM に入って    そのまま   フィールドから退出して .
+ROOM に行って    ITEM を持って    フィールドから退出して   ほしいんだけど .
+ROOM に入って   から   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に入って    ROOM に行って    えっと   フィールドから退出して .
+ROOM に入って    ROOM に行って    それから   フィールドから退出して .
+LOCATION まで行って    ITEM を持ち上げて    フィールドから退出して   ほしいんだけど .
+ROOM に行って（動的障害物）    LOCATION まで行って    最後に   外に出て .
+ROOM に行って（動的障害物）    LOCATION まで行って    えっと   ROOM を出て .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に行って（動的障害物）   LOCATION まで行って .
+LOCATION まで行って    ROOM に行って（動的障害物）    そのまま   フィールドから退出して .
+ROOM に行って   それから   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+最初に   ROOM に行って（動的障害物）   ITEM を取って   それから   戻ってきて .
+LOCATION に行って    ROOM に行って（動的障害物）    から   外に出て .
+LOCATION まで行って    ROOM に入って    えっと   外に出て .
+LOCATION まで行って    から   ITEM を探して    それを持ち上げて .
+ROOM に行って（動的障害物）    ROOM に入って    それで   外に出て .
+ROOM に行って（動的障害物）    LOCATION まで行って    それから   外に出て .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に行って   LOCATION に行って .
+最初に   ROOM に入って   ITEM を取って   そのあと   戻ってきて .
+LOCATION まで行って    ITEM を持ち上げて    フィールドから退出して   ね .
+ROOM に入って    ROOM に行って    えっと   外に出て .
+ROOM に入って    ITEM を取って    外に出て   ください .
+まず   LOCATION まで行って   ITEM を持ち上げて   そのまま   戻ってきて .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    フィールドから退出して   ください .
+ROOM に行って（動的障害物）    ITEM を持って    フィールドから退出して   くれる？ .
+ROOM に行って（動的障害物）    ROOM に行って    そのまま   ROOM を出て .
+人を呼んで    から   注文をとって    ITEM が LOCATION にあるから持ってきて .
+LOCATION に行って   ITEM を把持して   LOCATION に置いて   くれる？ .
+LOCATION に行って   次に   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に行って    それから   ITEM を見つけて    それを掴んで .
+最初に   LOCATION に行って   ITEM を持って   それから   戻ってきて .
+まず   LOCATION に置かれた ITEM を持って   LOCATION に行って   ROOM に行って（動的障害物） .
+ROOM に入って    えっと   ITEM を見つけて    それを持ち上げて .
+最初に   LOCATION まで行って   ITEM を把持して    LOCATION に届けて .
+LOCATION まで行って   ITEM を持って   LOCATION に置いて   ね .
+LOCATION まで行って    ROOM に行って（動的障害物）    えっと   フィールドから出て .
+ROOM に入って    ROOM に行って（動的障害物）    から   ROOM を出て .
+ROOM に行って（動的障害物）   から   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+まず   ROOM に行って（動的障害物）   ITEM を持って   えっと   戻ってきて .
+ROOM に行って   ITEM を把持して   ダストビン に捨てて   ね .
+ROOM に行って    ROOM に入って    から   フィールドから出て .
+LOCATION に行って    から   ITEM を見つけて    それを掴んで .
+ROOM に行って（動的障害物）    LOCATION まで行って    から   フィールドから退出して .
+LOCATION に行って    ITEM を取って    フィールドから出て   ください .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に行って（動的障害物）   ROOM に行って .
+LOCATION に行って    ROOM に行って    そのまま   ROOM を出て .
+LOCATION に行って    ITEM を取って    フィールドから出て   くれる？ .
+まず   ROOM に行って   ITEM を持ち上げて   最後に   戻ってきて .
+ROOM に入って    LOCATION に行って    最後に   フィールドから出て .
+ROOM に行って    ROOM に入って    えっと   フィールドから退出して .
+ROOM に行って    ROOM に行って    それで   ROOM を出て .
+ROOM に行って（動的障害物）    そのあと   ITEM を発見して    それを取って .
+ROOM に入って   ITEM を取って   LOCATION に置いて .
+ROOM に入って    その次に   ITEM を発見して    それを取って .
+最初に   LOCATION まで行って   ITEM を持って   最後に   戻ってきて .
+ROOM に行って（動的障害物）    LOCATION まで行って    えっと   フィールドから退出して .
+LOCATION に行って    LOCATION まで行って    それから   ROOM を出て .
+ROOM に行って    ITEM を取って    フィールドから出て   くれる？ .
+まず   ROOM に行って（動的障害物）   ITEM を把持して   そのあと   戻ってきて .
+ROOM に入って    そのあと   ITEM を探して    それを把持して .
+ROOM に行って    ROOM に入って    それで   フィールドから出て .
+ROOM に行って（動的障害物）   その次に   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+最初に   LOCATION に行って   ITEM を取って   それで   戻ってきて .
+最初に   ROOM に入って   ITEM を持って   そのまま   戻ってきて .
+ROOM に入って    ROOM に入って    それで   フィールドから出て .
+LOCATION に行って    ROOM に入って    そのあと   フィールドから退出して .
+ROOM に行って（動的障害物）    ROOM に行って    えっと   ROOM を出て .
+LOCATION まで行って    ITEM を把持して    フィールドから退出して   くれる？ .
+ROOM に入って    ITEM を把持して    ROOM を出て   ほしいんだけど .
+ROOM に入って    LOCATION まで行って    そのまま   ROOM を出て .
+LOCATION まで行って    次に   ITEM を見つけて    それを取って .
+LOCATION に行って    LOCATION に行って    から   フィールドから出て .
+ROOM に行って（動的障害物）    えっと   ITEM を探して    それを取って .
+ROOM に入って    LOCATION まで行って    から   ROOM を出て .
+ROOM に行って    ROOM に行って（動的障害物）    そのまま   外に出て .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に行って（動的障害物）   ROOM に入って .
+ROOM に行って    から   ITEM を探して    それを取って .
+LOCATION まで行って    ITEM を把持して    外に出て   ね .
+ROOM に入って    ITEM を持って    ROOM を出て   くれる？ .
+ROOM に入って    ROOM に行って    それで   フィールドから出て .
+ROOM に行って    それから   ITEM を見つけて    それを把持して .
+最初に   ROOM に行って   ITEM を持ち上げて    LOCATION に持って行って .
+LOCATION まで行って    ITEM を持って    フィールドから退出して   ください .
+まず   LOCATION まで行って   ITEM を把持して    LOCATION に届けて .
+LOCATION まで行って   そのあと   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+人を呼んで    その人に付いて行って    フィールドから出て .
+ROOM に行って（動的障害物）    ITEM を把持して    外に出て   ください .
+ROOM に入って    近くにいる 人を探して    それで   その人を追跡して .
+ROOM に入って    近くにいる 人を探して    から   その人を追跡して .
+ROOM に入って    近くにいる 人を探して    そのあと   その人に付いて行って .
+ROOM に行って（動的障害物）    それから   ITEM を発見して    それを持ち上げて .
+ROOM に入って   えっと   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+LOCATION に行って    その次に   ITEM を見つけて    それを把持して .
+LOCATION に行って    次に   ITEM を探して    それを持ち上げて .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    そのまま   フィールドから出て .
+ROOM に行って（動的障害物）    次に   ITEM を探して    それを取って .
+LOCATION に行って    ITEM を持って    外に出て   ください .
+最初に   ITEM が LOCATION にあるから持ってきて   LOCATION に行って   LOCATION まで行って .
+ROOM に行って    ROOM に行って（動的障害物）    それで   ROOM を出て .
+LOCATION まで行って    えっと   ITEM を探して    それを掴んで .
+ROOM に行って    ITEM を取って    ROOM を出て   ほしいんだけど .
+ROOM に行って（動的障害物）    えっと   ITEM を発見して    それを把持して .
+ROOM に入って    ROOM に入って    えっと   フィールドから出て .
+LOCATION に行って    ITEM を持ち上げて    外に出て   ください .
+ROOM に行って（動的障害物）    えっと   ITEM を発見して    それを持ち上げて .
+まず   ROOM に入って   ITEM を取って   最後に   戻ってきて .
+まず   ROOM に行って   ITEM を把持して    LOCATION に届けて .
+LOCATION に行って   ITEM を把持して   ダストビン に捨てて   ほしいんだけど .
+まず   ROOM に行って（動的障害物）   ITEM を取って   それで   戻ってきて .
+ROOM に行って（動的障害物）    ITEM を持って    ROOM を出て   ほしいんだけど .
+ROOM に行って    LOCATION まで行って    から   ROOM を出て .
+最初に   LOCATION まで行って   ITEM を持って    LOCATION に届けて .
+最初に   LOCATION に行って   ITEM を把持して   そのあと   戻ってきて .
+LOCATION に行って    その次に   ITEM を発見して    それを掴んで .
+ROOM に行って    その次に   ITEM を見つけて    それを取って .
+LOCATION に行って    えっと   ITEM を見つけて    それを取って .
+ROOM に入って    ROOM に行って    それから   外に出て .
+ROOM に行って（動的障害物）    LOCATION まで行って    最後に   ROOM を出て .
+LOCATION まで行って    ROOM に行って（動的障害物）    それで   フィールドから出て .
+ROOM に行って    LOCATION に行って    そのあと   フィールドから退出して .
+最初に   LOCATION に行って   ITEM を取って    LOCATION に届けて .
+LOCATION に行って    LOCATION まで行って    それから   外に出て .
+LOCATION に行って   ITEM を持ち上げて   LOCATION に置いて   くれる？ .
+LOCATION まで行って    ROOM に入って    最後に   フィールドから退出して .
+最初に   LOCATION まで行って   ITEM を取って   それで   戻ってきて .
+まず   ITEM を LOCATION から取ってきて   LOCATION まで行って   ROOM に行って（動的障害物） .
+LOCATION まで行って    えっと   ITEM を見つけて    それを持ち上げて .
+LOCATION まで行って    から   ITEM を探して    それを掴んで .
+ROOM に行って（動的障害物）    近くにいる 人を探して    そのまま   その人を追跡して .
+LOCATION に行って    近くにいる 人を探して    最後に   その人を追跡して .
+LOCATION まで行って    LOCATION に行って    最後に   外に出て .
+まず   ITEM を LOCATION から取ってきて   ROOM に行って（動的障害物）   LOCATION に行って .
+まず   ITEM を LOCATION から取ってきて   ROOM に入って   ROOM に行って（動的障害物） .
+ROOM に行って    LOCATION に行って    から   フィールドから退出して .
+LOCATION に行って   ITEM を把持して   LOCATION に置いて   ほしいんだけど .
+LOCATION に行って    から   ITEM を探して    それを掴んで .
+LOCATION まで行って   ITEM を取って   LOCATION に置いて   ほしいんだけど .
+ROOM に行って（動的障害物）    ROOM に行って    えっと   外に出て .
+LOCATION に行って    ITEM を持って    フィールドから退出して   ください .
+ROOM に行って（動的障害物）    LOCATION に行って    それで   フィールドから出て .
+LOCATION に行って   ITEM を持って   LOCATION に置いて   ください .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    最後に   フィールドから退出して .
+最初に   LOCATION まで行って   ITEM を持ち上げて   それで   戻ってきて .
+LOCATION まで行って    から   ITEM を見つけて    それを持ち上げて .
+まず   LOCATION に行って   ITEM を持って   それから   戻ってきて .
+LOCATION に行って    LOCATION に行って    最後に   フィールドから出て .
+LOCATION に行って    ROOM に入って    それから   フィールドから出て .
+ROOM に行って（動的障害物）    LOCATION まで行って    それで   フィールドから出て .
+ROOM に行って（動的障害物）   ITEM を持ち上げて   ダストビン に捨てて .
+まず   ROOM に行って（動的障害物）   ITEM を把持して    LOCATION に持って行って .
+LOCATION に行って    近くにいる 人を探して    えっと   その人に付いて行って .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に行って   LOCATION まで行って .
+LOCATION まで行って    それから   ITEM を見つけて    それを掴んで .
+LOCATION まで行って    LOCATION まで行って    それから   外に出て .
+LOCATION に行って    えっと   ITEM を発見して    それを持ち上げて .
+ROOM に行って（動的障害物）   次に   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+ROOM に行って（動的障害物）    近くにいる 人を探して    そのあと   その人を追跡して .
+ROOM に行って   次に   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+ROOM に行って   ITEM を持って   LOCATION に置いて   ください .
+ROOM に行って    ITEM を取って    ROOM を出て   ね .
+ROOM に行って（動的障害物）    から   ITEM を見つけて    それを把持して .
+ROOM に入って    LOCATION に行って    それから   ROOM を出て .
+LOCATION まで行って   ITEM を持ち上げて   ダストビン に捨てて   ほしいんだけど .
+ROOM に入って   ITEM を取って   ダストビン に捨てて   ね .
+まず   LOCATION に置かれた ITEM を持って   LOCATION まで行って   ROOM に行って .
+最初に   LOCATION まで行って   ITEM を把持して   それで   戻ってきて .
+ROOM に行って    ROOM に入って    から   フィールドから退出して .
+ROOM に入って    ROOM に行って（動的障害物）    最後に   フィールドから退出して .
+LOCATION まで行って    LOCATION に行って    それで   フィールドから退出して .
+LOCATION に行って    LOCATION に行って    そのあと   ROOM を出て .
+ROOM に入って    ROOM に行って（動的障害物）    それで   フィールドから出て .
+ROOM に入って    その次に   ITEM を見つけて    それを把持して .
+ROOM に行って（動的障害物）   次に   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+最初に   ROOM に行って   ITEM を取って   から   戻ってきて .
+ROOM に行って    から   ITEM を探して    それを持ち上げて .
+ROOM に行って    ITEM を取って    外に出て   ね .
+最初に   ROOM に行って（動的障害物）   ITEM を持って    LOCATION に届けて .
+まず   LOCATION に行って   ITEM を取って    LOCATION に届けて .
+人を呼んで    その人を追跡して    フィールドから退出して .
+LOCATION に行って   ITEM を把持して   ダストビン に捨てて .
+最初に   LOCATION に行って   ITEM を持ち上げて    LOCATION に届けて .
+ROOM に入って    そのあと   ITEM を見つけて    それを取って .
+LOCATION に行って   えっと   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に行って（動的障害物）    次に   ITEM を見つけて    それを取って .
+ROOM に入って    それから   ITEM を見つけて    それを持ち上げて .
+ROOM に入って    ROOM に行って（動的障害物）    最後に   ROOM を出て .
+ROOM に入って   ITEM を把持して   ダストビン に捨てて   ほしいんだけど .
+ROOM に入って    ITEM を取って    ROOM を出て   ね .
+ROOM に行って（動的障害物）    ITEM を把持して    ROOM を出て   ください .
+まず   ITEM を LOCATION から取ってきて   LOCATION に行って   ROOM に入って .
+LOCATION まで行って   ITEM を把持して   LOCATION に置いて   くれる？ .
+最初に   ROOM に入って   ITEM を持って   最後に   戻ってきて .
+LOCATION に行って    LOCATION まで行って    最後に   フィールドから出て .
+ROOM に行って    その次に   ITEM を探して    それを取って .
+ROOM に行って    LOCATION まで行って    えっと   外に出て .
+ROOM に行って（動的障害物）    から   ITEM を発見して    それを取って .
+ROOM に行って（動的障害物）    ITEM を取って    外に出て   くれる？ .
+LOCATION まで行って   ITEM を持ち上げて   LOCATION に置いて   くれる？ .
+LOCATION まで行って    ITEM を持ち上げて    ROOM を出て   ね .
+ROOM に行って（動的障害物）    ROOM に入って    最後に   ROOM を出て .
+ROOM に行って（動的障害物）    ROOM に入って    それから   フィールドから退出して .
+ROOM に入って    ROOM に行って（動的障害物）    そのあと   外に出て .
+最初に   ROOM に行って   ITEM を持ち上げて   そのまま   戻ってきて .
+LOCATION まで行って    LOCATION まで行って    えっと   フィールドから退出して .
+ROOM に行って    それから   ITEM を探して    それを持ち上げて .
+LOCATION に行って    その次に   ITEM を探して    それを掴んで .
+ROOM に行って（動的障害物）    LOCATION に行って    そのあと   外に出て .
+LOCATION に行って    近くにいる 人を探して    そのあと   その人に付いて行って .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    それから   フィールドから退出して .
+ROOM に入って    えっと   ITEM を探して    それを掴んで .
+まず   LOCATION まで行って   ITEM を取って   から   戻ってきて .
+まず   LOCATION まで行って   ITEM を持って   それで   戻ってきて .
+LOCATION まで行って    から   ITEM を探して    それを把持して .
+ROOM に行って（動的障害物）    えっと   ITEM を探して    それを把持して .
+LOCATION まで行って    LOCATION に行って    それで   ROOM を出て .
+LOCATION に行って    ITEM を把持して    フィールドから出て   くれる？ .
+LOCATION に行って   から   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に行って    LOCATION まで行って    から   フィールドから出て .
+LOCATION まで行って    LOCATION に行って    から   フィールドから退出して .
+LOCATION に行って   ITEM を持ち上げて   ダストビン に捨てて   ね .
+ROOM に行って    ROOM に行って（動的障害物）    それで   外に出て .
+最初に   ROOM に行って   ITEM を持って    LOCATION に持って行って .
+ROOM に入って    ITEM を持ち上げて    ROOM を出て   ください .
+LOCATION に行って    ITEM を持って    ROOM を出て   ほしいんだけど .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    えっと   外に出て .
+ROOM に行って    LOCATION に行って    から   外に出て .
+LOCATION に行って    ITEM を取って    ROOM を出て   ほしいんだけど .
+まず   ITEM が LOCATION にあるから持ってきて   ROOM に行って   ROOM に行って（動的障害物） .
+ROOM に行って    LOCATION まで行って    そのまま   外に出て .
+まず   LOCATION に置かれた ITEM を持って   LOCATION まで行って   LOCATION に行って .
+まず   ITEM を LOCATION から取ってきて   LOCATION まで行って   ROOM に行って .
+ROOM に入って    そのあと   ITEM を探して    それを掴んで .
+ROOM に行って    LOCATION まで行って    それから   外に出て .
+LOCATION まで行って   ITEM を取って   ダストビン に捨てて   ね .
+LOCATION まで行って    えっと   ITEM を見つけて    それを掴んで .
+最初に   LOCATION に行って   ITEM を取って   そのまま   戻ってきて .
+まず   ROOM に行って（動的障害物）   ITEM を持ち上げて   えっと   戻ってきて .
+ROOM に行って（動的障害物）    ROOM に行って    えっと   フィールドから退出して .
+ROOM に入って    えっと   ITEM を探して    それを把持して .
+LOCATION に行って    LOCATION に行って    えっと   外に出て .
+最初に   ROOM に行って（動的障害物）   ITEM を取って   最後に   戻ってきて .
+ROOM に入って   ITEM を持って   ダストビン に捨てて   ほしいんだけど .
+最初に   ITEM を LOCATION から取ってきて   ROOM に行って   ROOM に行って（動的障害物） .
+最初に   ROOM に行って   ITEM を持ち上げて    LOCATION に届けて .
+ROOM に入って    ROOM に行って    そのまま   フィールドから退出して .
+ROOM に行って（動的障害物）    LOCATION まで行って    えっと   フィールドから出て .
+LOCATION に行って    ROOM に入って    から   外に出て .
+LOCATION に行って    ROOM に行って（動的障害物）    最後に   フィールドから出て .
+まず   ROOM に入って   ITEM を持ち上げて   そのあと   戻ってきて .
+ROOM に入って    ROOM に行って    から   フィールドから退出して .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に入って   LOCATION まで行って .
+ROOM に行って   その次に   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って（動的障害物）    ITEM を把持して    フィールドから出て   くれる？ .
+まず   ROOM に行って（動的障害物）   ITEM を持って   最後に   戻ってきて .
+ROOM に行って（動的障害物）    ROOM に行って    そのまま   フィールドから退出して .
+LOCATION に行って    LOCATION に行って    そのあと   フィールドから退出して .
+ROOM に行って    から   ITEM を探して    それを掴んで .
+最初に   ITEM を LOCATION から取ってきて   ROOM に入って   LOCATION まで行って .
+LOCATION に行って    ROOM に行って（動的障害物）    から   フィールドから退出して .
+ROOM に入って   それから   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に行って    LOCATION に行って    最後に   フィールドから出て .
+ROOM に行って（動的障害物）    その次に   ITEM を見つけて    それを把持して .
+ROOM に行って（動的障害物）    ROOM に入って    最後に   外に出て .
+ROOM に行って    そのあと   ITEM を探して    それを掴んで .
+ROOM に入って    LOCATION まで行って    そのまま   外に出て .
+ROOM に行って（動的障害物）   ITEM を取って   ダストビン に捨てて .
+ROOM に行って    ROOM に入って    最後に   フィールドから出て .
+最初に   LOCATION まで行って   ITEM を持ち上げて    LOCATION に届けて .
+LOCATION まで行って    ITEM を把持して    ROOM を出て   ね .
+ROOM に行って    ROOM に行って    えっと   ROOM を出て .
+ROOM に行って（動的障害物）   ITEM を持って   ダストビン に捨てて .
+ROOM に行って    そのあと   ITEM を発見して    それを掴んで .
+ROOM に入って    LOCATION に行って    えっと   ROOM を出て .
+LOCATION まで行って   ITEM を持ち上げて   ダストビン に捨てて .
+ROOM に入って    LOCATION まで行って    から   フィールドから出て .
+ROOM に行って（動的障害物）    から   ITEM を探して    それを取って .
+ROOM に行って    から   ITEM を見つけて    それを把持して .
+LOCATION まで行って    ROOM に入って    そのあと   フィールドから出て .
+まず   LOCATION に行って   ITEM を取って   から   戻ってきて .
+ROOM に行って（動的障害物）    ROOM に入って    それから   外に出て .
+ROOM に入って    次に   ITEM を見つけて    それを把持して .
+LOCATION に行って   ITEM を取って   ダストビン に捨てて .
+ROOM に入って    近くにいる 人を探して    そのあと   その人を追跡して .
+LOCATION まで行って   ITEM を持ち上げて   LOCATION に置いて .
+LOCATION まで行って   それから   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+最初に   ROOM に行って   ITEM を持ち上げて   それから   戻ってきて .
+LOCATION まで行って    ITEM を取って    フィールドから退出して   ください .
+最初に   LOCATION まで行って   ITEM を持ち上げて   それから   戻ってきて .
+ROOM に行って（動的障害物）    次に   ITEM を探して    それを掴んで .
+LOCATION まで行って    そのあと   ITEM を発見して    それを持ち上げて .
+LOCATION に行って    から   ITEM を探して    それを把持して .
+ROOM に行って（動的障害物）    そのあと   ITEM を見つけて    それを取って .
+LOCATION に行って    ITEM を取って    フィールドから出て   ね .
+LOCATION まで行って    ITEM を持ち上げて    フィールドから出て   ください .
+ROOM に行って（動的障害物）    近くにいる 人を探して    最後に   その人を追跡して .
+LOCATION に行って    LOCATION に行って    そのあと   外に出て .
+LOCATION に行って   次に   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+LOCATION まで行って    ITEM を持って    フィールドから出て   ください .
+まず   ROOM に行って   ITEM を取って   最後に   戻ってきて .
+ROOM に行って（動的障害物）    次に   ITEM を見つけて    それを把持して .
+ROOM に入って    そのあと   ITEM を探して    それを取って .
+ROOM に行って（動的障害物）    その次に   ITEM を見つけて    それを取って .
+LOCATION に行って    ROOM に行って    そのまま   フィールドから出て .
+LOCATION まで行って   次に   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+LOCATION まで行って   ITEM を持ち上げて   LOCATION に置いて   ください .
+LOCATION に行って    LOCATION まで行って    そのまま   ROOM を出て .
+ROOM に入って    次に   ITEM を見つけて    それを掴んで .
+ROOM に入って   ITEM を持ち上げて   LOCATION に置いて .
+LOCATION まで行って    ROOM に行って    最後に   外に出て .
+まず   ROOM に行って   ITEM を把持して   えっと   戻ってきて .
+ROOM に行って（動的障害物）    それから   ITEM を探して    それを把持して .
+人を呼んで    その次に   注文を聞いて    ITEM を LOCATION から取ってきて .
+最初に   LOCATION に行って   ITEM を持って   それで   戻ってきて .
+まず   ROOM に行って（動的障害物）   ITEM を持ち上げて   それで   戻ってきて .
+LOCATION まで行って    ROOM に行って（動的障害物）    から   ROOM を出て .
+ROOM に行って（動的障害物）    えっと   ITEM を見つけて    それを取って .
+ROOM に行って（動的障害物）   ITEM を把持して   ダストビン に捨てて   ほしいんだけど .
+ROOM に行って    近くにいる 人を探して    最後に   その人を追跡して .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    フィールドから出て   くれる？ .
+ROOM に入って    それから   ITEM を発見して    それを取って .
+LOCATION まで行って    ITEM を持ち上げて    ROOM を出て   くれる？ .
+LOCATION に行って   ITEM を持ち上げて   LOCATION に置いて .
+ROOM に行って（動的障害物）   ITEM を持って   ダストビン に捨てて   くれる？ .
+LOCATION まで行って   そのあと   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+最初に   ROOM に入って   ITEM を取って   最後に   戻ってきて .
+LOCATION に行って    次に   ITEM を発見して    それを取って .
+LOCATION まで行って   それから   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って    ROOM に行って    それで   フィールドから出て .
+LOCATION まで行って    LOCATION まで行って    から   フィールドから退出して .
+まず   LOCATION に行って   ITEM を把持して   そのまま   戻ってきて .
+最初に   ITEM を LOCATION から取ってきて   ROOM に行って（動的障害物）   ROOM に行って .
+最初に   ROOM に行って（動的障害物）   ITEM を持って   から   戻ってきて .
+LOCATION に行って    LOCATION まで行って    そのあと   フィールドから退出して .
+ROOM に行って    ITEM を取って    ROOM を出て   くれる？ .
+ROOM に入って    ROOM に行って    そのあと   外に出て .
+ROOM に入って    ROOM に行って（動的障害物）    から   外に出て .
+LOCATION まで行って    LOCATION まで行って    から   ROOM を出て .
+LOCATION まで行って    LOCATION まで行って    そのまま   ROOM を出て .
+最初に   ROOM に行って（動的障害物）   ITEM を持ち上げて   えっと   戻ってきて .
+LOCATION に行って    LOCATION まで行って    最後に   フィールドから退出して .
+LOCATION まで行って    それから   ITEM を探して    それを取って .
+ROOM に行って（動的障害物）    ROOM に入って    それで   ROOM を出て .
+ROOM に入って    ITEM を持ち上げて    フィールドから退出して   ください .
+LOCATION に行って    ITEM を取って    フィールドから退出して   ください .
+LOCATION まで行って    ROOM に行って（動的障害物）    それで   外に出て .
+最初に   ROOM に行って（動的障害物）   ITEM を持ち上げて   最後に   戻ってきて .
+最初に   LOCATION に行って   ITEM を持って   えっと   戻ってきて .
+LOCATION に行って    それから   ITEM を発見して    それを把持して .
+まず   LOCATION に行って   ITEM を持って   それで   戻ってきて .
+最初に   ROOM に行って   ITEM を取って   最後に   戻ってきて .
+ROOM に行って（動的障害物）    次に   ITEM を発見して    それを掴んで .
+ROOM に行って    LOCATION まで行って    そのまま   ROOM を出て .
+まず   ROOM に入って   ITEM を把持して   そのあと   戻ってきて .
+最初に   ITEM が LOCATION にあるから持ってきて   LOCATION に行って   LOCATION に行って .
+LOCATION に行って    ITEM を持って    ROOM を出て   ね .
+まず   ROOM に行って（動的障害物）   ITEM を把持して   えっと   戻ってきて .
+ROOM に行って（動的障害物）    ITEM を取って    ROOM を出て   くれる？ .
+最初に   ROOM に行って   ITEM を把持して   それから   戻ってきて .
+最初に   LOCATION まで行って   ITEM を持ち上げて   から   戻ってきて .
+LOCATION に行って    近くにいる 人を探して    それから   その人に付いて行って .
+人を呼んで    そのあと   注文をとって    ITEM を LOCATION から取ってきて .
+ROOM に行って（動的障害物）   ITEM を持ち上げて   LOCATION に置いて   ください .
+LOCATION まで行って    ITEM を持ち上げて    フィールドから出て   ね .
+LOCATION に行って    から   ITEM を発見して    それを取って .
+ROOM に入って    ROOM に行って    それで   フィールドから退出して .
+ROOM に行って    LOCATION まで行って    それから   フィールドから退出して .
+まず   LOCATION に行って   ITEM を持ち上げて    LOCATION に届けて .
+まず   ROOM に入って   ITEM を取って   そのまま   戻ってきて .
+まず   LOCATION に置かれた ITEM を持って   ROOM に行って   LOCATION に行って .
+まず   ROOM に行って   ITEM を把持して   から   戻ってきて .
+まず   LOCATION に行って   ITEM を把持して    LOCATION に届けて .
+ROOM に行って（動的障害物）    ROOM に入って    そのあと   フィールドから出て .
+ROOM に入って    LOCATION まで行って    そのあと   ROOM を出て .
+ROOM に行って    えっと   ITEM を探して    それを取って .
+ROOM に入って    ROOM に行って（動的障害物）    最後に   外に出て .
+ROOM に行って    ROOM に行って（動的障害物）    最後に   フィールドから出て .
+ROOM に行って（動的障害物）    その次に   ITEM を発見して    それを把持して .
+最初に   ROOM に入って   ITEM を把持して   えっと   戻ってきて .
+ROOM に行って    ITEM を持ち上げて    外に出て   ほしいんだけど .
+LOCATION に行って    ITEM を把持して    ROOM を出て   ほしいんだけど .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に入って   LOCATION に行って .
+LOCATION まで行って    ITEM を把持して    フィールドから出て   ください .
+LOCATION まで行って    ROOM に行って    そのまま   ROOM を出て .
+LOCATION に行って    それから   ITEM を探して    それを持ち上げて .
+まず   ROOM に行って（動的障害物）   ITEM を持って   そのあと   戻ってきて .
+LOCATION まで行って    ROOM に行って（動的障害物）    そのあと   ROOM を出て .
+ROOM に行って    ITEM を持って    フィールドから退出して   ください .
+人を呼んで    その次に   注文をとって    ITEM を LOCATION から取ってきて .
+LOCATION まで行って    ROOM に入って    から   外に出て .
+ROOM に行って    その次に   ITEM を発見して    それを取って .
+ROOM に入って    ROOM に行って    そのあと   ROOM を出て .
+ROOM に行って    LOCATION に行って    それで   フィールドから出て .
+最初に   LOCATION に行って   ITEM を取って   から   戻ってきて .
+まず   LOCATION まで行って   ITEM を持ち上げて   それで   戻ってきて .
+LOCATION に行って    LOCATION に行って    それから   外に出て .
+ROOM に入って    次に   ITEM を発見して    それを持ち上げて .
+LOCATION に行って    ROOM に行って    から   フィールドから出て .
+ROOM に行って    ROOM に行って（動的障害物）    それから   ROOM を出て .
+LOCATION まで行って    ROOM に行って（動的障害物）    から   外に出て .
+LOCATION に行って    次に   ITEM を探して    それを把持して .
+LOCATION まで行って    から   ITEM を発見して    それを掴んで .
+まず   LOCATION まで行って   ITEM を把持して   それで   戻ってきて .
+ROOM に入って   ITEM を持ち上げて   ダストビン に捨てて   ね .
+ROOM に行って（動的障害物）    その次に   ITEM を探して    それを持ち上げて .
+最初に   LOCATION に行って   ITEM を持ち上げて   最後に   戻ってきて .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に行って   ROOM に入って .
+ROOM に行って    から   ITEM を探して    それを把持して .
+人を呼んで    その人に付いて行って    外に出て .
+LOCATION まで行って    ROOM に行って    そのあと   フィールドから退出して .
+LOCATION に行って    次に   ITEM を発見して    それを掴んで .
+ROOM に入って   ITEM を取って   ダストビン に捨てて   ほしいんだけど .
+LOCATION まで行って    ROOM に行って    そのまま   フィールドから退出して .
+ROOM に行って（動的障害物）    LOCATION に行って    から   フィールドから退出して .
+ROOM に行って   ITEM を把持して   ダストビン に捨てて   くれる？ .
+LOCATION に行って    LOCATION まで行って    それで   フィールドから退出して .
+最初に   LOCATION に行って   ITEM を持って   最後に   戻ってきて .
+ROOM に行って   ITEM を持って   ダストビン に捨てて   ください .
+ROOM に入って    ROOM に行って    そのまま   外に出て .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    えっと   ROOM を出て .
+ROOM に入って   その次に   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+まず   ROOM に入って   ITEM を把持して   えっと   戻ってきて .
+ROOM に行って    ITEM を持って    外に出て   ください .
+ROOM に行って（動的障害物）    ROOM に行って    そのあと   フィールドから退出して .
+まず   ITEM が LOCATION にあるから持ってきて   LOCATION まで行って   ROOM に入って .
+ROOM に入って    その次に   ITEM を発見して    それを掴んで .
+まず   LOCATION まで行って   ITEM を持って   それから   戻ってきて .
+ROOM に行って（動的障害物）   ITEM を持ち上げて   ダストビン に捨てて   ください .
+最初に   ROOM に入って   ITEM を把持して    LOCATION に持って行って .
+ROOM に行って   ITEM を持ち上げて   ダストビン に捨てて   くれる？ .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に行って   LOCATION まで行って .
+ROOM に入って    ROOM に行って    えっと   ROOM を出て .
+LOCATION に行って    ITEM を持ち上げて    ROOM を出て   ね .
+LOCATION に行って    そのあと   ITEM を探して    それを取って .
+LOCATION に行って    それから   ITEM を探して    それを掴んで .
+LOCATION まで行って    ROOM に行って（動的障害物）    最後に   フィールドから出て .
+最初に   LOCATION まで行って   ITEM を取って   えっと   戻ってきて .
+ROOM に入って    LOCATION に行って    それから   外に出て .
+LOCATION まで行って    ROOM に入って    それから   外に出て .
+まず   ROOM に行って（動的障害物）   ITEM を把持して   それから   戻ってきて .
+まず   ROOM に入って   ITEM を取って   それから   戻ってきて .
+ROOM に入って   えっと   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+まず   ROOM に入って   ITEM を持って    LOCATION に持って行って .
+LOCATION に行って   ITEM を持って   ダストビン に捨てて   ください .
+最初に   ROOM に入って   ITEM を取って    LOCATION に届けて .
+LOCATION に行って   ITEM を把持して   LOCATION に置いて   ください .
+LOCATION まで行って    ITEM を持って    フィールドから退出して   ほしいんだけど .
+まず   LOCATION に行って   ITEM を持ち上げて   それから   戻ってきて .
+LOCATION に行って   ITEM を取って   ダストビン に捨てて   ね .
+まず   ROOM に行って   ITEM を持って   最後に   戻ってきて .
+ROOM に行って    LOCATION に行って    最後に   フィールドから退出して .
+最初に   ROOM に行って   ITEM を把持して   それで   戻ってきて .
+LOCATION まで行って   ITEM を取って   LOCATION に置いて .
+ROOM に入って    LOCATION まで行って    最後に   フィールドから退出して .
+ROOM に行って（動的障害物）    LOCATION まで行って    それから   フィールドから出て .
+LOCATION まで行って    次に   ITEM を発見して    それを把持して .
+LOCATION まで行って   ITEM を持って   ダストビン に捨てて   ください .
+ROOM に行って（動的障害物）    それから   ITEM を探して    それを掴んで .
+LOCATION に行って    ITEM を持ち上げて    ROOM を出て   ほしいんだけど .
+ROOM に行って    LOCATION に行って    それで   ROOM を出て .
+最初に   LOCATION に行って   ITEM を把持して    LOCATION に持って行って .
+ROOM に入って    LOCATION まで行って    そのまま   フィールドから出て .
+LOCATION に行って    ITEM を持ち上げて    外に出て   ね .
+LOCATION まで行って    近くにいる 人を探して    そのあと   その人を追跡して .
+ROOM に行って（動的障害物）    次に   ITEM を探して    それを把持して .
+ROOM に行って    えっと   ITEM を見つけて    それを把持して .
+LOCATION に行って    それから   ITEM を発見して    それを持ち上げて .
+ROOM に行って    ITEM を把持して    ROOM を出て   ほしいんだけど .
+LOCATION まで行って    ROOM に行って（動的障害物）    最後に   ROOM を出て .
+ROOM に行って    えっと   ITEM を探して    それを持ち上げて .
+ROOM に行って（動的障害物）   ITEM を把持して   ダストビン に捨てて .
+ROOM に行って（動的障害物）    ITEM を把持して    フィールドから出て   ほしいんだけど .
+ROOM に入って    ROOM に行って（動的障害物）    最後に   フィールドから出て .
+ROOM に行って    それから   ITEM を見つけて    それを取って .
+ROOM に入って    次に   ITEM を探して    それを取って .
+ROOM に行って    ITEM を把持して    外に出て   ください .
+LOCATION に行って    ROOM に行って（動的障害物）    から   ROOM を出て .
+LOCATION まで行って    それから   ITEM を探して    それを掴んで .
+LOCATION に行って   ITEM を持って   ダストビン に捨てて   ほしいんだけど .
+ROOM に入って    ITEM を持ち上げて    フィールドから退出して   くれる？ .
+ROOM に行って    ROOM に行って（動的障害物）    それで   フィールドから退出して .
+ROOM に入って    LOCATION に行って    そのまま   外に出て .
+ROOM に行って   ITEM を持ち上げて   LOCATION に置いて   ほしいんだけど .
+ROOM に行って    ROOM に行って    最後に   外に出て .
+まず   ITEM が LOCATION にあるから持ってきて   LOCATION まで行って   ROOM に行って（動的障害物） .
+最初に   ROOM に入って   ITEM を把持して   そのあと   戻ってきて .
+最初に   ROOM に行って   ITEM を持って   最後に   戻ってきて .
+ROOM に行って    近くにいる 人を探して    そのまま   その人を追跡して .
+LOCATION まで行って    ITEM を取って    外に出て   ください .
+ROOM に行って    LOCATION に行って    そのまま   フィールドから退出して .
+LOCATION まで行って    近くにいる 人を探して    最後に   その人を追跡して .
+LOCATION まで行って   ITEM を持ち上げて   ダストビン に捨てて   くれる？ .
+ROOM に行って   次に   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に入って   ITEM を取って   LOCATION に置いて   ほしいんだけど .
+ROOM に行って（動的障害物）    LOCATION まで行って    そのあと   ROOM を出て .
+ROOM に入って    ROOM に入って    から   外に出て .
+ROOM に行って（動的障害物）    近くにいる 人を探して    最後に   その人に付いて行って .
+LOCATION まで行って   ITEM を持って   LOCATION に置いて .
+LOCATION まで行って    それから   ITEM を発見して    それを取って .
+ROOM に入って    近くにいる 人を探して    から   その人に付いて行って .
+LOCATION に行って    そのあと   ITEM を発見して    それを掴んで .
+ROOM に行って（動的障害物）    そのあと   ITEM を探して    それを持ち上げて .
+LOCATION に行って    LOCATION に行って    それで   ROOM を出て .
+ROOM に入って    そのあと   ITEM を探して    それを持ち上げて .
+最初に   ROOM に入って   ITEM を取って   そのまま   戻ってきて .
+LOCATION まで行って    ROOM に行って（動的障害物）    えっと   外に出て .
+最初に   ROOM に行って   ITEM を把持して    LOCATION に届けて .
+LOCATION に行って    次に   ITEM を探して    それを取って .
+ROOM に行って    ITEM を持って    フィールドから出て   ね .
+ROOM に行って    えっと   ITEM を発見して    それを掴んで .
+まず   LOCATION に行って   ITEM を取って   最後に   戻ってきて .
+LOCATION に行って   えっと   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+LOCATION に行って    ITEM を持って    フィールドから出て   ね .
+まず   LOCATION まで行って   ITEM を持ち上げて   から   戻ってきて .
+LOCATION に行って    ROOM に行って（動的障害物）    えっと   外に出て .
+ROOM に行って   それから   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+最初に   LOCATION に置かれた ITEM を持って   LOCATION に行って   ROOM に行って .
+LOCATION まで行って    ITEM を持って    外に出て   ほしいんだけど .
+LOCATION に行って    LOCATION に行って    そのまま   フィールドから退出して .
+ROOM に行って（動的障害物）    から   ITEM を発見して    それを持ち上げて .
+LOCATION まで行って    LOCATION まで行って    最後に   フィールドから出て .
+ROOM に行って（動的障害物）    LOCATION まで行って    それで   フィールドから退出して .
+ROOM に入って    次に   ITEM を探して    それを把持して .
+ROOM に行って（動的障害物）    ROOM に入って    それで   フィールドから退出して .
+ROOM に行って（動的障害物）    ROOM に入って    から   外に出て .
+ROOM に行って    から   ITEM を発見して    それを持ち上げて .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    最後に   ROOM を出て .
+ROOM に入って    LOCATION に行って    それで   フィールドから出て .
+ROOM に行って   ITEM を把持して   LOCATION に置いて .
+人を呼んで    それから   注文をとって    ITEM が LOCATION にあるから持ってきて .
+まず   LOCATION まで行って   ITEM を持ち上げて    LOCATION に届けて .
+LOCATION に行って    それから   ITEM を探して    それを取って .
+ROOM に行って   から   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って（動的障害物）    ITEM を取って    外に出て   ね .
+LOCATION に行って    そのあと   ITEM を発見して    それを取って .
+ROOM に行って    ROOM に入って    それから   フィールドから退出して .
+ROOM に行って    ROOM に行って    から   ROOM を出て .
+ROOM に入って    ITEM を把持して    フィールドから出て   ください .
+ROOM に入って   そのあと   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+まず   ROOM に行って   ITEM を取って   それから   戻ってきて .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に入って   LOCATION まで行って .
+LOCATION まで行って    ROOM に入って    それで   フィールドから出て .
+LOCATION まで行って    近くにいる 人を探して    最後に   その人に付いて行って .
+まず   LOCATION まで行って   ITEM を取って   それで   戻ってきて .
+ROOM に入って   ITEM を持って   LOCATION に置いて   ね .
+ROOM に行って    ITEM を持ち上げて    外に出て   くれる？ .
+ROOM に入って    ITEM を持ち上げて    フィールドから退出して   ね .
+LOCATION に行って    ITEM を持って    フィールドから出て   ほしいんだけど .
+ROOM に入って    そのあと   ITEM を発見して    それを持ち上げて .
+LOCATION に行って   その次に   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+LOCATION まで行って    ROOM に行って    そのあと   外に出て .
+ROOM に入って    LOCATION に行って    それで   外に出て .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    そのまま   ROOM を出て .
+ROOM に入って    それから   ITEM を探して    それを持ち上げて .
+ROOM に行って（動的障害物）    LOCATION に行って    から   外に出て .
+ROOM に入って    ITEM を取って    フィールドから出て   くれる？ .
+ROOM に入って    LOCATION に行って    そのまま   ROOM を出て .
+ROOM に行って    ROOM に行って（動的障害物）    そのあと   外に出て .
+LOCATION まで行って    次に   ITEM を発見して    それを持ち上げて .
+LOCATION に行って   ITEM を取って   LOCATION に置いて   ください .
+ROOM に入って    ROOM に入って    から   ROOM を出て .
+LOCATION に行って    そのあと   ITEM を探して    それを掴んで .
+ROOM に行って（動的障害物）    ROOM に入って    それから   ROOM を出て .
+最初に   LOCATION に行って   ITEM を把持して   最後に   戻ってきて .
+ROOM に行って（動的障害物）   ITEM を把持して   LOCATION に置いて   ね .
+最初に   LOCATION まで行って   ITEM を持って   それで   戻ってきて .
+まず   ROOM に行って   ITEM を取って   そのあと   戻ってきて .
+LOCATION に行って    その次に   ITEM を探して    それを取って .
+ROOM に行って   その次に   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+最初に   ITEM を LOCATION から取ってきて   ROOM に行って   ROOM に入って .
+LOCATION まで行って    ROOM に入って    から   フィールドから退出して .
+最初に   ROOM に入って   ITEM を持ち上げて    LOCATION に届けて .
+LOCATION に行って    次に   ITEM を見つけて    それを持ち上げて .
+まず   ROOM に行って   ITEM を取って   それで   戻ってきて .
+ROOM に行って（動的障害物）    ITEM を把持して    外に出て   ね .
+最初に   LOCATION に置かれた ITEM を持って   LOCATION まで行って   LOCATION まで行って .
+LOCATION に行って    ROOM に行って    そのあと   フィールドから退出して .
+ROOM に行って    ITEM を把持して    ROOM を出て   ね .
+ROOM に行って（動的障害物）    それから   ITEM を探して    それを持ち上げて .
+ROOM に入って    ROOM に行って    最後に   外に出て .
+まず   ROOM に行って   ITEM を持ち上げて   から   戻ってきて .
+ROOM に入って    近くにいる 人を探して    それから   その人を追跡して .
+最初に   LOCATION まで行って   ITEM を取って   最後に   戻ってきて .
+LOCATION に行って    ITEM を取って    外に出て   ね .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に入って   ROOM に入って .
+LOCATION に行って    LOCATION に行って    最後に   外に出て .
+LOCATION に行って    ITEM を把持して    ROOM を出て   ください .
+まず   LOCATION まで行って   ITEM を把持して   そのまま   戻ってきて .
+LOCATION に行って    ITEM を把持して    ROOM を出て   ね .
+まず   LOCATION に行って   ITEM を取って   えっと   戻ってきて .
+LOCATION まで行って    LOCATION まで行って    最後に   ROOM を出て .
+ROOM に行って    ROOM に行って（動的障害物）    最後に   フィールドから退出して .
+ROOM に入って    ITEM を把持して    ROOM を出て   くれる？ .
+ROOM に行って   ITEM を持ち上げて   LOCATION に置いて .
+LOCATION まで行って    その次に   ITEM を見つけて    それを取って .
+LOCATION まで行って   ITEM を持って   ダストビン に捨てて   ほしいんだけど .
+LOCATION に行って    近くにいる 人を探して    えっと   その人を追跡して .
+ROOM に行って    ROOM に行って（動的障害物）    えっと   外に出て .
+ROOM に入って    ITEM を持ち上げて    フィールドから出て   くれる？ .
+LOCATION に行って    ROOM に行って（動的障害物）    そのあと   ROOM を出て .
+ROOM に行って    ITEM を持ち上げて    ROOM を出て   ください .
+まず   ITEM を LOCATION から取ってきて   LOCATION まで行って   LOCATION まで行って .
+ROOM に行って（動的障害物）    そのあと   ITEM を探して    それを把持して .
+人を呼んで    えっと   注文をとって    ITEM を LOCATION から取ってきて .
+LOCATION に行って    ROOM に行って    えっと   フィールドから出て .
+人を呼んで    その人を追跡して    外に出て .
+ROOM に入って    えっと   ITEM を見つけて    それを取って .
+まず   LOCATION まで行って   ITEM を持ち上げて   そのあと   戻ってきて .
+ROOM に行って（動的障害物）   ITEM を持ち上げて   LOCATION に置いて   ほしいんだけど .
+ROOM に行って（動的障害物）   ITEM を持って   LOCATION に置いて   ください .
+ROOM に行って（動的障害物）    ITEM を持って    ROOM を出て   くれる？ .
+LOCATION に行って    ITEM を持って    ROOM を出て   ください .
+LOCATION まで行って    から   ITEM を見つけて    それを把持して .
+LOCATION に行って    ROOM に行って（動的障害物）    それから   外に出て .
+ROOM に行って   ITEM を持って   LOCATION に置いて   ほしいんだけど .
+ROOM に入って   ITEM を取って   ダストビン に捨てて   ください .
+まず   ROOM に行って   ITEM を持ち上げて   えっと   戻ってきて .
+最初に   ROOM に行って（動的障害物）   ITEM を取って    LOCATION に届けて .
+ROOM に行って（動的障害物）   ITEM を持って   LOCATION に置いて .
+ROOM に行って    ITEM を持ち上げて    ROOM を出て   ね .
+ROOM に行って    ITEM を把持して    外に出て   くれる？ .
+LOCATION に行って    そのあと   ITEM を見つけて    それを持ち上げて .
+ROOM に行って   ITEM を取って   ダストビン に捨てて .
+LOCATION まで行って    から   ITEM を見つけて    それを取って .
+LOCATION に行って    ROOM に行って（動的障害物）    それから   ROOM を出て .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    そのまま   フィールドから退出して .
+LOCATION に行って    その次に   ITEM を探して    それを把持して .
+LOCATION まで行って    その次に   ITEM を見つけて    それを掴んで .
+LOCATION まで行って    から   ITEM を探して    それを取って .
+ROOM に入って   ITEM を持ち上げて   LOCATION に置いて   ね .
+最初に   LOCATION まで行って   ITEM を持って   そのあと   戻ってきて .
+ROOM に行って    そのあと   ITEM を探して    それを把持して .
+まず   LOCATION に行って   ITEM を持ち上げて   から   戻ってきて .
+ROOM に入って    ROOM に行って    最後に   ROOM を出て .
+LOCATION まで行って   それから   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+ROOM に行って   そのあと   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+最初に   ROOM に入って   ITEM を取って   それで   戻ってきて .
+ROOM に行って    ROOM に入って    最後に   ROOM を出て .
+まず   LOCATION に置かれた ITEM を持って   ROOM に入って   LOCATION まで行って .
+LOCATION に行って   ITEM を持って   LOCATION に置いて .
+LOCATION に行って    えっと   ITEM を見つけて    それを把持して .
+LOCATION に行って   それから   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+LOCATION まで行って    ROOM に行って（動的障害物）    そのあと   外に出て .
+人を呼んで    その次に   注文を聞いて    LOCATION に置かれた ITEM を持って .
+ROOM に行って    ROOM に行って（動的障害物）    そのあと   ROOM を出て .
+ROOM に行って（動的障害物）    それから   ITEM を見つけて    それを取って .
+ROOM に行って（動的障害物）    LOCATION に行って    それから   フィールドから出て .
+まず   ITEM を LOCATION から取ってきて   LOCATION に行って   LOCATION まで行って .
+LOCATION まで行って    えっと   ITEM を探して    それを取って .
+LOCATION まで行って    ROOM に入って    最後に   フィールドから出て .
+LOCATION まで行って    そのあと   ITEM を探して    それを把持して .
+人を呼んで    その人に付いて行って    フィールドから退出して .
+まず   ROOM に行って   ITEM を把持して    LOCATION に持って行って .
+LOCATION まで行って    ROOM に行って（動的障害物）    最後に   フィールドから退出して .
+ROOM に行って   えっと   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+まず   LOCATION に置かれた ITEM を持って   LOCATION に行って   ROOM に入って .
+ROOM に行って    ROOM に行って    そのあと   外に出て .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    外に出て   ほしいんだけど .
+LOCATION に行って    その次に   ITEM を見つけて    それを掴んで .
+まず   LOCATION まで行って   ITEM を持って    LOCATION に届けて .
+LOCATION に行って   えっと   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って（動的障害物）    ITEM を把持して    ROOM を出て   ね .
+ROOM に入って    LOCATION まで行って    そのあと   フィールドから退出して .
+ROOM に行って    ITEM を把持して    フィールドから出て   ほしいんだけど .
+LOCATION に行って    ROOM に入って    そのまま   フィールドから出て .
+LOCATION に行って    ROOM に行って（動的障害物）    そのまま   外に出て .
+LOCATION まで行って    ITEM を持って    フィールドから出て   ほしいんだけど .
+ROOM に行って    ROOM に行って    えっと   外に出て .
+ROOM に行って（動的障害物）    LOCATION に行って    そのまま   ROOM を出て .
+LOCATION まで行って    ITEM を持ち上げて    フィールドから退出して   ください .
+ROOM に行って    ITEM を把持して    外に出て   ほしいんだけど .
+まず   LOCATION に行って   ITEM を把持して   から   戻ってきて .
+LOCATION に行って    ITEM を把持して    フィールドから退出して   ください .
+最初に   ITEM を LOCATION から取ってきて   LOCATION まで行って   ROOM に行って（動的障害物） .
+LOCATION に行って    ROOM に行って    そのあと   外に出て .
+LOCATION まで行って    ITEM を取って    フィールドから出て   ほしいんだけど .
+ROOM に入って   ITEM を持ち上げて   ダストビン に捨てて .
+ROOM に行って    ITEM を持ち上げて    フィールドから退出して   ね .
+ROOM に行って（動的障害物）    ITEM を持って    ROOM を出て   ください .
+LOCATION に行って    LOCATION まで行って    それで   外に出て .
+ROOM に行って    ROOM に行って    えっと   フィールドから出て .
+ROOM に入って    ITEM を持ち上げて    外に出て   くれる？ .
+まず   ITEM が LOCATION にあるから持ってきて   LOCATION に行って   ROOM に入って .
+ROOM に行って（動的障害物）    ROOM に入って    そのまま   フィールドから退出して .
+ROOM に行って（動的障害物）    えっと   ITEM を見つけて    それを把持して .
+ROOM に入って    ROOM に行って    から   ROOM を出て .
+ROOM に行って    LOCATION に行って    そのまま   外に出て .
+ROOM に行って（動的障害物）   ITEM を持って   LOCATION に置いて   ね .
+LOCATION に行って    えっと   ITEM を探して    それを取って .
+ROOM に入って    ITEM を取って    外に出て   くれる？ .
+最初に   LOCATION に行って   ITEM を取って   それから   戻ってきて .
+ROOM に入って    ITEM を取って    ROOM を出て   くれる？ .
+まず   ROOM に行って（動的障害物）   ITEM を取って   から   戻ってきて .
+最初に   LOCATION まで行って   ITEM を取って   から   戻ってきて .
+ROOM に入って    LOCATION に行って    から   フィールドから退出して .
+LOCATION に行って    その次に   ITEM を見つけて    それを持ち上げて .
+ROOM に行って（動的障害物）    近くにいる 人を探して    それから   その人を追跡して .
+ROOM に行って（動的障害物）   ITEM を持ち上げて   ダストビン に捨てて   ほしいんだけど .
+ROOM に入って    ITEM を持ち上げて    ROOM を出て   くれる？ .
+LOCATION に行って    から   ITEM を発見して    それを持ち上げて .
+LOCATION まで行って    えっと   ITEM を発見して    それを取って .
+LOCATION に行って    ROOM に入って    えっと   フィールドから出て .
+まず   ROOM に入って   ITEM を持ち上げて   えっと   戻ってきて .
+ROOM に行って    ROOM に行って    そのまま   ROOM を出て .
+まず   LOCATION に置かれた ITEM を持って   ROOM に行って（動的障害物）   ROOM に行って .
+ROOM に行って    次に   ITEM を発見して    それを持ち上げて .
+LOCATION に行って    LOCATION に行って    それから   フィールドから退出して .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    そのあと   外に出て .
+ROOM に行って   そのあと   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+ROOM に行って（動的障害物）    近くにいる 人を探して    それから   その人に付いて行って .
+最初に   ROOM に行って（動的障害物）   ITEM を把持して   それから   戻ってきて .
+まず   LOCATION に行って   ITEM を把持して   そのあと   戻ってきて .
+LOCATION に行って    ROOM に入って    それで   フィールドから退出して .
+LOCATION まで行って    LOCATION まで行って    えっと   外に出て .
+ROOM に行って    ITEM を取って    フィールドから出て   ね .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    そのあと   フィールドから出て .
+LOCATION に行って    ROOM に行って（動的障害物）    それで   フィールドから出て .
+ROOM に入って    LOCATION に行って    そのあと   フィールドから出て .
+ROOM に行って（動的障害物）    ITEM を把持して    フィールドから出て   ね .
+ROOM に行って（動的障害物）    ROOM に行って    それで   フィールドから退出して .
+LOCATION に行って    ROOM に行って（動的障害物）    えっと   ROOM を出て .
+LOCATION に行って    ROOM に行って    それから   フィールドから退出して .
+LOCATION まで行って    ITEM を把持して    フィールドから出て   くれる？ .
+ROOM に行って    それから   ITEM を見つけて    それを持ち上げて .
+最初に   LOCATION まで行って   ITEM を持って    LOCATION に持って行って .
+ROOM に行って（動的障害物）    ROOM に行って    から   ROOM を出て .
+最初に   LOCATION に行って   ITEM を持ち上げて   それで   戻ってきて .
+まず   LOCATION に置かれた ITEM を持って   LOCATION まで行って   ROOM に行って（動的障害物） .
+人を呼んで    それから   注文を聞いて    ITEM が LOCATION にあるから持ってきて .
+LOCATION まで行って   次に   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+LOCATION まで行って   ITEM を取って   LOCATION に置いて   ね .
+LOCATION に行って    えっと   ITEM を探して    それを持ち上げて .
+ROOM に行って    次に   ITEM を見つけて    それを持ち上げて .
+ROOM に行って   ITEM を把持して   LOCATION に置いて   ほしいんだけど .
+最初に   ITEM を LOCATION から取ってきて   ROOM に行って   LOCATION に行って .
+LOCATION まで行って    ROOM に行って（動的障害物）    そのまま   外に出て .
+ROOM に入って    ROOM に行って（動的障害物）    から   フィールドから出て .
+LOCATION に行って    ROOM に行って    最後に   フィールドから退出して .
+ROOM に入って    近くにいる 人を探して    それで   その人に付いて行って .
+ROOM に行って（動的障害物）    そのあと   ITEM を発見して    それを持ち上げて .
+ROOM に行って   ITEM を持って   ダストビン に捨てて   ほしいんだけど .
+LOCATION に行って    ITEM を把持して    フィールドから退出して   ね .
+ROOM に行って（動的障害物）    ITEM を持って    外に出て   ほしいんだけど .
+まず   ROOM に入って   ITEM を把持して   それから   戻ってきて .
+ROOM に入って    ROOM に行って    それで   ROOM を出て .
+ROOM に行って（動的障害物）   ITEM を把持して   ダストビン に捨てて   ね .
+まず   LOCATION に置かれた ITEM を持って   ROOM に行って（動的障害物）   ROOM に行って（動的障害物） .
+まず   LOCATION に行って   ITEM を持ち上げて   えっと   戻ってきて .
+ROOM に行って（動的障害物）    ROOM に入って    そのまま   ROOM を出て .
+ROOM に行って    その次に   ITEM を見つけて    それを把持して .
+まず   ROOM に行って（動的障害物）   ITEM を持って    LOCATION に届けて .
+ROOM に入って   ITEM を取って   ダストビン に捨てて .
+ROOM に行って    ROOM に入って    えっと   外に出て .
+ROOM に入って   そのあと   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+LOCATION に行って    ITEM を持ち上げて    フィールドから出て   ください .
+LOCATION に行って    ITEM を持ち上げて    フィールドから退出して   くれる？ .
+ROOM に行って（動的障害物）    ITEM を取って    ROOM を出て   ください .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に入って   LOCATION に行って .
+LOCATION に行って    ROOM に行って    それから   ROOM を出て .
+最初に   LOCATION に行って   ITEM を把持して   そのまま   戻ってきて .
+LOCATION まで行って    LOCATION に行って    えっと   フィールドから退出して .
+まず   ROOM に行って（動的障害物）   ITEM を持って   そのまま   戻ってきて .
+ROOM に行って    ROOM に入って    そのまま   ROOM を出て .
+まず   ROOM に入って   ITEM を取って    LOCATION に持って行って .
+まず   LOCATION まで行って   ITEM を持ち上げて   それから   戻ってきて .
+最初に   ROOM に行って   ITEM を持ち上げて   えっと   戻ってきて .
+ROOM に行って    ROOM に入って    最後に   フィールドから退出して .
+ROOM に行って    LOCATION まで行って    それで   外に出て .
+ROOM に行って（動的障害物）    そのあと   ITEM を発見して    それを把持して .
+ROOM に行って   ITEM を取って   LOCATION に置いて   ね .
+ROOM に行って    ITEM を取って    フィールドから退出して   ください .
+ROOM に入って   ITEM を把持して   ダストビン に捨てて   ください .
+LOCATION まで行って    ITEM を持ち上げて    フィールドから出て   ほしいんだけど .
+ROOM に行って    LOCATION まで行って    そのあと   ROOM を出て .
+まず   LOCATION まで行って   ITEM を持ち上げて   えっと   戻ってきて .
+ROOM に入って    そのあと   ITEM を発見して    それを取って .
+LOCATION まで行って    ROOM に行って（動的障害物）    そのあと   フィールドから退出して .
+最初に   LOCATION に置かれた ITEM を持って   LOCATION まで行って   ROOM に行って .
+ROOM に行って    次に   ITEM を探して    それを取って .
+LOCATION まで行って    えっと   ITEM を探して    それを把持して .
+LOCATION まで行って    ITEM を把持して    フィールドから出て   ほしいんだけど .
+ROOM に行って   から   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+まず   LOCATION に置かれた ITEM を持って   LOCATION に行って   ROOM に行って .
+LOCATION に行って    ITEM を持って    外に出て   ほしいんだけど .
+ROOM に入って    ITEM を把持して    フィールドから退出して   ほしいんだけど .
+LOCATION まで行って    えっと   ITEM を発見して    それを持ち上げて .
+LOCATION に行って    ROOM に行って（動的障害物）    そのまま   ROOM を出て .
+ROOM に行って    LOCATION まで行って    最後に   外に出て .
+LOCATION まで行って    そのあと   ITEM を発見して    それを把持して .
+ROOM に行って   ITEM を取って   ダストビン に捨てて   くれる？ .
+ROOM に行って（動的障害物）    ITEM を持って    フィールドから出て   ほしいんだけど .
+LOCATION まで行って    ITEM を持って    外に出て   ね .
+ROOM に行って    次に   ITEM を見つけて    それを把持して .
+ROOM に行って    ITEM を把持して    フィールドから退出して   くれる？ .
+ROOM に入って    ITEM を持ち上げて    フィールドから出て   ね .
+ROOM に行って（動的障害物）    LOCATION に行って    そのまま   フィールドから退出して .
+最初に   ITEM が LOCATION にあるから持ってきて   LOCATION に行って   ROOM に入って .
+ROOM に入って    ROOM に入って    えっと   ROOM を出て .
+LOCATION まで行って    ITEM を取って    フィールドから出て   くれる？ .
+ROOM に行って   ITEM を持って   ダストビン に捨てて   ね .
+ROOM に行って    LOCATION まで行って    えっと   フィールドから出て .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に入って   ROOM に行って（動的障害物） .
+LOCATION に行って   ITEM を持ち上げて   LOCATION に置いて   ね .
+LOCATION まで行って    近くにいる 人を探して    えっと   その人を追跡して .
+ROOM に行って（動的障害物）    ROOM に入って    えっと   ROOM を出て .
+LOCATION まで行って   ITEM を持って   ダストビン に捨てて .
+ROOM に行って    LOCATION まで行って    最後に   ROOM を出て .
+ROOM に行って    ITEM を持ち上げて    フィールドから退出して   ください .
+まず   ITEM が LOCATION にあるから持ってきて   ROOM に行って   ROOM に入って .
+ROOM に行って（動的障害物）    ROOM に行って    それから   ROOM を出て .
+最初に   LOCATION に置かれた ITEM を持って   LOCATION に行って   LOCATION まで行って .
+ROOM に行って（動的障害物）   そのあと   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+LOCATION に行って    ROOM に行って    最後に   外に出て .
+ROOM に行って    ITEM を把持して    フィールドから退出して   ね .
+ROOM に行って（動的障害物）    えっと   ITEM を探して    それを掴んで .
+LOCATION に行って    ROOM に入って    えっと   外に出て .
+LOCATION まで行って    次に   ITEM を探して    それを持ち上げて .
+まず   ITEM を LOCATION から取ってきて   ROOM に行って（動的障害物）   LOCATION まで行って .
+ROOM に入って    それから   ITEM を見つけて    それを掴んで .
+最初に   ITEM が LOCATION にあるから持ってきて   LOCATION まで行って   LOCATION まで行って .
+LOCATION まで行って    LOCATION まで行って    最後に   外に出て .
+最初に   ROOM に行って（動的障害物）   ITEM を把持して   そのまま   戻ってきて .
+LOCATION に行って    ROOM に入って    最後に   フィールドから退出して .
+LOCATION まで行って    ITEM を持ち上げて    外に出て   ください .
+LOCATION に行って   ITEM を持って   ダストビン に捨てて   ね .
+LOCATION まで行って    えっと   ITEM を探して    それを持ち上げて .
+まず   ROOM に入って   ITEM を持ち上げて   それで   戻ってきて .
+まず   ROOM に行って   ITEM を持ち上げて    LOCATION に届けて .
+ROOM に入って    それから   ITEM を探して    それを掴んで .
+LOCATION に行って   から   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    ROOM を出て   ください .
+LOCATION まで行って    近くにいる 人を探して    そのあと   その人に付いて行って .
+ROOM に行って    LOCATION に行って    から   ROOM を出て .
+LOCATION に行って   ITEM を持ち上げて   ダストビン に捨てて .
+ROOM に行って    ITEM を取って    フィールドから出て   ほしいんだけど .
+LOCATION に行って   そのあと   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+LOCATION まで行って    えっと   ITEM を見つけて    それを把持して .
+LOCATION に行って    近くにいる 人を探して    から   その人に付いて行って .
+ROOM に行って    LOCATION に行って    そのあと   フィールドから出て .
+最初に   ROOM に行って   ITEM を持ち上げて   最後に   戻ってきて .
+ROOM に入って    次に   ITEM を探して    それを掴んで .
+LOCATION に行って    ROOM に行って（動的障害物）    そのまま   フィールドから退出して .
+ROOM に行って   そのあと   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    フィールドから出て   ほしいんだけど .
+最初に   ROOM に行って   ITEM を持って   そのあと   戻ってきて .
+ROOM に行って    LOCATION に行って    それから   外に出て .
+LOCATION まで行って    ITEM を持って    フィールドから出て   ね .
+まず   ITEM が LOCATION にあるから持ってきて   LOCATION に行って   ROOM に行って（動的障害物） .
+ROOM に入って    ROOM に行って    そのあと   フィールドから出て .
+ROOM に行って    ITEM を持ち上げて    外に出て   ね .
+ROOM に行って   ITEM を取って   LOCATION に置いて   ほしいんだけど .
+最初に   ROOM に行って   ITEM を把持して    LOCATION に持って行って .
+ROOM に行って（動的障害物）    近くにいる 人を探して    それで   その人を追跡して .
+まず   ITEM が LOCATION にあるから持ってきて   ROOM に行って   ROOM に行って .
+ROOM に行って（動的障害物）    LOCATION に行って    最後に   フィールドから退出して .
+LOCATION まで行って    ITEM を把持して    ROOM を出て   ください .
+最初に   ROOM に行って   ITEM を把持して   えっと   戻ってきて .
+ROOM に行って（動的障害物）    ROOM に行って    そのまま   外に出て .
+ROOM に入って    LOCATION まで行って    それから   フィールドから退出して .
+ROOM に入って    LOCATION まで行って    それで   ROOM を出て .
+LOCATION まで行って    LOCATION に行って    それから   外に出て .
+ROOM に行って（動的障害物）    それから   ITEM を発見して    それを取って .
+LOCATION に行って   その次に   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+最初に   ROOM に入って   ITEM を持って    LOCATION に届けて .
+LOCATION まで行って   ITEM を把持して   ダストビン に捨てて   ください .
+ROOM に行って    ITEM を持ち上げて    外に出て   ください .
+人を呼んで    そのあと   注文をとって    ITEM が LOCATION にあるから持ってきて .
+ROOM に入って    ROOM に行って（動的障害物）    から   フィールドから退出して .
+LOCATION に行って    その次に   ITEM を発見して    それを取って .
+LOCATION まで行って    ROOM に行って    えっと   外に出て .
+人を呼んで    それから   注文を聞いて    ITEM を LOCATION から取ってきて .
+LOCATION に行って   ITEM を把持して   LOCATION に置いて .
+まず   ROOM に行って（動的障害物）   ITEM を把持して   最後に   戻ってきて .
+LOCATION に行って    LOCATION まで行って    そのまま   フィールドから退出して .
+まず   ITEM を LOCATION から取ってきて   ROOM に入って   LOCATION に行って .
+LOCATION まで行って    それから   ITEM を探して    それを持ち上げて .
+最初に   LOCATION まで行って   ITEM を取って   そのまま   戻ってきて .
+ROOM に入って    ROOM に行って（動的障害物）    えっと   ROOM を出て .
+最初に   LOCATION に行って   ITEM を持って    LOCATION に届けて .
+LOCATION に行って   ITEM を把持して   ダストビン に捨てて   くれる？ .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    から   フィールドから出て .
+ROOM に行って（動的障害物）   ITEM を持って   ダストビン に捨てて   ね .
+ROOM に行って    近くにいる 人を探して    そのまま   その人に付いて行って .
+LOCATION に行って    ITEM を持って    ROOM を出て   くれる？ .
+最初に   ROOM に行って   ITEM を持って   それで   戻ってきて .
+まず   ROOM に行って   ITEM を持って   それで   戻ってきて .
+LOCATION に行って    ITEM を持ち上げて    ROOM を出て   くれる？ .
+まず   ROOM に行って   ITEM を持って   えっと   戻ってきて .
+LOCATION に行って    そのあと   ITEM を見つけて    それを把持して .
+ROOM に行って（動的障害物）    から   ITEM を見つけて    それを掴んで .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    フィールドから退出して   ほしいんだけど .
+ROOM に入って    近くにいる 人を探して    そのまま   その人を追跡して .
+LOCATION まで行って    ROOM に行って（動的障害物）    それから   フィールドから退出して .
+LOCATION に行って    ROOM に行って（動的障害物）    最後に   フィールドから退出して .
+まず   ROOM に入って   ITEM を持ち上げて    LOCATION に届けて .
+LOCATION に行って    ITEM を取って    外に出て   ほしいんだけど .
+ROOM に入って    ROOM に入って    それで   外に出て .
+ROOM に入って    LOCATION まで行って    そのあと   外に出て .
+LOCATION まで行って    ITEM を持って    ROOM を出て   ね .
+ROOM に行って   ITEM を持って   LOCATION に置いて   ね .
+まず   LOCATION に行って   ITEM を持ち上げて    LOCATION に持って行って .
+ROOM に行って   ITEM を持って   LOCATION に置いて   くれる？ .
+LOCATION に行って    LOCATION まで行って    そのあと   ROOM を出て .
+ROOM に行って（動的障害物）    ITEM を持って    外に出て   くれる？ .
+ROOM に入って   ITEM を把持して   LOCATION に置いて   くれる？ .
+LOCATION まで行って   ITEM を持って   LOCATION に置いて   ください .
+ROOM に入って    近くにいる 人を探して    最後に   その人に付いて行って .
+LOCATION に行って    ROOM に行って（動的障害物）    そのまま   フィールドから出て .
+ROOM に行って（動的障害物）    そのあと   ITEM を探して    それを取って .
+まず   ROOM に行って（動的障害物）   ITEM を取って   えっと   戻ってきて .
+ROOM に行って   ITEM を持ち上げて   ダストビン に捨てて   ね .
+ROOM に入って    近くにいる 人を探して    えっと   その人を追跡して .
+LOCATION まで行って    ROOM に行って（動的障害物）    そのまま   ROOM を出て .
+ROOM に行って    えっと   ITEM を見つけて    それを掴んで .
+LOCATION まで行って    そのあと   ITEM を見つけて    それを取って .
+LOCATION まで行って    ROOM に入って    そのまま   ROOM を出て .
+LOCATION まで行って    LOCATION に行って    えっと   外に出て .
+LOCATION まで行って    そのあと   ITEM を探して    それを掴んで .
+ROOM に行って    えっと   ITEM を探して    それを掴んで .
+LOCATION まで行って    LOCATION に行って    そのあと   ROOM を出て .
+まず   ROOM に行って（動的障害物）   ITEM を持って    LOCATION に持って行って .
+ROOM に入って   ITEM を持ち上げて   LOCATION に置いて   くれる？ .
+まず   LOCATION に行って   ITEM を取って   そのまま   戻ってきて .
+ROOM に行って（動的障害物）   ITEM を把持して   LOCATION に置いて   ください .
+人を呼んで    そのあと   注文を聞いて    LOCATION に置かれた ITEM を持って .
+ROOM に行って    ROOM に行って（動的障害物）    そのまま   フィールドから退出して .
+ROOM に行って（動的障害物）    えっと   ITEM を探して    それを持ち上げて .
+ROOM に入って    そのあと   ITEM を見つけて    それを持ち上げて .
+ROOM に入って   その次に   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+最初に   LOCATION に行って   ITEM を持って   から   戻ってきて .
+ROOM に入って   ITEM を取って   LOCATION に置いて   ね .
+まず   ITEM が LOCATION にあるから持ってきて   ROOM に行って（動的障害物）   LOCATION まで行って .
+LOCATION まで行って    LOCATION まで行って    そのあと   フィールドから出て .
+LOCATION まで行って    ROOM に行って（動的障害物）    それで   ROOM を出て .
+LOCATION に行って    ROOM に入って    そのまま   外に出て .
+ROOM に行って（動的障害物）    ITEM を取って    フィールドから出て   くれる？ .
+最初に   LOCATION まで行って   ITEM を把持して   えっと   戻ってきて .
+最初に   LOCATION に行って   ITEM を把持して    LOCATION に届けて .
+ROOM に入って    ROOM に行って    最後に   フィールドから出て .
+LOCATION まで行って    それから   ITEM を見つけて    それを取って .
+ROOM に行って    ROOM に入って    から   ROOM を出て .
+ROOM に行って（動的障害物）    LOCATION に行って    そのまま   フィールドから出て .
+ROOM に入って    ITEM を持って    フィールドから出て   ね .
+まず   LOCATION に行って   ITEM を把持して   それから   戻ってきて .
+ROOM に行って    ITEM を把持して    フィールドから出て   ね .
+最初に   ROOM に入って   ITEM を持ち上げて   それで   戻ってきて .
+最初に   ROOM に行って（動的障害物）   ITEM を把持して   そのあと   戻ってきて .
+LOCATION に行って    ROOM に入って    そのまま   フィールドから退出して .
+ROOM に行って    そのあと   ITEM を見つけて    それを把持して .
+まず   LOCATION に行って   ITEM を持って   最後に   戻ってきて .
+ROOM に行って（動的障害物）    ROOM に入って    から   フィールドから出て .
+ROOM に入って    ITEM を把持して    フィールドから出て   ね .
+まず   LOCATION まで行って   ITEM を把持して    LOCATION に持って行って .
+最初に   ROOM に行って（動的障害物）   ITEM を持って    LOCATION に持って行って .
+最初に   ROOM に行って（動的障害物）   ITEM を持って   えっと   戻ってきて .
+ROOM に行って    そのあと   ITEM を探して    それを取って .
+ROOM に入って    から   ITEM を探して    それを把持して .
+ROOM に行って    ITEM を取って    外に出て   ください .
+ROOM に行って    次に   ITEM を探して    それを掴んで .
+LOCATION に行って    LOCATION に行って    それから   フィールドから出て .
+LOCATION まで行って    から   ITEM を発見して    それを取って .
+ROOM に行って（動的障害物）    から   ITEM を探して    それを把持して .
+LOCATION に行って    えっと   ITEM を探して    それを把持して .
+最初に   ITEM が LOCATION にあるから持ってきて   LOCATION まで行って   ROOM に行って（動的障害物） .
+LOCATION まで行って    LOCATION まで行って    そのあと   フィールドから退出して .
+ROOM に行って（動的障害物）    次に   ITEM を見つけて    それを持ち上げて .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に行って   LOCATION に行って .
+ROOM に入って   ITEM を把持して   LOCATION に置いて   ね .
+最初に   ROOM に行って（動的障害物）   ITEM を取って   から   戻ってきて .
+LOCATION に行って    LOCATION に行って    それで   フィールドから退出して .
+ROOM に行って（動的障害物）    近くにいる 人を探して    そのあと   その人に付いて行って .
+LOCATION まで行って    その次に   ITEM を見つけて    それを持ち上げて .
+ROOM に行って    ROOM に行って    最後に   ROOM を出て .
+ROOM に入って    ROOM に入って    そのあと   フィールドから出て .
+ROOM に入って    LOCATION まで行って    えっと   外に出て .
+ROOM に入って    その次に   ITEM を見つけて    それを掴んで .
+ROOM に行って    ITEM を持って    ROOM を出て   ほしいんだけど .
+LOCATION まで行って    その次に   ITEM を発見して    それを把持して .
+ROOM に行って（動的障害物）   その次に   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って（動的障害物）    ROOM に入って    そのまま   外に出て .
+LOCATION に行って    ITEM を把持して    外に出て   ほしいんだけど .
+LOCATION に行って    ROOM に入って    から   フィールドから出て .
+ROOM に行って    ROOM に行って    えっと   フィールドから退出して .
+LOCATION まで行って    ROOM に入って    そのまま   フィールドから出て .
+人を呼んで    そのあと   注文を聞いて    ITEM を LOCATION から取ってきて .
+まず   LOCATION に置かれた ITEM を持って   ROOM に行って   ROOM に行って（動的障害物） .
+ROOM に行って（動的障害物）    次に   ITEM を発見して    それを把持して .
+ROOM に入って   ITEM を把持して   ダストビン に捨てて   ね .
+LOCATION まで行って    LOCATION に行って    それから   フィールドから出て .
+まず   ROOM に行って（動的障害物）   ITEM を持ち上げて   そのあと   戻ってきて .
+LOCATION に行って    LOCATION に行って    から   ROOM を出て .
+最初に   ROOM に入って   ITEM を把持して    LOCATION に届けて .
+まず   LOCATION まで行って   ITEM を把持して   それから   戻ってきて .
+LOCATION まで行って    ROOM に入って    そのまま   外に出て .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に行って（動的障害物）   ROOM に行って（動的障害物） .
+LOCATION に行って    ITEM を把持して    ROOM を出て   くれる？ .
+LOCATION に行って    えっと   ITEM を探して    それを掴んで .
+最初に   ROOM に行って   ITEM を把持して   そのまま   戻ってきて .
+まず   ITEM が LOCATION にあるから持ってきて   LOCATION まで行って   LOCATION まで行って .
+まず   LOCATION に行って   ITEM を把持して   それで   戻ってきて .
+ROOM に行って（動的障害物）    ROOM に行って    それで   外に出て .
+まず   ITEM が LOCATION にあるから持ってきて   ROOM に入って   ROOM に行って（動的障害物） .
+ROOM に入って    ROOM に行って（動的障害物）    それで   フィールドから退出して .
+まず   ROOM に行って   ITEM を持ち上げて   そのまま   戻ってきて .
+最初に   LOCATION まで行って   ITEM を取って   そのあと   戻ってきて .
+まず   LOCATION に置かれた ITEM を持って   LOCATION まで行って   ROOM に入って .
+ROOM に入って    ROOM に行って    えっと   フィールドから出て .
+LOCATION まで行って   から   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って    近くにいる 人を探して    そのあと   その人を追跡して .
+最初に   LOCATION に行って   ITEM を取って   最後に   戻ってきて .
+ROOM に行って    ITEM を持ち上げて    フィールドから出て   ください .
+まず   ROOM に行って（動的障害物）   ITEM を持ち上げて   それから   戻ってきて .
+LOCATION まで行って    ITEM を把持して    外に出て   ほしいんだけど .
+ROOM に行って    次に   ITEM を発見して    それを把持して .
+ROOM に行って（動的障害物）    ROOM に入って    最後に   フィールドから退出して .
+最初に   LOCATION まで行って   ITEM を持ち上げて   最後に   戻ってきて .
+LOCATION まで行って    ITEM を取って    フィールドから出て   ください .
+ROOM に行って    ROOM に行って    最後に   フィールドから退出して .
+ROOM に入って    ITEM を取って    フィールドから退出して   ください .
+ROOM に入って    から   ITEM を見つけて    それを把持して .
+ROOM に行って    LOCATION まで行って    そのあと   外に出て .
+最初に   ROOM に入って   ITEM を取って    LOCATION に持って行って .
+LOCATION まで行って   ITEM を持ち上げて   ダストビン に捨てて   ね .
+ROOM に入って    ROOM に入って    最後に   ROOM を出て .
+LOCATION まで行って   その次に   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+最初に   ITEM を LOCATION から取ってきて   ROOM に入って   ROOM に行って（動的障害物） .
+ROOM に入って    LOCATION に行って    そのまま   フィールドから出て .
+ROOM に行って（動的障害物）    ROOM に行って    そのあと   フィールドから出て .
+ROOM に行って（動的障害物）    ITEM を取って    フィールドから出て   ください .
+まず   LOCATION に置かれた ITEM を持って   LOCATION に行って   LOCATION に行って .
+LOCATION に行って    LOCATION まで行って    それから   フィールドから退出して .
+ROOM に行って（動的障害物）    ROOM に行って    そのまま   フィールドから出て .
+LOCATION まで行って   その次に   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+LOCATION まで行って   その次に   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    ROOM を出て   ほしいんだけど .
+LOCATION に行って    ROOM に行って    えっと   フィールドから退出して .
+最初に   ROOM に行って（動的障害物）   ITEM を取って   そのあと   戻ってきて .
+ROOM に行って（動的障害物）   それから   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+まず   ITEM を LOCATION から取ってきて   ROOM に行って（動的障害物）   ROOM に行って .
+人を呼んで    その人を追跡して    フィールドから出て .
+LOCATION まで行って    それから   ITEM を発見して    それを掴んで .
+ROOM に行って    から   ITEM を見つけて    それを持ち上げて .
+LOCATION に行って    ROOM に行って    から   ROOM を出て .
+LOCATION に行って    ROOM に入って    それから   ROOM を出て .
+ROOM に行って（動的障害物）    ITEM を取って    ROOM を出て   ほしいんだけど .
+ROOM に行って（動的障害物）    ROOM に行って    そのあと   ROOM を出て .
+ROOM に入って    LOCATION まで行って    から   外に出て .
+ROOM に入って   ITEM を把持して   LOCATION に置いて .
+ROOM に行って（動的障害物）    えっと   ITEM を見つけて    それを持ち上げて .
+まず   ROOM に行って   ITEM を持って    LOCATION に持って行って .
+最初に   ROOM に入って   ITEM を持ち上げて   そのあと   戻ってきて .
+ROOM に入って    ROOM に行って（動的障害物）    それから   外に出て .
+ROOM に行って（動的障害物）   ITEM を取って   ダストビン に捨てて   ほしいんだけど .
+最初に   LOCATION に行って   ITEM を把持して   それで   戻ってきて .
+ROOM に行って（動的障害物）   ITEM を持って   ダストビン に捨てて   ください .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に行って（動的障害物）   LOCATION まで行って .
+LOCATION まで行って    近くにいる 人を探して    そのまま   その人を追跡して .
+まず   ITEM が LOCATION にあるから持ってきて   LOCATION まで行って   LOCATION に行って .
+LOCATION に行って    その次に   ITEM を見つけて    それを取って .
+LOCATION まで行って   ITEM を把持して   ダストビン に捨てて   くれる？ .
+ROOM に行って（動的障害物）    LOCATION まで行って    それから   フィールドから退出して .
+LOCATION まで行って    LOCATION に行って    そのあと   フィールドから出て .
+ROOM に行って    ROOM に行って    そのあと   ROOM を出て .
+ROOM に入って    ITEM を把持して    外に出て   くれる？ .
+ROOM に入って    から   ITEM を見つけて    それを取って .
+LOCATION まで行って    ITEM を取って    外に出て   くれる？ .
+LOCATION に行って    ROOM に入って    から   フィールドから退出して .
+まず   ITEM が LOCATION にあるから持ってきて   ROOM に入って   ROOM に入って .
+ROOM に行って    LOCATION に行って    そのまま   フィールドから出て .
+LOCATION まで行って    ROOM に入って    から   ROOM を出て .
+LOCATION に行って    その次に   ITEM を発見して    それを持ち上げて .
+ROOM に入って    ITEM を把持して    外に出て   ほしいんだけど .
+ROOM に入って    から   ITEM を発見して    それを持ち上げて .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    えっと   フィールドから退出して .
+LOCATION に行って   ITEM を持ち上げて   ダストビン に捨てて   ください .
+LOCATION に行って    から   ITEM を発見して    それを把持して .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    それで   フィールドから退出して .
+LOCATION に行って    LOCATION まで行って    から   フィールドから出て .
+LOCATION まで行って    LOCATION に行って    それから   ROOM を出て .
+ROOM に入って    ROOM に行って    そのまま   ROOM を出て .
+ROOM に入って    ROOM に入って    から   フィールドから出て .
+ROOM に行って    近くにいる 人を探して    それで   その人を追跡して .
+ROOM に入って    ITEM を取って    外に出て   ね .
+ROOM に入って    LOCATION に行って    それで   フィールドから退出して .
+最初に   ROOM に行って   ITEM を把持して   最後に   戻ってきて .
+ROOM に行って    LOCATION に行って    そのあと   ROOM を出て .
+最初に   LOCATION まで行って   ITEM を把持して   最後に   戻ってきて .
+ROOM に行って（動的障害物）   ITEM を持って   LOCATION に置いて   ほしいんだけど .
+ROOM に入って    ROOM に入って    それから   フィールドから出て .
+LOCATION まで行って    次に   ITEM を発見して    それを掴んで .
+LOCATION に行って    LOCATION に行って    から   外に出て .
+LOCATION に行って   ITEM を持ち上げて   LOCATION に置いて   ほしいんだけど .
+LOCATION まで行って    近くにいる 人を探して    それで   その人に付いて行って .
+LOCATION に行って    そのあと   ITEM を探して    それを持ち上げて .
+まず   ROOM に行って   ITEM を持ち上げて   それで   戻ってきて .
+まず   ROOM に入って   ITEM を持って   から   戻ってきて .
+LOCATION まで行って    それから   ITEM を発見して    それを把持して .
+ROOM に行って    その次に   ITEM を見つけて    それを持ち上げて .
+ROOM に行って（動的障害物）   ITEM を取って   LOCATION に置いて   ほしいんだけど .
+LOCATION まで行って    ROOM に入って    えっと   フィールドから出て .
+まず   ROOM に行って（動的障害物）   ITEM を取って    LOCATION に届けて .
+ROOM に行って    ROOM に行って（動的障害物）    それから   外に出て .
+ROOM に入って   から   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に入って    ITEM を持って    外に出て   ね .
+ROOM に行って   ITEM を把持して   LOCATION に置いて   ね .
+ROOM に行って    ITEM を持って    フィールドから出て   ください .
+ROOM に行って（動的障害物）    そのあと   ITEM を見つけて    それを掴んで .
+LOCATION まで行って    ROOM に行って    それで   外に出て .
+ROOM に入って    ITEM を持ち上げて    ROOM を出て   ね .
+LOCATION まで行って    LOCATION に行って    から   フィールドから出て .
+まず   LOCATION まで行って   ITEM を把持して   最後に   戻ってきて .
+まず   ROOM に行って   ITEM を取って    LOCATION に持って行って .
+ROOM に行って    次に   ITEM を見つけて    それを取って .
+ROOM に行って    LOCATION まで行って    それで   ROOM を出て .
+まず   ITEM を LOCATION から取ってきて   ROOM に行って   ROOM に行って（動的障害物） .
+LOCATION まで行って    えっと   ITEM を発見して    それを把持して .
+ROOM に入って    LOCATION まで行って    それで   フィールドから出て .
+最初に   ROOM に行って   ITEM を持って   そのまま   戻ってきて .
+LOCATION に行って   そのあと   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に行って（動的障害物）    ITEM を取って    フィールドから出て   ほしいんだけど .
+LOCATION まで行って    ITEM を把持して    フィールドから退出して   ほしいんだけど .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に行って（動的障害物）   ROOM に入って .
+まず   ROOM に行って   ITEM を持って   それから   戻ってきて .
+ROOM に入って    ITEM を把持して    フィールドから退出して   ね .
+まず   LOCATION まで行って   ITEM を持ち上げて    LOCATION に持って行って .
+ROOM に行って    ITEM を持ち上げて    ROOM を出て   くれる？ .
+ROOM に入って    から   ITEM を探して    それを掴んで .
+最初に   ROOM に入って   ITEM を持って   それから   戻ってきて .
+LOCATION に行って    ROOM に行って    えっと   ROOM を出て .
+ROOM に行って   ITEM を把持して   LOCATION に置いて   くれる？ .
+LOCATION まで行って    から   ITEM を発見して    それを持ち上げて .
+LOCATION に行って   ITEM を持って   LOCATION に置いて   ね .
+最初に   ITEM を LOCATION から取ってきて   ROOM に行って（動的障害物）   ROOM に行って（動的障害物） .
+ROOM に行って    LOCATION まで行って    から   フィールドから退出して .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    それから   外に出て .
+ROOM に行って    ROOM に行って（動的障害物）    そのまま   ROOM を出て .
+最初に   LOCATION に行って   ITEM を持ち上げて   から   戻ってきて .
+ROOM に入って   ITEM を持って   ダストビン に捨てて   くれる？ .
+人を呼んで    次に   注文をとって    ITEM が LOCATION にあるから持ってきて .
+LOCATION に行って    ITEM を持ち上げて    フィールドから退出して   ね .
+ROOM に行って    LOCATION まで行って    から   外に出て .
+ROOM に入って    ROOM に入って    から   フィールドから退出して .
+ROOM に行って    ITEM を持って    外に出て   くれる？ .
+ROOM に入って    ITEM を持ち上げて    外に出て   ね .
+ROOM に行って    近くにいる 人を探して    えっと   その人を追跡して .
+最初に   ITEM を LOCATION から取ってきて   ROOM に行って（動的障害物）   LOCATION まで行って .
+ROOM に入って    えっと   ITEM を見つけて    それを掴んで .
+ROOM に行って    ROOM に入って    それから   外に出て .
+ROOM に入って   次に   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に行って（動的障害物）   ITEM を取って   LOCATION に置いて   ください .
+ROOM に行って    それから   ITEM を発見して    それを持ち上げて .
+ROOM に入って    その次に   ITEM を見つけて    それを取って .
+ROOM に行って    ROOM に入って    から   外に出て .
+まず   ITEM が LOCATION にあるから持ってきて   ROOM に行って（動的障害物）   ROOM に行って（動的障害物） .
+まず   ROOM に行って   ITEM を持って    LOCATION に届けて .
+ROOM に行って（動的障害物）   えっと   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+最初に   LOCATION に置かれた ITEM を持って   LOCATION に行って   ROOM に行って（動的障害物） .
+まず   LOCATION まで行って   ITEM を取って   そのまま   戻ってきて .
+ROOM に行って    ITEM を把持して    ROOM を出て   ください .
+LOCATION に行って    それから   ITEM を見つけて    それを把持して .
+まず   ROOM に入って   ITEM を持ち上げて    LOCATION に持って行って .
+LOCATION に行って    ROOM に入って    それから   外に出て .
+ROOM に入って   そのあと   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+LOCATION に行って   ITEM を取って   ダストビン に捨てて   ください .
+ROOM に入って    ITEM を持って    ROOM を出て   ください .
+まず   ITEM を LOCATION から取ってきて   ROOM に行って   LOCATION まで行って .
+ROOM に行って（動的障害物）    LOCATION まで行って    そのまま   フィールドから出て .
+人を呼んで    から   注文を聞いて    ITEM を LOCATION から取ってきて .
+LOCATION まで行って    そのあと   ITEM を見つけて    それを持ち上げて .
+ROOM に行って    ITEM を持ち上げて    フィールドから出て   くれる？ .
+ROOM に行って   ITEM を取って   ダストビン に捨てて   ほしいんだけど .
+ROOM に行って（動的障害物）    LOCATION に行って    それで   外に出て .
+まず   ROOM に行って   ITEM を取って   そのまま   戻ってきて .
+ROOM に入って    LOCATION に行って    最後に   外に出て .
+LOCATION に行って    ITEM を持って    外に出て   ね .
+LOCATION に行って    近くにいる 人を探して    そのまま   その人を追跡して .
+まず   LOCATION に置かれた ITEM を持って   ROOM に行って（動的障害物）   LOCATION まで行って .
+LOCATION まで行って    LOCATION まで行って    それから   ROOM を出て .
+LOCATION に行って    えっと   ITEM を見つけて    それを持ち上げて .
+LOCATION に行って    ROOM に行って    えっと   外に出て .
+まず   LOCATION に置かれた ITEM を持って   ROOM に入って   ROOM に行って（動的障害物） .
+ROOM に行って    LOCATION まで行って    最後に   フィールドから出て .
+ROOM に行って    LOCATION まで行って    そのまま   フィールドから出て .
+ROOM に行って（動的障害物）   ITEM を持って   LOCATION に置いて   くれる？ .
+ROOM に行って（動的障害物）    LOCATION まで行って    それで   外に出て .
+ROOM に入って    ITEM を取って    ROOM を出て   ください .
+ROOM に行って    ROOM に行って（動的障害物）    それで   フィールドから出て .
+最初に   ROOM に行って（動的障害物）   ITEM を把持して   最後に   戻ってきて .
+まず   ROOM に行って（動的障害物）   ITEM を取って    LOCATION に持って行って .
+まず   LOCATION まで行って   ITEM を持って   から   戻ってきて .
+ROOM に入って    えっと   ITEM を発見して    それを持ち上げて .
+LOCATION まで行って    LOCATION に行って    そのまま   ROOM を出て .
+ROOM に入って    LOCATION に行って    そのまま   フィールドから退出して .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    最後に   外に出て .
+ROOM に行って（動的障害物）    から   ITEM を探して    それを持ち上げて .
+ROOM に入って    ROOM に入って    えっと   フィールドから退出して .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に行って   ROOM に入って .
+LOCATION に行って   ITEM を取って   LOCATION に置いて   ね .
+ROOM に入って   ITEM を持ち上げて   ダストビン に捨てて   ください .
+LOCATION に行って    ITEM を持って    フィールドから退出して   ね .
+最初に   ROOM に行って   ITEM を把持して   から   戻ってきて .
+ROOM に行って（動的障害物）    LOCATION に行って    そのあと   ROOM を出て .
+まず   ROOM に行って（動的障害物）   ITEM を把持して   それで   戻ってきて .
+ROOM に行って（動的障害物）    LOCATION まで行って    から   外に出て .
+ROOM に入って    ROOM に行って    それから   フィールドから出て .
+人を呼んで    次に   注文をとって    LOCATION に置かれた ITEM を持って .
+LOCATION に行って    LOCATION に行って    そのまま   ROOM を出て .
+LOCATION まで行って   から   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+ROOM に行って（動的障害物）    ROOM に入って    そのまま   フィールドから出て .
+ROOM に行って    ROOM に行って（動的障害物）    から   ROOM を出て .
+LOCATION に行って    次に   ITEM を発見して    それを把持して .
+最初に   ROOM に入って   ITEM を取って   えっと   戻ってきて .
+ROOM に入って    そのあと   ITEM を見つけて    それを把持して .
+ROOM に行って（動的障害物）    近くにいる 人を探して    それで   その人に付いて行って .
+LOCATION に行って   から   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+LOCATION まで行って    ROOM に行って（動的障害物）    それで   フィールドから退出して .
+LOCATION まで行って    ITEM を持ち上げて    フィールドから退出して   くれる？ .
+ROOM に入って    ROOM に入って    最後に   外に出て .
+LOCATION まで行って   ITEM を把持して   ダストビン に捨てて .
+まず   ROOM に入って   ITEM を持って    LOCATION に届けて .
+ROOM に行って（動的障害物）    そのあと   ITEM を見つけて    それを把持して .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    から   ROOM を出て .
+最初に   ITEM が LOCATION にあるから持ってきて   LOCATION まで行って   LOCATION に行って .
+ROOM に入って    ITEM を把持して    フィールドから出て   くれる？ .
+LOCATION に行って    そのあと   ITEM を発見して    それを持ち上げて .
+まず   ROOM に入って   ITEM を把持して   それで   戻ってきて .
+ROOM に行って    ROOM に行って    そのあと   フィールドから出て .
+ROOM に入って    から   ITEM を探して    それを持ち上げて .
+ROOM に入って    ITEM を取って    外に出て   ほしいんだけど .
+ROOM に行って    その次に   ITEM を探して    それを掴んで .
+ROOM に行って（動的障害物）    ITEM を把持して    外に出て   くれる？ .
+ROOM に入って    LOCATION まで行って    それから   ROOM を出て .
+ROOM に行って    ITEM を持って    ROOM を出て   くれる？ .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    フィールドから退出して   ね .
+ROOM に行って（動的障害物）    ITEM を持って    ROOM を出て   ね .
+LOCATION まで行って    ITEM を取って    外に出て   ね .
+LOCATION に行って    近くにいる 人を探して    から   その人を追跡して .
+最初に   ROOM に入って   ITEM を持って   そのあと   戻ってきて .
+まず   ROOM に行って（動的障害物）   ITEM を取って   それから   戻ってきて .
+LOCATION まで行って    LOCATION に行って    それで   外に出て .
+LOCATION に行って    その次に   ITEM を探して    それを持ち上げて .
+ROOM に入って    ITEM を持って    外に出て   ほしいんだけど .
+ROOM に行って    ITEM を取って    フィールドから退出して   ほしいんだけど .
+LOCATION まで行って    ITEM を把持して    フィールドから出て   ね .
+ROOM に行って（動的障害物）   ITEM を持ち上げて   LOCATION に置いて   ね .
+最初に   ROOM に行って（動的障害物）   ITEM を持ち上げて   それで   戻ってきて .
+ROOM に入って    ROOM に行って（動的障害物）    それで   ROOM を出て .
+ROOM に行って（動的障害物）   ITEM を把持して   LOCATION に置いて   くれる？ .
+ROOM に行って    LOCATION に行って    それから   フィールドから出て .
+まず   ROOM に行って   ITEM を把持して   そのあと   戻ってきて .
+LOCATION まで行って    それから   ITEM を発見して    それを持ち上げて .
+人を呼んで    えっと   注文を聞いて    ITEM が LOCATION にあるから持ってきて .
+LOCATION に行って   ITEM を取って   LOCATION に置いて   くれる？ .
+ROOM に行って    ROOM に入って    えっと   フィールドから出て .
+ROOM に行って    から   ITEM を発見して    それを掴んで .
+LOCATION まで行って   ITEM を把持して   LOCATION に置いて .
+ROOM に行って    近くにいる 人を探して    そのあと   その人に付いて行って .
+LOCATION に行って    LOCATION まで行って    そのまま   外に出て .
+人を呼んで    から   注文をとって    LOCATION に置かれた ITEM を持って .
+ROOM に行って（動的障害物）   ITEM を持ち上げて   LOCATION に置いて   くれる？ .
+ROOM に入って    ROOM に行って（動的障害物）    そのまま   ROOM を出て .
+LOCATION まで行って    LOCATION に行って    そのあと   フィールドから退出して .
+ROOM に行って（動的障害物）    ITEM を持って    フィールドから出て   ください .
+LOCATION に行って    ROOM に行って    最後に   ROOM を出て .
+ROOM に入って    ROOM に行って（動的障害物）    そのまま   外に出て .
+ROOM に行って（動的障害物）    近くにいる 人を探して    そのまま   その人に付いて行って .
+LOCATION に行って    LOCATION まで行って    それから   フィールドから出て .
+人を呼んで    次に   注文を聞いて    LOCATION に置かれた ITEM を持って .
+まず   LOCATION に置かれた ITEM を持って   ROOM に行って（動的障害物）   LOCATION に行って .
+LOCATION まで行って   ITEM を取って   LOCATION に置いて   ください .
+ROOM に入って    それから   ITEM を探して    それを取って .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    から   外に出て .
+ROOM に行って（動的障害物）    その次に   ITEM を見つけて    それを持ち上げて .
+まず   ITEM を LOCATION から取ってきて   ROOM に入って   ROOM に入って .
+ROOM に入って    LOCATION まで行って    それから   外に出て .
+LOCATION に行って    ROOM に行って（動的障害物）    そのあと   フィールドから出て .
+ROOM に行って（動的障害物）   から   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って（動的障害物）    ROOM に入って    それから   フィールドから出て .
+LOCATION まで行って    ROOM に行って（動的障害物）    から   フィールドから退出して .
+ROOM に行って（動的障害物）    その次に   ITEM を発見して    それを掴んで .
+ROOM に入って    ITEM を持ち上げて    フィールドから出て   ください .
+ROOM に入って    その次に   ITEM を探して    それを掴んで .
+ROOM に行って    ITEM を把持して    外に出て   ね .
+ROOM に行って（動的障害物）    その次に   ITEM を探して    それを掴んで .
+まず   ITEM が LOCATION にあるから持ってきて   LOCATION に行って   LOCATION に行って .
+人を呼んで    それから   注文を聞いて    LOCATION に置かれた ITEM を持って .
+最初に   ROOM に入って   ITEM を持ち上げて   最後に   戻ってきて .
+ROOM に入って   ITEM を把持して   ダストビン に捨てて   くれる？ .
+LOCATION に行って    近くにいる 人を探して    それから   その人を追跡して .
+LOCATION に行って   ITEM を把持して   ダストビン に捨てて   ね .
+ROOM に入って    LOCATION に行って    から   フィールドから出て .
+ROOM に行って    から   ITEM を見つけて    それを取って .
+ROOM に行って    ROOM に行って（動的障害物）    から   フィールドから退出して .
+ROOM に入って    ROOM に入って    それから   ROOM を出て .
+ROOM に行って    そのあと   ITEM を発見して    それを取って .
+LOCATION に行って    次に   ITEM を探して    それを掴んで .
+ROOM に行って    ROOM に行って    から   外に出て .
+ROOM に入って   ITEM を持ち上げて   LOCATION に置いて   ください .
+LOCATION に行って   ITEM を取って   LOCATION に置いて .
+まず   ITEM が LOCATION にあるから持ってきて   ROOM に入って   LOCATION まで行って .
+LOCATION まで行って    次に   ITEM を探して    それを把持して .
+ROOM に行って    それから   ITEM を発見して    それを取って .
+LOCATION まで行って    ROOM に入って    それから   フィールドから出て .
+ROOM に入って    ITEM を持って    ROOM を出て   ほしいんだけど .
+ROOM に入って   ITEM を持って   ダストビン に捨てて   ね .
+LOCATION に行って    LOCATION まで行って    最後に   外に出て .
+最初に   ITEM を LOCATION から取ってきて   LOCATION まで行って   LOCATION に行って .
+まず   ROOM に入って   ITEM を持って   そのあと   戻ってきて .
+まず   LOCATION まで行って   ITEM を持って    LOCATION に持って行って .
+まず   ROOM に行って（動的障害物）   ITEM を持ち上げて   最後に   戻ってきて .
+まず   ITEM を LOCATION から取ってきて   LOCATION に行って   ROOM に行って .
+ROOM に入って    ITEM を取って    ROOM を出て   ほしいんだけど .
+LOCATION まで行って    ROOM に行って（動的障害物）    それから   フィールドから出て .
+最初に   ROOM に行って（動的障害物）   ITEM を持って   それから   戻ってきて .
+ROOM に入って    LOCATION に行って    それで   ROOM を出て .
+LOCATION まで行って    ROOM に行って    それから   ROOM を出て .
+最初に   ROOM に行って（動的障害物）   ITEM を持って   最後に   戻ってきて .
+最初に   ROOM に行って   ITEM を取って   それで   戻ってきて .
+まず   LOCATION まで行って   ITEM を把持して   から   戻ってきて .
+まず   ITEM を LOCATION から取ってきて   LOCATION まで行って   ROOM に入って .
+LOCATION に行って    ROOM に行って（動的障害物）    それから   フィールドから出て .
+LOCATION に行って    近くにいる 人を探して    そのあと   その人を追跡して .
+ROOM に行って   ITEM を持って   ダストビン に捨てて .
+ROOM に入って    その次に   ITEM を探して    それを持ち上げて .
+ROOM に行って（動的障害物）    ITEM を把持して    外に出て   ほしいんだけど .
+ROOM に行って    ITEM を取って    ROOM を出て   ください .
+LOCATION まで行って    ROOM に行って    から   フィールドから退出して .
+LOCATION に行って    ROOM に行って    から   外に出て .
+ROOM に行って（動的障害物）    LOCATION まで行って    最後に   フィールドから出て .
+ROOM に入って    ITEM を取って    フィールドから退出して   ね .
+ROOM に入って    LOCATION まで行って    えっと   ROOM を出て .
+ROOM に入って    ITEM を把持して    フィールドから出て   ほしいんだけど .
+ROOM に入って   ITEM を把持して   LOCATION に置いて   ください .
+LOCATION まで行って    ITEM を把持して    ROOM を出て   ほしいんだけど .
+ROOM に行って（動的障害物）    その次に   ITEM を探して    それを取って .
+LOCATION に行って   それから   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に行って（動的障害物）    その次に   ITEM を発見して    それを持ち上げて .
+LOCATION まで行って   次に   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+ROOM に入って    LOCATION まで行って    最後に   外に出て .
+まず   ROOM に入って   ITEM を持って   えっと   戻ってきて .
+ROOM に入って    その次に   ITEM を見つけて    それを持ち上げて .
+まず   ROOM に入って   ITEM を取って   それで   戻ってきて .
+ROOM に行って（動的障害物）    LOCATION に行って    そのあと   フィールドから出て .
+ROOM に入って   それから   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って    ROOM に行って（動的障害物）    それから   フィールドから退出して .
+最初に   LOCATION まで行って   ITEM を持ち上げて    LOCATION に持って行って .
+ROOM に行って（動的障害物）    ROOM に行って    から   フィールドから出て .
+まず   LOCATION まで行って   ITEM を取って   最後に   戻ってきて .
+まず   ITEM を LOCATION から取ってきて   LOCATION に行って   LOCATION に行って .
+最初に   ROOM に行って   ITEM を取って    LOCATION に持って行って .
+LOCATION に行って    LOCATION まで行って    から   ROOM を出て .
+ROOM に行って   ITEM を把持して   ダストビン に捨てて   ほしいんだけど .
+LOCATION まで行って    ITEM を取って    フィールドから退出して   くれる？ .
+LOCATION に行って   ITEM を取って   ダストビン に捨てて   くれる？ .
+ROOM に行って（動的障害物）    LOCATION に行って    最後に   外に出て .
+LOCATION まで行って    ROOM に入って    それで   ROOM を出て .
+ROOM に行って（動的障害物）    えっと   ITEM を見つけて    それを掴んで .
+LOCATION に行って    LOCATION まで行って    それで   フィールドから出て .
+ROOM に入って    LOCATION に行って    それから   フィールドから出て .
+まず   LOCATION まで行って   ITEM を取って    LOCATION に届けて .
+LOCATION まで行って   ITEM を持ち上げて   LOCATION に置いて   ね .
+最初に   ROOM に入って   ITEM を持ち上げて    LOCATION に持って行って .
+最初に   ITEM を LOCATION から取ってきて   ROOM に入って   ROOM に入って .
+LOCATION に行って    近くにいる 人を探して    そのまま   その人に付いて行って .
+LOCATION まで行って    ROOM に入って    から   フィールドから出て .
+ROOM に行って    その次に   ITEM を見つけて    それを掴んで .
+LOCATION に行って    ITEM を把持して    フィールドから出て   ください .
+ROOM に行って（動的障害物）    LOCATION まで行って    それから   ROOM を出て .
+ROOM に入って   ITEM を持って   LOCATION に置いて   ください .
+まず   LOCATION に行って   ITEM を取って   それから   戻ってきて .
+最初に   ROOM に入って   ITEM を持ち上げて   それから   戻ってきて .
+ROOM に行って（動的障害物）    LOCATION に行って    えっと   外に出て .
+まず   ROOM に行って（動的障害物）   ITEM を把持して    LOCATION に届けて .
+ROOM に行って（動的障害物）   ITEM を持ち上げて   ダストビン に捨てて   ね .
+LOCATION まで行って    ITEM を把持して    ROOM を出て   くれる？ .
+LOCATION まで行って    ROOM に行って（動的障害物）    それから   ROOM を出て .
+まず   ROOM に入って   ITEM を把持して   最後に   戻ってきて .
+LOCATION まで行って    ITEM を取って    ROOM を出て   ください .
+ROOM に行って   ITEM を把持して   ダストビン に捨てて .
+ROOM に行って（動的障害物）    ROOM に行って    最後に   フィールドから出て .
+ROOM に入って    ROOM に入って    そのまま   外に出て .
+ROOM に行って    その次に   ITEM を探して    それを持ち上げて .
+ROOM に入って    ROOM に行って（動的障害物）    えっと   フィールドから出て .
+ROOM に行って    ITEM を持ち上げて    ROOM を出て   ほしいんだけど .
+ROOM に入って    ITEM を持って    フィールドから退出して   ほしいんだけど .
+LOCATION に行って    ITEM を持ち上げて    フィールドから出て   ほしいんだけど .
+ROOM に行って    近くにいる 人を探して    それで   その人に付いて行って .
+ROOM に入って    ROOM に入って    そのまま   フィールドから出て .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に行って（動的障害物）   ROOM に行って .
+LOCATION に行って    から   ITEM を見つけて    それを持ち上げて .
+ROOM に行って    LOCATION に行って    最後に   外に出て .
+LOCATION まで行って    そのあと   ITEM を発見して    それを取って .
+ROOM に行って    ITEM を取って    外に出て   くれる？ .
+まず   LOCATION まで行って   ITEM を把持して   そのあと   戻ってきて .
+LOCATION まで行って   から   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に行って    ROOM に行って（動的障害物）    から   フィールドから出て .
+ROOM に入って    えっと   ITEM を探して    それを取って .
+LOCATION に行って    次に   ITEM を見つけて    それを把持して .
+まず   ROOM に行って   ITEM を把持して   それから   戻ってきて .
+ROOM に行って    ROOM に入って    それから   ROOM を出て .
+最初に   ROOM に入って   ITEM を把持して   から   戻ってきて .
+LOCATION まで行って    ITEM を持って    ROOM を出て   くれる？ .
+まず   LOCATION に行って   ITEM を持って   えっと   戻ってきて .
+ROOM に入って    ITEM を持ち上げて    外に出て   ほしいんだけど .
+まず   LOCATION まで行って   ITEM を持って   そのまま   戻ってきて .
+ROOM に行って    近くにいる 人を探して    から   その人に付いて行って .
+最初に   ROOM に行って   ITEM を把持して   そのあと   戻ってきて .
+LOCATION まで行って    LOCATION に行って    そのまま   外に出て .
+まず   ROOM に行って（動的障害物）   ITEM を持って   それから   戻ってきて .
+LOCATION まで行って   ITEM を持ち上げて   LOCATION に置いて   ほしいんだけど .
+ROOM に行って（動的障害物）    LOCATION まで行って    えっと   外に出て .
+最初に   LOCATION まで行って   ITEM を把持して    LOCATION に持って行って .
+ROOM に行って    ITEM を把持して    フィールドから退出して   ほしいんだけど .
+人を呼んで    えっと   注文を聞いて    ITEM を LOCATION から取ってきて .
+ROOM に入って    ITEM を把持して    ROOM を出て   ね .
+ROOM に行って    ITEM を把持して    フィールドから退出して   ください .
+LOCATION に行って    LOCATION まで行って    から   フィールドから退出して .
+最初に   LOCATION に行って   ITEM を持ち上げて   そのあと   戻ってきて .
+ROOM に入って    ROOM に行って    から   フィールドから出て .
+ROOM に行って    ITEM を持って    フィールドから出て   くれる？ .
+ROOM に行って（動的障害物）    ROOM に行って    最後に   フィールドから退出して .
+最初に   LOCATION まで行って   ITEM を持ち上げて   えっと   戻ってきて .
+LOCATION に行って   ITEM を持って   ダストビン に捨てて .
+LOCATION まで行って    ROOM に行って    それで   フィールドから退出して .
+ROOM に行って（動的障害物）    それから   ITEM を探して    それを取って .
+ROOM に行って（動的障害物）    ITEM を取って    ROOM を出て   ね .
+まず   LOCATION に置かれた ITEM を持って   ROOM に行って   ROOM に行って .
+ROOM に行って    ROOM に行って    から   フィールドから退出して .
+ROOM に入って    LOCATION に行って    そのあと   フィールドから退出して .
+ROOM に入って    その次に   ITEM を発見して    それを把持して .
+最初に   ROOM に行って   ITEM を取って    LOCATION に届けて .
+ROOM に行って（動的障害物）    から   ITEM を発見して    それを把持して .
+最初に   ITEM を LOCATION から取ってきて   LOCATION に行って   LOCATION に行って .
+最初に   LOCATION に置かれた ITEM を持って   LOCATION に行って   LOCATION に行って .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    それから   フィールドから出て .
+LOCATION に行って    ROOM に行って（動的障害物）    それで   フィールドから退出して .
+ROOM に行って（動的障害物）    ITEM を把持して    フィールドから退出して   くれる？ .
+LOCATION まで行って    LOCATION に行って    最後に   フィールドから退出して .
+ROOM に入って    LOCATION まで行って    それで   フィールドから退出して .
+LOCATION に行って    ITEM を取って    外に出て   くれる？ .
+ROOM に入って    LOCATION まで行って    最後に   ROOM を出て .
+まず   LOCATION まで行って   ITEM を取って   そのあと   戻ってきて .
+ROOM に行って    ROOM に行って    それで   フィールドから退出して .
+最初に   ROOM に行って（動的障害物）   ITEM を取って   えっと   戻ってきて .
+まず   LOCATION に置かれた ITEM を持って   ROOM に行って   ROOM に入って .
+ROOM に行って    近くにいる 人を探して    それから   その人を追跡して .
+LOCATION に行って    から   ITEM を見つけて    それを把持して .
+LOCATION まで行って    ITEM を持って    ROOM を出て   ください .
+ROOM に行って    LOCATION に行って    それで   外に出て .
+まず   ROOM に入って   ITEM を把持して    LOCATION に届けて .
+最初に   ROOM に行って（動的障害物）   ITEM を取って   そのまま   戻ってきて .
+ROOM に行って（動的障害物）    ITEM を把持して    フィールドから退出して   ほしいんだけど .
+ROOM に行って（動的障害物）    LOCATION に行って    それから   フィールドから退出して .
+まず   LOCATION に置かれた ITEM を持って   LOCATION まで行って   LOCATION まで行って .
+ROOM に行って（動的障害物）    ITEM を持って    外に出て   ください .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    外に出て   ね .
+ROOM に行って    LOCATION まで行って    そのあと   フィールドから退出して .
+LOCATION まで行って    ITEM を取って    フィールドから退出して   ね .
+LOCATION まで行って    ITEM を持って    ROOM を出て   ほしいんだけど .
+LOCATION に行って    ITEM を取って    ROOM を出て   ね .
+LOCATION まで行って   ITEM を把持して   LOCATION に置いて   ね .
+ROOM に入って    ITEM を持って    フィールドから退出して   ください .
+LOCATION まで行って    LOCATION まで行って    それで   ROOM を出て .
+人を呼んで    から   注文を聞いて    LOCATION に置かれた ITEM を持って .
+ROOM に入って    LOCATION に行って    から   外に出て .
+ROOM に入って   その次に   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+最初に   ROOM に入って   ITEM を取って   それから   戻ってきて .
+ROOM に入って    LOCATION まで行って    えっと   フィールドから退出して .
+最初に   ITEM が LOCATION にあるから持ってきて   ROOM に入って   ROOM に行って .
+ROOM に入って    次に   ITEM を見つけて    それを持ち上げて .
+ROOM に行って（動的障害物）    ROOM に入って    えっと   フィールドから出て .
+まず   ROOM に行って（動的障害物）   ITEM を把持して   から   戻ってきて .
+ROOM に行って    LOCATION まで行って    それで   フィールドから退出して .
+LOCATION まで行って    ROOM に入って    それで   フィールドから退出して .
+LOCATION まで行って    LOCATION まで行って    えっと   ROOM を出て .
+ROOM に行って（動的障害物）    LOCATION まで行って    そのあと   外に出て .
+ROOM に行って（動的障害物）   ITEM を取って   LOCATION に置いて   くれる？ .
+ROOM に行って（動的障害物）    えっと   ITEM を発見して    それを掴んで .
+LOCATION まで行って   ITEM を把持して   LOCATION に置いて   ほしいんだけど .
+ROOM に入って    から   ITEM を発見して    それを取って .
+最初に   LOCATION に置かれた ITEM を持って   ROOM に行って   ROOM に行って .
+ROOM に行って（動的障害物）    LOCATION まで行って    から   フィールドから出て .
+最初に   LOCATION まで行って   ITEM を取って    LOCATION に持って行って .
+ROOM に行って    ROOM に入って    それから   フィールドから出て .
+LOCATION に行って    ITEM を取って    フィールドから退出して   ね .
+ROOM に入って    LOCATION に行って    えっと   外に出て .
+最初に   ROOM に行って（動的障害物）   ITEM を持ち上げて   そのまま   戻ってきて .
+LOCATION まで行って    その次に   ITEM を発見して    それを持ち上げて .
+ROOM に入って    ROOM に行って    そのまま   フィールドから出て .
+LOCATION まで行って    ITEM を持ち上げて    外に出て   ね .
+最初に   ITEM を LOCATION から取ってきて   ROOM に行って   LOCATION まで行って .
+LOCATION まで行って    次に   ITEM を発見して    それを取って .
+ROOM に行って    ROOM に行って（動的障害物）    最後に   ROOM を出て .
+LOCATION まで行って    ROOM に行って    そのまま   外に出て .
+ROOM に入って    次に   ITEM を見つけて    それを取って .
+まず   ITEM を LOCATION から取ってきて   LOCATION まで行って   LOCATION に行って .
+ROOM に行って（動的障害物）    ITEM を把持して    フィールドから退出して   ね .
+ROOM に行って（動的障害物）    近くにいる 人を探して    えっと   その人に付いて行って .
+ROOM に行って（動的障害物）    LOCATION に行って    から   フィールドから出て .
+LOCATION まで行って    ITEM を持ち上げて    ROOM を出て   ください .
+まず   LOCATION に置かれた ITEM を持って   ROOM に入って   ROOM に行って .
+ROOM に行って    LOCATION に行って    最後に   ROOM を出て .
+LOCATION に行って    ITEM を取って    フィールドから退出して   ほしいんだけど .
+まず   ROOM に行って   ITEM を持って   そのまま   戻ってきて .
+まず   ROOM に行って   ITEM を持ち上げて   それから   戻ってきて .
+ROOM に行って（動的障害物）    その次に   ITEM を見つけて    それを掴んで .
+LOCATION に行って    ROOM に入って    そのあと   フィールドから出て .
+人を呼んで    それから   注文をとって    LOCATION に置かれた ITEM を持って .
+ROOM に行って（動的障害物）    LOCATION に行って    えっと   ROOM を出て .
+ROOM に入って    次に   ITEM を探して    それを持ち上げて .
+LOCATION まで行って    ROOM に行って（動的障害物）    最後に   外に出て .
+LOCATION まで行って    その次に   ITEM を発見して    それを取って .
+LOCATION まで行って    ROOM に行って    から   ROOM を出て .
+ROOM に行って（動的障害物）   それから   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+LOCATION まで行って    ROOM に行って    最後に   ROOM を出て .
+LOCATION に行って    ROOM に行って（動的障害物）    それで   外に出て .
+まず   LOCATION に行って   ITEM を持ち上げて   それで   戻ってきて .
+LOCATION に行って    そのあと   ITEM を探して    それを把持して .
+LOCATION に行って    ROOM に入って    最後に   フィールドから出て .
+LOCATION まで行って    ITEM を取って    フィールドから出て   ね .
+最初に   ITEM が LOCATION にあるから持ってきて   LOCATION に行って   ROOM に行って .
+ROOM に行って（動的障害物）    ITEM を持って    フィールドから出て   ね .
+まず   ITEM が LOCATION にあるから持ってきて   LOCATION まで行って   ROOM に行って .
+LOCATION まで行って    ROOM に行って    最後に   フィールドから出て .
+最初に   LOCATION に行って   ITEM を取って   えっと   戻ってきて .
+ROOM に入って    近くにいる 人を探して    それから   その人に付いて行って .
+ROOM に行って    それから   ITEM を探して    それを取って .
+最初に   ROOM に入って   ITEM を把持して   そのまま   戻ってきて .
+ROOM に行って    LOCATION に行って    それから   ROOM を出て .
+ROOM に行って（動的障害物）    その次に   ITEM を発見して    それを取って .
+まず   LOCATION に行って   ITEM を取って    LOCATION に持って行って .
+ROOM に行って（動的障害物）    ITEM を持って    フィールドから出て   くれる？ .
+LOCATION まで行って    ROOM に入って    えっと   ROOM を出て .
+最初に   ROOM に行って（動的障害物）   ITEM を取って   それで   戻ってきて .
+ROOM に入って   ITEM を持ち上げて   ダストビン に捨てて   ほしいんだけど .
+ROOM に行って（動的障害物）   ITEM を取って   ダストビン に捨てて   ね .
+最初に   ROOM に行って   ITEM を持って   から   戻ってきて .
+最初に   LOCATION まで行って   ITEM を把持して   そのまま   戻ってきて .
+まず   LOCATION に行って   ITEM を持って   から   戻ってきて .
+ROOM に入って    ROOM に行って（動的障害物）    そのまま   フィールドから退出して .
+LOCATION に行って    LOCATION まで行って    えっと   ROOM を出て .
+最初に   ROOM に行って（動的障害物）   ITEM を把持して   えっと   戻ってきて .
+ROOM に入って    LOCATION に行って    そのあと   外に出て .
+ROOM に行って    ITEM を持って    ROOM を出て   ね .
+ROOM に行って    ROOM に行って（動的障害物）    そのあと   フィールドから退出して .
+ROOM に入って    ROOM に行って（動的障害物）    そのあと   ROOM を出て .
+ROOM に行って（動的障害物）    ROOM に行って    最後に   外に出て .
+ROOM に入って    ROOM に入って    そのまま   ROOM を出て .
+ROOM に行って（動的障害物）    ROOM に行って    それから   フィールドから出て .
+LOCATION まで行って    次に   ITEM を見つけて    それを把持して .
+ROOM に入って    ITEM を持って    外に出て   くれる？ .
+ROOM に行って（動的障害物）    ROOM に行って（動的障害物）    それで   外に出て .
+LOCATION まで行って    LOCATION に行って    えっと   ROOM を出て .
+ROOM に入って    ROOM に行って    それで   外に出て .
+最初に   LOCATION に置かれた ITEM を持って   LOCATION に行って   ROOM に入って .
+まず   ITEM を LOCATION から取ってきて   ROOM に入って   ROOM に行って .
+ROOM に行って（動的障害物）   ITEM を把持して   ダストビン に捨てて   ください .
+最初に   ROOM に行って   ITEM を持って   それから   戻ってきて .
+ROOM に行って    LOCATION まで行って    それで   フィールドから出て .
+LOCATION に行って    ITEM を持って    フィールドから退出して   ほしいんだけど .
+最初に   ITEM が LOCATION にあるから持ってきて   LOCATION まで行って   ROOM に行って .
+LOCATION まで行って    ITEM を持って    外に出て   ください .
+ROOM に行って（動的障害物）    ITEM を持ち上げて    フィールドから出て   ね .
+ROOM に行って（動的障害物）    LOCATION に行って    から   ROOM を出て .
+LOCATION まで行って   ITEM を取って   ダストビン に捨てて   ください .
+最初に   ROOM に行って   ITEM を持って    LOCATION に届けて .
+ROOM に行って（動的障害物）   そのあと   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+最初に   LOCATION まで行って   ITEM を持ち上げて   そのまま   戻ってきて .
+ROOM に入って    ROOM に行って    最後に   フィールドから退出して .
+LOCATION まで行って    そのあと   ITEM を探して    それを取って .
+LOCATION まで行って   えっと   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って（動的障害物）    ROOM に行って    えっと   フィールドから出て .
+ROOM に行って    から   ITEM を見つけて    それを掴んで .
+ROOM に行って   ITEM を取って   LOCATION に置いて   ください .
+まず   ROOM に行って   ITEM を持って   そのあと   戻ってきて .
+ROOM に行って（動的障害物）    LOCATION に行って    それで   ROOM を出て .
+ROOM に行って    ROOM に入って    そのあと   外に出て .
+最初に   LOCATION に行って   ITEM を持ち上げて   えっと   戻ってきて .
+人を呼んで    そのあと   注文を聞いて    ITEM が LOCATION にあるから持ってきて .
+まず   ROOM に行って   ITEM を取って    LOCATION に届けて .
+ROOM に入って    ROOM に入って    それで   フィールドから退出して .
+LOCATION まで行って    LOCATION に行って    それから   フィールドから退出して .
+ROOM に入って    ROOM に入って    それで   ROOM を出て .
+LOCATION に行って    ROOM に入って    そのあと   ROOM を出て .
+人を呼んで    次に   注文をとって    ITEM を LOCATION から取ってきて .
+まず   LOCATION に行って   ITEM を持ち上げて   そのまま   戻ってきて .
+LOCATION まで行って   えっと   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に入って    ROOM に行って    そのあと   フィールドから退出して .
+まず   LOCATION まで行って   ITEM を取って    LOCATION に持って行って .
+ROOM に行って（動的障害物）    ROOM に入って    そのあと   外に出て .
+ROOM に入って    次に   ITEM を発見して    それを取って .
+ROOM に行って（動的障害物）    から   ITEM を見つけて    それを持ち上げて .
+LOCATION まで行って    次に   ITEM を探して    それを掴んで .
+ROOM に行って    LOCATION に行って    えっと   ROOM を出て .
+最初に   ROOM に行って   ITEM を取って   そのまま   戻ってきて .
+ROOM に行って（動的障害物）   から   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に入って   から   近くにいる 人を探して   LOCATION に置かれた ITEM を持って .
+ROOM に行って    そのあと   ITEM を見つけて    それを取って .
+LOCATION に行って   それから   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+LOCATION まで行って    ROOM に入って    最後に   ROOM を出て .
+まず   ROOM に行って   ITEM を把持して   それで   戻ってきて .
+LOCATION まで行って   そのあと   近くにいる 人を探して   ITEM が LOCATION にあるから持ってきて .
+ROOM に行って   ITEM を持って   ダストビン に捨てて   くれる？ .
+ROOM に行って（動的障害物）    ROOM に行って    から   外に出て .
+LOCATION まで行って    ROOM に行って    えっと   フィールドから退出して .
+ROOM に行って    LOCATION まで行って    そのまま   フィールドから退出して .
+ROOM に行って（動的障害物）    LOCATION に行って    最後に   フィールドから出て .
+まず   ROOM に入って   ITEM を持って   最後に   戻ってきて .
+LOCATION に行って    ITEM を取って    外に出て   ください .
+まず   LOCATION に行って   ITEM を持って   そのまま   戻ってきて .
+ROOM に入って    それから   ITEM を見つけて    それを取って .
+ROOM に行って    ROOM に入って    最後に   外に出て .
+最初に   ITEM を LOCATION から取ってきて   ROOM に行って（動的障害物）   LOCATION に行って .
+ROOM に入って    ITEM を持って    フィールドから出て   ほしいんだけど .
+ROOM に行って   ITEM を取って   LOCATION に置いて .
+ROOM に行って（動的障害物）    それから   ITEM を見つけて    それを持ち上げて .
+ROOM に行って    ITEM を把持して    ROOM を出て   くれる？ .
+ROOM に入って    ROOM に行って（動的障害物）    えっと   外に出て .
+ROOM に行って（動的障害物）    ROOM に入って    えっと   外に出て .
+ROOM に行って    その次に   ITEM を探して    それを把持して .
+まず   ROOM に行って（動的障害物）   ITEM を取って   そのまま   戻ってきて .
+LOCATION まで行って    ROOM に行って    えっと   フィールドから出て .
+最初に   ROOM に入って   ITEM を持ち上げて   えっと   戻ってきて .
+ROOM に行って（動的障害物）   そのあと   近くにいる 人を探して   ITEM を LOCATION から取ってきて .
+ROOM に入って    ITEM を持って    フィールドから出て   ください .
+ROOM に行って（動的障害物）    LOCATION まで行って    から   ROOM を出て .
+ROOM に入って    それから   ITEM を探して    それを把持して .
+ROOM に行って（動的障害物）    次に   ITEM を見つけて    それを掴んで .
+ROOM に行って（動的障害物）    それから   ITEM を見つけて    それを掴んで .
+LOCATION まで行って    その次に   ITEM を探して    それを持ち上げて .
+ROOM に行って（動的障害物）    ITEM を取って    フィールドから退出して   ください .
+LOCATION に行って    ROOM に入って    から   ROOM を出て .
+最初に   ROOM に行って   ITEM を持ち上げて   そのあと   戻ってきて .
+LOCATION に行って    近くにいる 人を探して    それで   その人を追跡して .
+LOCATION に行って    LOCATION まで行って    そのあと   フィールドから出て .
+最初に   ITEM を LOCATION から取ってきて   LOCATION に行って   LOCATION まで行って .
+ROOM に行って    LOCATION まで行って    えっと   フィールドから退出して .
+LOCATION まで行って    ROOM に入って    そのまま   フィールドから退出して .
