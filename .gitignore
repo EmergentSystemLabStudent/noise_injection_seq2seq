@@ -1,2 +1,3 @@
 *.pkl
-GPSR/tempGPSRSentence.csv
+*/tempGPSRSentence.csv
+__pycache__
