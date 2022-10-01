@@ -1,6 +1,6 @@
 import numpy as np
 
-phenome = ["AA",
+phoneme = ["AA",
 "AA0",
 "AA1",
 "AA2",
@@ -87,9 +87,9 @@ phenome = ["AA",
 
 cmudict = {"Softner":"S AO F AX N AX"}
 
-def get_random_phenome():
-    index = int(np.random.randint(0, get_number_phenome(), 1))
-    return phenome[index]
+def get_random_phoneme():
+    index = int(np.random.randint(0, get_number_phoneme(), 1))
+    return phoneme[index]
 
-def get_number_phenome():
-    return len(phenome)
+def get_number_phoneme():
+    return len(phoneme)
